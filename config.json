@@ -6,53 +6,19 @@
   ],
   "years": {
     "2025": {
-      "climbs": {
-        "pdf": "Cestno kolesarstvo.pdf",
-        "bestOf": 6,
-        "bestOfGeneral": 3,
-        "raceNames": [
-          "Vzpon na Krvavec",
-          "Vzpon na Kum",
-          "Geoss memorial Mihe Halzerja",
-          "Kal - Poljane-Stari vrh",
-          "Cestna gor. dirka NA POKLUKO",
-          "Vzpon na Areh",
-          "Vzpon na Roglo",
-          "Vzpon na Vršič",
-          "Vzpon na Nanos",
-          "33. skok - Državno prvenstvo",
-          "46. Juriš na Široko",
-          "Kolesarska dirka VIPAVA - pokal občine Kobarid"
-        ]
-      },
-      "road": {
-        "pdf": "Cestno kolesarstvo (1).pdf",
-        "bestOf": 6,
-        "bestOfGeneral": 5,
-        "raceNames": [
-          "8. Krompirjev kolesarska dirka BAM.Bi, Lože",
-          "14. Argonavtski Slap maraton",
-          "KOMENDA DP pokal za mlade",
-          "LIDLOV Franja maraton",
-          "Maraton ALPE FONDO",
-          "19. VN Občine Vodice",
-          "GRAN VN Pokljuke",
-          "25. VN - Ribno memorial Bojana Udoviča",
-          "18. VN Občine Šenčurja",
-          "Pokal Alpine Resort Bled"
-        ]
-      },
-      "tt": {
-        "pdf": "Cestno kolesarstvo (2).pdf",
-        "bestOf": 3,
-        "bestOfGeneral": 3,
-        "raceNames": [
-          "Kronometer za memorial Franca Škerlja",
-          "Kronometer Franja",
-          "11. hitrostni vzpon na Grosuplje - Trebelno",
-          "Vožnja na čas - Škofljica"
-        ]
-      }
+      "climbs": { "pdf": "climb_2025.pdf", "bestOf": 6, "bestOfGeneral": 3 },
+      "road":   { "pdf": "road_2025.pdf",  "bestOf": 6, "bestOfGeneral": 5 },
+      "tt":     { "pdf": "tt_2025.pdf",    "bestOf": 3, "bestOfGeneral": 3 }
+    },
+    "2024": {
+      "climbs": { "pdf": "climb.pdf", "bestOf": 6, "bestOfGeneral": 3 },
+      "road":   { "pdf": "road.pdf",  "bestOf": 6, "bestOfGeneral": 5 },
+      "tt":     { "pdf": "tt.pdf",    "bestOf": 3, "bestOfGeneral": 3 }
+    },
+    "2023": {
+      "climbs": { "pdf": "climb.pdf", "bestOf": 6, "bestOfGeneral": 3 },
+      "road":   { "pdf": "road.pdf",  "bestOf": 6, "bestOfGeneral": 5 },
+      "tt":     { "pdf": "tt.pdf",    "bestOf": 2, "bestOfGeneral": 2 }
     }
   }
 }

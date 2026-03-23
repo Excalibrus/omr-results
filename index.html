@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OMR - Cestno kolesarstvo 2025</title>
+  <title>Pokal Slovenije OMR</title>
   <style>
     :root {
       --bg: #0f172a;
@@ -36,6 +36,7 @@
       border-bottom: 1px solid var(--border);
       padding: 1.25rem 2rem;
       text-align: center;
+      position: relative;
     }
 
     .header h1 {
@@ -70,10 +71,11 @@
     /* Tabs */
     .tabs {
       display: flex;
+      justify-content: center;
       gap: 0;
       background: var(--surface);
       border-bottom: 2px solid var(--border);
-      padding: 0 2rem;
+      padding: 0 1rem;
       overflow-x: auto;
     }
 
@@ -105,12 +107,17 @@
     .tab.active .tab-count { background: rgba(56, 189, 248, 0.15); color: var(--accent); }
 
     /* Filters */
+    .filters-bar {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0.75rem 1rem;
+    }
+
     .filters {
       display: flex;
       gap: 0.75rem;
-      padding: 0.75rem 2rem;
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
+      max-width: 1800px;
+      margin: 0 auto;
       flex-wrap: wrap;
       align-items: flex-end;
     }
@@ -160,7 +167,7 @@
 
     /* Content */
     .content {
-      padding: 1.25rem 2rem;
+      padding: 1.25rem 1rem;
       max-width: 1800px;
       margin: 0 auto;
     }
@@ -255,6 +262,29 @@
       padding: 0 2px;
     }
 
+    /* Club table with sticky total column */
+    .clubs-wrapper {
+      overflow-x: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    .clubs-wrapper table { border-collapse: separate; border-spacing: 0; }
+
+    .clubs-wrapper th.sticky-col,
+    .clubs-wrapper td.sticky-col {
+      position: sticky;
+      right: 0;
+      z-index: 2;
+      background: var(--surface);
+      border-left: 2px solid var(--accent);
+    }
+
+    .clubs-wrapper thead th.sticky-col {
+      background: var(--surface2);
+      z-index: 3;
+    }
+
     .no-results {
       text-align: center;
       padding: 3rem;
@@ -263,68 +293,87 @@
     }
 
     .year-switcher {
-      display: flex;
-      justify-content: center;
-      gap: 0.4rem;
-      margin-top: 0.75rem;
+      position: absolute;
+      top: 50%;
+      right: 2rem;
+      transform: translateY(-50%);
     }
 
-    .year-btn {
+    .year-select {
       background: var(--surface2);
-      color: var(--text-muted);
+      color: var(--text);
       border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 0.3rem 1rem;
-      font-size: 0.85rem;
-      cursor: pointer;
-      transition: all 0.2s;
+      border-radius: 6px;
+      padding: 0.4rem 2rem 0.4rem 0.75rem;
+      font-size: 0.9rem;
+      font-weight: 600;
       font-family: inherit;
+      cursor: pointer;
+      outline: none;
+      transition: border-color 0.2s;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2394a3b8' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.6rem center;
     }
 
-    .year-btn:hover { border-color: var(--accent); color: var(--text); }
-    .year-btn.active { background: var(--accent); color: var(--bg); border-color: var(--accent); font-weight: 700; }
+    .year-select:hover, .year-select:focus { border-color: var(--accent); }
 
     @media (max-width: 768px) {
-      .filters { flex-direction: column; }
-      .scoring-info { margin-left: 0; }
-      .content { padding: 1rem; }
-      .header { padding: 1rem; }
-      .header h1 { font-size: 1.25rem; }
-      .tabs { padding: 0 1rem; }
+      .header { padding: 0.75rem 1rem; }
+      .header h1 { font-size: 1.15rem; }
+      .header .subtitle { font-size: 0.75rem; }
+      .year-switcher { right: 0.75rem; }
+      .year-select { font-size: 0.8rem; padding: 0.3rem 1.6rem 0.3rem 0.5rem; }
+      .stats-bar { gap: 1rem; padding: 0.5rem 1rem; }
+      .stat-value { font-size: 1.1rem; }
+      .tabs { padding: 0 0.5rem; justify-content: flex-start; }
+      .tab { padding: 0.6rem 0.75rem; font-size: 0.8rem; }
+      .tab .tab-count { display: none; }
+      .filters-bar { padding: 0.6rem 0.75rem; }
+      .filters { flex-direction: column; gap: 0.5rem; }
+      .filters select, .filters input { min-width: 100%; }
+      .scoring-info { margin-left: 0; font-size: 0.7rem; }
+      .content { padding: 0.75rem; }
+      .category-header h2 { font-size: 1rem; }
+      table { font-size: 0.75rem; }
+      td.club-col { max-width: 120px; }
     }
   </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>OMR - Cestno kolesarstvo</h1>
-  <div class="subtitle">Skupni seštevek rezultatov</div>
-  <div class="year-switcher" id="yearSwitcher"></div>
+  <h1>Pokal Slovenije OMR</h1>
+  <div class="subtitle">Cestno kolesarstvo - skupni seštevek rezultatov</div>
+  <div class="year-switcher"><select class="year-select" id="yearSelect"></select></div>
 </div>
 
 <div class="stats-bar" id="statsBar">
   <div class="stat"><div class="stat-value" id="totalRiders">-</div><div class="stat-label">Tekmovalcev</div></div>
   <div class="stat"><div class="stat-value" id="totalCategories">-</div><div class="stat-label">Kategorij</div></div>
   <div class="stat"><div class="stat-value" id="totalClubs">-</div><div class="stat-label">Klubov</div></div>
-  <div class="stat"><div class="stat-value" id="totalRaces">-</div><div class="stat-label">Dirk skupaj</div></div>
+  <div class="stat"><div class="stat-value" id="totalRaces">-</div><div class="stat-label">Dirk</div></div>
 </div>
 
 <div class="tabs" id="tabsBar"></div>
 
-<div class="filters">
-  <div class="filter-group">
-    <label>Iskanje</label>
-    <input type="search" id="searchInput" placeholder="Ime, priimek ali klub...">
+<div class="filters-bar">
+  <div class="filters">
+    <div class="filter-group">
+      <label>Iskanje</label>
+      <input type="search" id="searchInput" placeholder="Ime, priimek ali klub...">
+    </div>
+    <div class="filter-group">
+      <label>Kategorija</label>
+      <select id="categoryFilter"><option value="">Vse kategorije</option></select>
+    </div>
+    <div class="filter-group">
+      <label>Klub</label>
+      <select id="clubFilter"><option value="">Vsi klubi</option></select>
+    </div>
+    <div id="scoringInfo" class="scoring-info"></div>
   </div>
-  <div class="filter-group">
-    <label>Kategorija</label>
-    <select id="categoryFilter"><option value="">Vse kategorije</option></select>
-  </div>
-  <div class="filter-group">
-    <label>Klub</label>
-    <select id="clubFilter"><option value="">Vsi klubi</option></select>
-  </div>
-  <div id="scoringInfo" class="scoring-info"></div>
 </div>
 
 <div class="content" id="content">
@@ -337,58 +386,84 @@ let YEARS = [];
 let activeTab = 'general';
 let activeYear = null;
 
+const STORAGE_KEY = 'omr-state';
+
+function saveState() {
+  const state = {
+    year: activeYear,
+    tab: activeTab,
+    search: document.getElementById('searchInput').value,
+    category: document.getElementById('categoryFilter').value,
+    club: document.getElementById('clubFilter').value
+  };
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); } catch(e) {}
+}
+
+function loadState() {
+  try {
+    const s = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    return s || {};
+  } catch(e) { return {}; }
+}
+
 async function loadData() {
-  // Load available years
   const yearsResp = await fetch('data/years.json');
   YEARS = await yearsResp.json();
 
-  // Build year switcher
+  const saved = loadState();
+
   buildYearSwitcher();
 
-  // Load most recent year
-  activeYear = YEARS[0];
-  await loadYear(activeYear);
+  // Restore year or default to most recent
+  activeYear = (saved.year && YEARS.includes(saved.year)) ? saved.year : YEARS[0];
+  activeTab = saved.tab || 'general';
+  await loadYear(activeYear, saved);
 
   // Events (only bind once)
-  document.getElementById('searchInput').addEventListener('input', render);
-  document.getElementById('categoryFilter').addEventListener('change', render);
-  document.getElementById('clubFilter').addEventListener('change', render);
+  document.getElementById('searchInput').addEventListener('input', () => { saveState(); render(); });
+  document.getElementById('categoryFilter').addEventListener('change', () => { saveState(); render(); });
+  document.getElementById('clubFilter').addEventListener('change', () => { saveState(); render(); });
 }
 
 function buildYearSwitcher() {
-  const container = document.getElementById('yearSwitcher');
-  container.innerHTML = '';
+  const select = document.getElementById('yearSelect');
+  select.innerHTML = '';
   YEARS.forEach(year => {
-    const btn = document.createElement('button');
-    btn.className = 'year-btn' + (year === activeYear ? ' active' : '');
-    btn.textContent = year;
-    btn.addEventListener('click', async () => {
-      if (year === activeYear) return;
-      activeYear = year;
-      container.querySelectorAll('.year-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      await loadYear(year);
-    });
-    container.appendChild(btn);
+    const opt = document.createElement('option');
+    opt.value = year;
+    opt.textContent = year;
+    if (year === activeYear) opt.selected = true;
+    select.appendChild(opt);
+  });
+  select.addEventListener('change', async () => {
+    activeYear = select.value;
+    activeTab = 'general';
+    saveState();
+    await loadYear(select.value);
   });
 }
 
-async function loadYear(year) {
+async function loadYear(year, saved) {
   document.getElementById('content').innerHTML = '<div class="no-results">Nalaganje podatkov...</div>';
   const resp = await fetch(`data/${year}.json`);
   DATA = await resp.json();
+  activeYear = year;
 
-  // Update year switcher active state
-  document.querySelectorAll('.year-btn').forEach(b => {
-    b.classList.toggle('active', b.textContent === year);
-  });
-
-  // Reset filters
-  activeTab = 'general';
-  document.getElementById('searchInput').value = '';
+  // Update year dropdown
+  document.getElementById('yearSelect').value = year;
 
   // Rebuild category/club filters for this year's data
   rebuildFilters();
+
+  // Restore filters from saved state, or reset
+  if (saved) {
+    document.getElementById('searchInput').value = saved.search || '';
+    if (saved.category) document.getElementById('categoryFilter').value = saved.category;
+    if (saved.club) document.getElementById('clubFilter').value = saved.club;
+    if (saved.tab) activeTab = saved.tab;
+  } else {
+    document.getElementById('searchInput').value = '';
+  }
 
   // Stats
   const totalRaces = DATA.disciplines.reduce((s, d) => s + d.numRaces, 0);
@@ -425,19 +500,22 @@ function rebuildFilters() {
 function buildTabs() {
   const bar = document.getElementById('tabsBar');
   // General tab
-  const genCount = DATA.riders.filter(r => r.general.total > 0).length;
-  bar.innerHTML = `<div class="tab active" data-tab="general">Skupno<span class="tab-count">${genCount}</span></div>`;
+  const totalRaces = DATA.disciplines.reduce((s, d) => s + d.numRaces, 0);
+  bar.innerHTML = `<div class="tab${activeTab === 'general' ? ' active' : ''}" data-tab="general">Skupno<span class="tab-count">${totalRaces}</span></div>`;
 
   DATA.disciplines.forEach(d => {
-    const count = DATA.riders.filter(r => d.id in r.disciplines).length;
-    bar.innerHTML += `<div class="tab" data-tab="${d.id}">${esc(d.name)}<span class="tab-count">${count}</span></div>`;
+    bar.innerHTML += `<div class="tab${activeTab === d.id ? ' active' : ''}" data-tab="${d.id}">${esc(d.name)}<span class="tab-count">${d.numRaces}</span></div>`;
   });
+
+  // Clubs tab
+  bar.innerHTML += `<div class="tab${activeTab === 'clubs' ? ' active' : ''}" data-tab="clubs">Klubi<span class="tab-count">${totalRaces}</span></div>`;
 
   bar.querySelectorAll('.tab').forEach(tab => {
     tab.addEventListener('click', () => {
       bar.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       activeTab = tab.dataset.tab;
+      saveState();
       render();
     });
   });
@@ -450,7 +528,9 @@ function getFiltered() {
 
   let riders = DATA.riders;
 
-  if (activeTab === 'general') {
+  if (activeTab === 'clubs') {
+    return riders; // clubs handled separately
+  } else if (activeTab === 'general') {
     riders = riders.filter(r => r.general.total > 0);
   } else {
     riders = riders.filter(r => activeTab in r.disciplines);
@@ -470,18 +550,26 @@ function getFiltered() {
 
 function render() {
   const content = document.getElementById('content');
-  const filtered = getFiltered();
   const search = document.getElementById('searchInput').value.toLowerCase().trim();
 
   // Scoring info
   const info = document.getElementById('scoringInfo');
-  if (activeTab === 'general') {
+  if (activeTab === 'clubs') {
+    info.innerHTML = 'Vse točke vseh tekmovalcev kluba';
+  } else if (activeTab === 'general') {
     const parts = DATA.disciplines.map(d => `${d.name}: najboljših <strong>${d.bestOfGeneral}</strong>`);
     info.innerHTML = 'Skupno = ' + parts.join(' + ');
   } else {
     const disc = DATA.disciplines.find(d => d.id === activeTab);
     info.innerHTML = `Najboljših <strong>${disc.bestOf}</strong> od ${disc.numRaces} dirk`;
   }
+
+  if (activeTab === 'clubs') {
+    renderClubs(content, search);
+    return;
+  }
+
+  const filtered = getFiltered();
 
   if (filtered.length === 0) {
     content.innerHTML = '<div class="no-results">Ni rezultatov za izbrane filtre.</div>';
@@ -627,6 +715,55 @@ function renderDisciplineTable(riders, search) {
 
   html += '</tbody></table></div>';
   return html;
+}
+
+function renderClubs(content, search) {
+  let clubs = DATA.clubs || [];
+  const races = DATA.clubRaces || [];
+  const clubFilter = document.getElementById('clubFilter').value;
+
+  if (search) {
+    clubs = clubs.filter(c => c.name.toLowerCase().includes(search));
+  }
+  if (clubFilter) {
+    clubs = clubs.filter(c => c.name === clubFilter);
+  }
+
+  if (clubs.length === 0) {
+    content.innerHTML = '<div class="no-results">Ni rezultatov za izbrane filtre.</div>';
+    return;
+  }
+
+  let raceHeaders = '';
+  races.forEach(r => {
+    const short = r.name.length > 14 ? r.name.substring(0, 12) + '...' : r.name;
+    raceHeaders += `<th title="${esc(r.discipline)}: ${esc(r.name)}">${r.date}<span class="race-date">${esc(short)}</span></th>`;
+  });
+
+  let html = `
+    <div class="clubs-wrapper"><table><thead><tr>
+      <th style="width:40px">#</th>
+      <th class="left">Klub</th>
+      ${raceHeaders}
+      <th class="sticky-col">Skupaj</th>
+    </tr></thead><tbody>
+  `;
+
+  clubs.forEach(c => {
+    const rank = c.rank;
+    const medal = rank === 1 ? '&#x1F947; ' : rank === 2 ? '&#x1F948; ' : rank === 3 ? '&#x1F949; ' : '';
+    const rowCls = rank <= 3 ? ` class="rank-${rank}"` : '';
+
+    let raceCells = '';
+    c.raceScores.forEach(s => {
+      raceCells += `<td class="score${s > 0 ? ' has-value' : ''}">${s > 0 ? s : '-'}</td>`;
+    });
+
+    html += `<tr${rowCls}><td>${medal}${rank}</td><td class="name-col">${highlight(c.name, search)}</td>${raceCells}<td class="total-col sticky-col">${c.total}</td></tr>`;
+  });
+
+  html += '</tbody></table></div>';
+  content.innerHTML = html;
 }
 
 function esc(text) {

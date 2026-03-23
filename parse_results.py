@@ -1,9 +1,11 @@
 """
-Parser for OMR cycling competition results PDFs.
-Reads config.json for discipline definitions, parses all PDFs,
+Parser for OMR cycling competition results.
+Supports HTML (primary, most accurate) and PDF (fallback) sources.
+Reads config.json for discipline definitions, parses all sources,
 matches riders across disciplines, computes best-of scoring,
-and outputs a unified data.json.
+and outputs a unified data.json per year.
 """
+from html.parser import HTMLParser
 import pdfplumber
 import json
 import os
@@ -22,6 +24,31 @@ CATEGORIES = [
 SKIP_WORDS = {"Tekmovalec", "Vzpon", "Kolesarska", "Prijavim", "Kronometer",
               "Cestno", "VZPON", "memorial", "Maraton", "GRAN", "FONDO",
               "hitrostni", "Vožnja"}
+
+
+# Club name aliases: map variant names to canonical name
+CLUB_ALIASES = {
+    "BAMBI": "ŠD BAM.BI",
+    "BAM.BI": "ŠD BAM.BI",
+    "B.V.G. Gulč": "B.V.G. GULČ",
+    "Energija team": "ENERGIJATEAM.COM",
+    "KD Rog": "KD ROG",
+}
+
+
+def normalize_club(club):
+    """Normalize club name using alias map and case fixes."""
+    if not club:
+        return club
+    club = club.strip()
+    # Check exact match first
+    if club in CLUB_ALIASES:
+        return CLUB_ALIASES[club]
+    # Check case-insensitive match
+    for alias, canonical in CLUB_ALIASES.items():
+        if club.upper() == alias.upper():
+            return canonical
+    return club
 
 
 def normalize_name(name):
@@ -114,6 +141,67 @@ def parse_score_line(line, num_races):
     }
 
 
+def try_parse_single_line(line, num_races):
+    """Try to parse a garbled single-line entry like:
+    '1.P K A K S S A O R Č P A etra 10116494960 30 40 70'
+    Extracts rank, optional license, scores, and total from the end.
+    Name/club are unrecoverable from garbled text.
+    """
+    match = re.match(r'^(\d+)\.\s*(.*)', line)
+    if not match:
+        return None
+
+    rank = int(match.group(1))
+    rest = match.group(2).strip()
+    parts = rest.split()
+
+    needed = num_races + 1  # scores + total
+
+    if len(parts) < needed:
+        return None
+
+    # Take last (num_races+1) items as scores+total
+    tail = parts[-needed:]
+    try:
+        scores = [int(tail[j]) for j in range(num_races)]
+        total = int(tail[num_races])
+    except (ValueError, IndexError):
+        return None
+
+    # Everything before scores is garbled name+club+maybe license
+    prefix = parts[:-needed]
+
+    # Try to find license in prefix (long digit string)
+    license_num = ""
+    for p in prefix:
+        if re.match(r'^\d{8,}$', p):
+            license_num = p
+            break
+
+    # Try to extract name and club from prefix text
+    text_before = " ".join(prefix)
+    if license_num:
+        text_before = text_before.replace(license_num, "").strip()
+
+    # Try to parse name from prefix: look for "SURNAME Firstname" or "SURNAME-SURNAME Firstname"
+    name_match = re.match(r'^([A-ZČŠŽĆĐ][A-ZČŠŽĆĐa-zčšžćđ\-]+(?:\s+[A-ZČŠŽĆĐa-zčšžćđ\-]+)*)', text_before)
+    if name_match:
+        name = name_match.group(1).strip()
+        club_text = text_before[name_match.end():].strip()
+    else:
+        name = f"Rider #{rank} (garbled)"
+        club_text = text_before
+
+    return {
+        "rank": rank,
+        "name": name,
+        "license": license_num,
+        "club": club_text if club_text and not club_text.isdigit() else "",
+        "scores": scores,
+        "total": total
+    }
+
+
 def is_score_line(line):
     return bool(re.match(r'^\d+\.\s', line))
 
@@ -129,8 +217,8 @@ def is_name_line(line):
         return False
     if any(w in cleaned for w in SKIP_WORDS):
         return False
-    # Name pattern: at least one uppercase letter followed by lowercase
-    if re.match(r'^[A-ZČŠŽĆĐ][A-ZČŠŽĆĐa-zčšžćđ\s]+$', cleaned):
+    # Name pattern: at least one uppercase letter followed by lowercase, allowing hyphens
+    if re.match(r'^[A-ZČŠŽĆĐ][A-ZČŠŽĆĐa-zčšžćđ\s\-]+$', cleaned):
         return True
     return False
 
@@ -234,9 +322,188 @@ def try_parse_rider(lines, idx, category, num_races):
     }, lines_consumed
 
 
+class HTMLResultsParser(HTMLParser):
+    """Parse rider results from the prijavim.se HTML export."""
+
+    def __init__(self):
+        super().__init__()
+        self.riders = []
+        self.race_dates = []
+        self.race_names_from_header = []
+        self.current_category = None
+        self.in_td = False
+        self.in_th = False
+        self.in_h3 = False
+        self.in_h1 = False
+        self.current_row = []
+        self.current_cell = ''
+        self.in_row = False
+        self.title = ''
+        self.header_parsed = False
+
+    def handle_starttag(self, tag, attrs):
+        attrs_dict = dict(attrs)
+        if tag == 'h1':
+            self.in_h1 = True
+            self.current_cell = ''
+        elif tag == 'h3':
+            self.in_h3 = True
+            self.current_cell = ''
+        elif tag == 'tr' and any('user_id' in str(a) for a in attrs):
+            self.in_row = True
+            self.current_row = []
+            self.current_cell = ''
+        elif tag == 'th' and not self.header_parsed:
+            self.in_th = True
+            self.current_cell = ''
+        elif tag == 'td' and self.in_row:
+            self.in_td = True
+            self.current_cell = ''
+        elif tag == 'br' and self.in_td:
+            self.current_cell += '|'
+
+    def handle_endtag(self, tag):
+        if tag == 'h1':
+            self.in_h1 = False
+            self.title = self.current_cell.strip()
+        elif tag == 'h3':
+            self.in_h3 = False
+            cat = self.current_cell.strip()
+            if cat:
+                self.current_category = cat
+        elif tag == 'th' and self.in_th:
+            self.in_th = False
+            cell = self.current_cell.strip()
+            # Detect date columns (dd.mm. format)
+            date_match = re.match(r'^\s*(\d{2}\.\d{2}\.)\s*$', cell)
+            if date_match:
+                self.race_dates.append(date_match.group(1))
+        elif tag == 'td' and self.in_row:
+            self.in_td = False
+            self.current_row.append(self.current_cell.strip())
+        elif tag == 'tr':
+            if self.in_row and self.current_row and self.current_category:
+                self._process_row(self.current_row)
+            self.in_row = False
+            # Mark header as parsed after first category's header row
+            if self.race_dates and not self.header_parsed:
+                self.header_parsed = True
+
+    def handle_data(self, data):
+        if self.in_h1:
+            self.current_cell += data
+        elif self.in_h3:
+            self.current_cell += data
+        elif self.in_th:
+            self.current_cell += data
+        elif self.in_td:
+            self.current_cell += data
+
+    def _process_row(self, row):
+        if len(row) < 4:
+            return
+        rank_str = row[0].replace('.', '').strip()
+        if not rank_str.isdigit():
+            return
+        rank = int(rank_str)
+
+        # Name|Club from second cell
+        parts = row[1].split('|')
+        name = parts[0].strip()
+        club = parts[1].strip() if len(parts) > 1 else ''
+
+        license_num = row[2].strip() if len(row) > 2 else ''
+
+        # Scores + total
+        score_cells = row[3:]
+        scores = []
+        for s in score_cells[:-1]:
+            try:
+                scores.append(int(s))
+            except ValueError:
+                scores.append(0)
+
+        try:
+            total = int(score_cells[-1]) if score_cells else 0
+        except ValueError:
+            total = sum(scores)
+
+        self.riders.append({
+            'rank': rank,
+            'name': name,
+            'license': license_num,
+            'club': club,
+            'category': self.current_category,
+            'scores': scores,
+            'total': total
+        })
+
+
+def parse_html(html_path):
+    """Parse cycling results from an HTML file exported from prijavim.se."""
+    with open(html_path, encoding='utf-8') as f:
+        html_content = f.read()
+
+    parser = HTMLResultsParser()
+    parser.feed(html_content)
+
+    # Extract race names from the HTML header tooltips
+    race_names = []
+    # Look for show_me divs that contain race names
+    for m in re.finditer(r'id="show_me\d+"[^>]*>(.*?)</div>', html_content):
+        name = m.group(1).strip()
+        # Remove year suffix
+        name = re.sub(r'\s*20\d{2}\s*$', '', name).strip()
+        race_names.append(name)
+        if len(race_names) >= len(parser.race_dates):
+            break
+
+    # If we didn't find tooltip names, leave empty
+    if len(race_names) != len(parser.race_dates):
+        race_names = []
+
+    title = parser.title
+    num_races = len(parser.race_dates)
+
+    print(f"  HTML: {len(parser.riders)} riders, {num_races} races")
+    return parser.riders, title, parser.race_dates, num_races, race_names
+
+
+def extract_race_names_from_table(pdf):
+    """Extract race names using pdfplumber table extraction on the first page.
+    Returns (dates, names) lists or ([], []) if extraction fails.
+    """
+    page = pdf.pages[0]
+    tables = page.extract_tables()
+    if not tables or len(tables[0]) < 2:
+        return [], []
+
+    header_row = tables[0][0]  # Race name cells
+    date_row = tables[0][1]    # Tekmovalec, Licenca, dates..., Skupaj
+
+    dates = []
+    names = []
+    for i, cell in enumerate(date_row):
+        if cell and re.match(r'^\d{2}\.\d{2}\.$', cell.strip()):
+            date = cell.strip()
+            name = header_row[i] if i < len(header_row) and header_row[i] else ''
+            # Clean up: remove newlines, year references, trailing junk
+            name = name.replace('\n', ' ')
+            name = re.sub(r'\s*20\d{2}\.{0,3}\s*', ' ', name)
+            name = re.sub(r'\s+', ' ', name).strip()
+            name = name.strip('- .')
+            dates.append(date)
+            names.append(name)
+
+    return dates, names
+
+
 def parse_pdf(pdf_path):
     """Parse a cycling results PDF, auto-detecting race count."""
     with pdfplumber.open(pdf_path) as pdf:
+        # Extract race names from table structure
+        table_dates, table_names = extract_race_names_from_table(pdf)
+
         full_text = ""
         for page in pdf.pages:
             text = page.extract_text()
@@ -282,9 +549,22 @@ def parse_pdf(pdf_path):
                 i += advance
                 continue
 
+            # Fallback: try parsing garbled single-line entries
+            # (e.g., 2023 TT where name+club+scores are on one line)
+            if re.match(r'^\d+\.', line):
+                single = try_parse_single_line(line, num_races)
+                if single:
+                    single["category"] = current_category
+                    results.append(single)
+                    i += 1
+                    continue
+
         i += 1
 
-    return results, title, all_race_dates, num_races
+    # Use table-extracted names, falling back to dates-only
+    race_names = table_names if table_names else []
+
+    return results, title, all_race_dates, num_races, race_names
 
 
 def best_of_sum(scores, n):
@@ -325,19 +605,54 @@ def process_year(year, year_config, disciplines, output_path):
             continue
 
         disc_year = year_config[disc_id]
+
+        # Try HTML first (more accurate), fall back to PDF
+        html_file = disc_year.get("html", "")
         pdf_path = f"pdfs/{year}/{disc_year['pdf']}"
+        if not html_file:
+            # Auto-detect: look for .html files in the year folder
+            year_dir = f"pdfs/{year}"
+            pdf_base = os.path.splitext(disc_year['pdf'])[0]
+            # Try exact match first, then prefix match
+            for candidate_name in [f"{pdf_base}.html"]:
+                if os.path.exists(os.path.join(year_dir, candidate_name)):
+                    html_file = candidate_name
+                    break
+            if not html_file:
+                # Try matching by disc_id (e.g., "climb.html" for disc "climbs")
+                for f_name in os.listdir(year_dir) if os.path.isdir(year_dir) else []:
+                    if f_name.endswith('.html') and disc_id.rstrip('s') in f_name.lower():
+                        html_file = f_name
+                        break
+        html_path = f"pdfs/{year}/{html_file}" if html_file else ""
 
-        print(f"Parsing {disc['name']} from {pdf_path}...")
-        try:
-            riders, title, race_dates, num_races = parse_pdf(pdf_path)
-        except FileNotFoundError:
-            print(f"  WARNING: {pdf_path} not found, skipping")
-            continue
+        riders = None
+        if html_path and os.path.exists(html_path):
+            print(f"Parsing {disc['name']} from {html_path}...")
+            try:
+                riders, title, race_dates, num_races, extracted_names = parse_html(html_path)
+            except Exception as e:
+                print(f"  WARNING: HTML parse failed ({e}), falling back to PDF")
+                riders = None
 
+        if riders is None:
+            print(f"Parsing {disc['name']} from {pdf_path}...")
+            try:
+                riders, title, race_dates, num_races, extracted_names = parse_pdf(pdf_path)
+            except FileNotFoundError:
+                print(f"  WARNING: {pdf_path} not found, skipping")
+                continue
+
+        # Config race names override extracted ones if provided
         config_names = disc_year.get("raceNames", [])
         races = []
         for i, d in enumerate(race_dates):
-            name = config_names[i] if i < len(config_names) else f"Race {i+1}"
+            if config_names and i < len(config_names) and config_names[i]:
+                name = config_names[i]
+            elif i < len(extracted_names) and extracted_names[i]:
+                name = extracted_names[i]
+            else:
+                name = f"Race {i+1}"
             races.append({"date": d, "name": name})
 
         disciplines_data.append({
@@ -364,6 +679,7 @@ def process_year(year, year_config, disciplines, output_path):
     # Merge riders across disciplines
     key_to_merged_id = {}
     merged_riders = []
+    rider_club_counts = {}  # id -> {club: count} for resolving best club
     next_id = 0
 
     for disc_id, riders in all_parsed.items():
@@ -371,6 +687,7 @@ def process_year(year, year_config, disciplines, output_path):
         disc_meta = next(d for d in disciplines_data if d["id"] == disc_id)
 
         for rider in riders:
+            rider["club"] = normalize_club(rider["club"])
             keys = get_rider_key(rider)
 
             existing_id = None
@@ -383,8 +700,6 @@ def process_year(year, year_config, disciplines, output_path):
                 mr = merged_riders[existing_id]
                 if rider["license"] and not mr["license"]:
                     mr["license"] = rider["license"]
-                if rider["club"] and (not mr["club"] or len(rider["club"]) > len(mr["club"])):
-                    mr["club"] = rider["club"]
             else:
                 existing_id = next_id
                 next_id += 1
@@ -396,7 +711,13 @@ def process_year(year, year_config, disciplines, output_path):
                     "category": rider["category"],
                     "disciplines": {}
                 }
+                rider_club_counts[existing_id] = {}
                 merged_riders.append(mr)
+
+            # Track club appearances to pick the most common one
+            if rider["club"]:
+                counts = rider_club_counts[existing_id]
+                counts[rider["club"]] = counts.get(rider["club"], 0) + 1
 
             for k in keys:
                 key_to_merged_id[k] = existing_id
@@ -412,6 +733,26 @@ def process_year(year, year_config, disciplines, output_path):
                 "bestOfGeneralIndices": best_of_indices(rider["scores"], best_of_gen),
                 "rank": rider["rank"]
             }
+
+    # Resolve club: each rider gets the most common club name across disciplines
+    # On tie, prefer the club with the most total riders (more established club)
+    global_club_sizes = {}
+    for mr in merged_riders:
+        counts = rider_club_counts.get(mr["id"], {})
+        for club in counts:
+            global_club_sizes[club] = global_club_sizes.get(club, 0) + 1
+
+    for mr in merged_riders:
+        counts = rider_club_counts.get(mr["id"], {})
+        if counts:
+            max_count = max(counts.values())
+            # Get all clubs with the max count (tie candidates)
+            candidates = [c for c, n in counts.items() if n == max_count]
+            if len(candidates) == 1:
+                mr["club"] = candidates[0]
+            else:
+                # Tie: prefer the club with more total riders globally
+                mr["club"] = max(candidates, key=lambda c: global_club_sizes.get(c, 0))
 
     # Compute general classification
     for mr in merged_riders:
@@ -450,11 +791,79 @@ def process_year(year, year_config, disciplines, output_path):
                 r["disciplines"][disc_id]["rank"] = current_rank
                 prev_total = t
 
+    # Build flat list of all races sorted by date (for club standings)
+    all_races = []
+    for disc_meta in disciplines_data:
+        disc_id = disc_meta["id"]
+        for i, race in enumerate(disc_meta["races"]):
+            all_races.append({
+                "disc_id": disc_id,
+                "disc_name": disc_meta["name"],
+                "race_index": i,
+                "date": race["date"],
+                "name": race["name"]
+            })
+    # Sort by date (dd.mm. format -> parse to comparable)
+    def date_sort_key(r):
+        parts = r["date"].replace(".", "").strip()
+        if len(parts) == 4:
+            return (int(parts[2:4]), int(parts[0:2]))  # month, day
+        return (0, 0)
+    all_races.sort(key=date_sort_key)
+
+    # Compute club standings with flat race scores
+    clubs = {}
+    for mr in merged_riders:
+        club = mr["club"]
+        if not club:
+            continue
+        if club not in clubs:
+            clubs[club] = {
+                "name": club,
+                "total": 0,
+                "riderCount": 0,
+                "raceScores": [0] * len(all_races),
+                "riders": []
+            }
+        rider_all_total = 0
+        for disc_id, dd in mr["disciplines"].items():
+            rider_all_total += dd["total"]
+            for j, s in enumerate(dd["scores"]):
+                # Find the flat index for this disc+race
+                for fi, fr in enumerate(all_races):
+                    if fr["disc_id"] == disc_id and fr["race_index"] == j:
+                        clubs[club]["raceScores"][fi] += s
+                        break
+        clubs[club]["total"] += rider_all_total
+        clubs[club]["riderCount"] += 1
+        clubs[club]["riders"].append({
+            "name": mr["name"],
+            "category": mr["category"],
+            "total": rider_all_total
+        })
+
+    # Sort clubs by total, assign ranks
+    club_list = sorted(clubs.values(), key=lambda c: -c["total"])
+    current_rank = 0
+    prev_total = None
+    for i, c in enumerate(club_list):
+        if c["total"] != prev_total:
+            current_rank = i + 1
+        c["rank"] = current_rank
+        prev_total = c["total"]
+        # Sort riders within club by contribution
+        c["riders"].sort(key=lambda r: -r["total"])
+
+    # Build club races list for UI (date-sorted, no disc_id internals)
+    club_races = [{"date": r["date"], "name": r["name"], "discipline": r["disc_name"]} for r in all_races]
+
     # Build output
     data = {
         "disciplines": disciplines_data,
         "categories": CATEGORIES,
-        "riders": merged_riders
+        "riders": merged_riders,
+        "clubs": club_list,
+        "clubRaces": club_races
     }
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
