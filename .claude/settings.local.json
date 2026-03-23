@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python -c \":*)",
+      "Bash(python parse_results.py)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(mkdir -p pdfs/2025)",
+      "Bash(mv pdfs/*.pdf pdfs/2025/)",
+      "Bash(mkdir -p data)"
+    ]
+  }
+}

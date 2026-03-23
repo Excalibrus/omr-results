@@ -1,0 +1,21 @@
+# Generated data
+data/
+
+# PDFs
+pdfs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
