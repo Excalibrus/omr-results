@@ -12,6 +12,8 @@ import os
 import re
 import sys
 import unicodedata
+import urllib.request
+import urllib.error
 
 CATEGORIES = [
     "Ženske A", "Ženske B", "Ženske C", "Ženske D",
@@ -439,26 +441,47 @@ class HTMLResultsParser(HTMLParser):
         })
 
 
-def parse_html(html_path):
-    """Parse cycling results from an HTML file exported from prijavim.se."""
-    with open(html_path, encoding='utf-8') as f:
-        html_content = f.read()
+def fetch_url(url):
+    """Fetch HTML content from a URL. Returns the HTML string or None on failure."""
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 OmrParser/1.0'})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return resp.read().decode('utf-8')
+    except (urllib.error.URLError, urllib.error.HTTPError, OSError) as e:
+        print(f"  WARNING: Failed to fetch {url}: {e}")
+        return None
+
+
+def parse_html(html_path=None, html_content=None):
+    """Parse cycling results from an HTML file or string."""
+    if html_content is None:
+        with open(html_path, encoding='utf-8') as f:
+            html_content = f.read()
 
     parser = HTMLResultsParser()
     parser.feed(html_content)
 
-    # Extract race names from the HTML header tooltips
+    # Extract race names from the HTML header row.
+    # Race-name <th> cells carry a data-match_id attribute. The full name lives
+    # in title="..."; the inner text is CSS-truncated with an ellipsis on wide
+    # tables (e.g. 12-race climbs), so prefer the title attribute. Columns
+    # appear in the same order as the dates. The block repeats once per
+    # category — we only need the first N (one per race).
     race_names = []
-    # Look for show_me divs that contain race names
-    for m in re.finditer(r'id="show_me\d+"[^>]*>(.*?)</div>', html_content):
-        name = m.group(1).strip()
-        # Remove year suffix
+    for m in re.finditer(
+            r'<th\b(?=[^>]*\bdata-match_id="\d+")([^>]*)>([^<]*)</th>',
+            html_content):
+        attrs, inner = m.group(1), m.group(2)
+        title_match = re.search(r'\btitle="([^"]*)"', attrs)
+        name = (title_match.group(1) if title_match else inner).strip()
+        # Remove trailing year (e.g. "Kronometer Franja 2025" -> "Kronometer Franja")
         name = re.sub(r'\s*20\d{2}\s*$', '', name).strip()
         race_names.append(name)
         if len(race_names) >= len(parser.race_dates):
             break
 
-    # If we didn't find tooltip names, leave empty
+    # If extraction didn't line up with the date columns, drop names entirely
+    # so the caller falls back to config raceNames or "Race N".
     if len(race_names) != len(parser.race_dates):
         race_names = []
 
@@ -606,36 +629,55 @@ def process_year(year, year_config, disciplines, output_path):
 
         disc_year = year_config[disc_id]
 
-        # Try HTML first (more accurate), fall back to PDF
+        # Priority: URL > local HTML > local PDF
+        url = disc_year.get("url", "")
         html_file = disc_year.get("html", "")
-        pdf_path = f"pdfs/{year}/{disc_year['pdf']}"
-        if not html_file:
-            # Auto-detect: look for .html files in the year folder
-            year_dir = f"pdfs/{year}"
-            pdf_base = os.path.splitext(disc_year['pdf'])[0]
-            # Try exact match first, then prefix match
-            for candidate_name in [f"{pdf_base}.html"]:
-                if os.path.exists(os.path.join(year_dir, candidate_name)):
-                    html_file = candidate_name
-                    break
-            if not html_file:
-                # Try matching by disc_id (e.g., "climb.html" for disc "climbs")
-                for f_name in os.listdir(year_dir) if os.path.isdir(year_dir) else []:
-                    if f_name.endswith('.html') and disc_id.rstrip('s') in f_name.lower():
-                        html_file = f_name
-                        break
-        html_path = f"pdfs/{year}/{html_file}" if html_file else ""
+        pdf_name = disc_year.get("pdf", "")
+        pdf_path = f"pdfs/{year}/{pdf_name}" if pdf_name else ""
 
         riders = None
-        if html_path and os.path.exists(html_path):
-            print(f"Parsing {disc['name']} from {html_path}...")
-            try:
-                riders, title, race_dates, num_races, extracted_names = parse_html(html_path)
-            except Exception as e:
-                print(f"  WARNING: HTML parse failed ({e}), falling back to PDF")
-                riders = None
 
+        # 1. Try URL
+        if url and riders is None:
+            print(f"Parsing {disc['name']} from {url}...")
+            html_content = fetch_url(url)
+            if html_content:
+                try:
+                    riders, title, race_dates, num_races, extracted_names = parse_html(html_content=html_content)
+                except Exception as e:
+                    print(f"  WARNING: URL parse failed ({e}), falling back to local files")
+                    riders = None
+
+        # 2. Try local HTML
         if riders is None:
+            if not html_file:
+                year_dir = f"pdfs/{year}"
+                if pdf_name:
+                    pdf_base = os.path.splitext(pdf_name)[0]
+                    for candidate_name in [f"{pdf_base}.html"]:
+                        if os.path.exists(os.path.join(year_dir, candidate_name)):
+                            html_file = candidate_name
+                            break
+                if not html_file:
+                    for f_name in os.listdir(year_dir) if os.path.isdir(year_dir) else []:
+                        if f_name.endswith('.html') and disc_id.rstrip('s') in f_name.lower():
+                            html_file = f_name
+                            break
+            html_path = f"pdfs/{year}/{html_file}" if html_file else ""
+
+            if html_path and os.path.exists(html_path):
+                print(f"Parsing {disc['name']} from {html_path}...")
+                try:
+                    riders, title, race_dates, num_races, extracted_names = parse_html(html_path=html_path)
+                except Exception as e:
+                    print(f"  WARNING: HTML parse failed ({e}), falling back to PDF")
+                    riders = None
+
+        # 3. Fall back to PDF
+        if riders is None:
+            if not pdf_path:
+                print(f"  WARNING: no source available for {disc['name']} {year}, skipping")
+                continue
             print(f"Parsing {disc['name']} from {pdf_path}...")
             try:
                 riders, title, race_dates, num_races, extracted_names = parse_pdf(pdf_path)

@@ -1,8 +1,8 @@
-# Generated data
-data/
+# Generated data (top-level only — dist/data/ is the published bundle and IS tracked)
+/data/
 
-# PDFs
-pdfs/
+# PDFs (top-level only)
+/pdfs/
 
 # Python
 __pycache__/

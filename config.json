@@ -5,9 +5,14 @@
     { "id": "tt", "name": "Kronometer" }
   ],
   "years": {
+    "2026": {
+      "climbs": { "bestOf": 6, "bestOfGeneral": 3, "url": "https://prijavim.se/results/scores_pdf/24/732/2026" },
+      "road":   { "bestOf": 6, "bestOfGeneral": 5, "url": "https://prijavim.se/results/scores_pdf/24/695/2026" },
+      "tt":     { "bestOf": 3, "bestOfGeneral": 3, "url": "https://prijavim.se/results/scores_pdf/24/731/2026" }
+    },
     "2025": {
       "climbs": { "pdf": "climb_2025.pdf", "bestOf": 6, "bestOfGeneral": 3 },
-      "road":   { "pdf": "road_2025.pdf",  "bestOf": 6, "bestOfGeneral": 5 },
+      "road":   { "pdf": "road_2025.pdf",  "bestOf": 6, "bestOfGeneral": 5, "url": "https://prijavim.se/results/scores_pdf/24/695/2025" },
       "tt":     { "pdf": "tt_2025.pdf",    "bestOf": 3, "bestOfGeneral": 3 }
     },
     "2024": {
