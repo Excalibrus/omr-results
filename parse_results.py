@@ -6,6 +6,7 @@ matches riders across disciplines, computes best-of scoring,
 and outputs a unified data.json per year.
 """
 from html.parser import HTMLParser
+import argparse
 import pdfplumber
 import json
 import os
@@ -917,28 +918,59 @@ def process_year(year, year_config, disciplines, output_path):
 
 
 def main():
-    config_path = sys.argv[1] if len(sys.argv) > 1 else "config.json"
-    output_dir = sys.argv[2] if len(sys.argv) > 2 else "data"
+    parser = argparse.ArgumentParser(description="Parse OMR cycling results.")
+    parser.add_argument("config", nargs="?", default="config.json",
+                        help="Path to config.json (default: config.json)")
+    parser.add_argument("output_dir", nargs="?", default="data",
+                        help="Output directory for JSON files (default: data)")
+    parser.add_argument("--year", help="Process only this year; merges into existing years.json")
+    args = parser.parse_args()
 
-    with open(config_path, encoding="utf-8") as f:
+    with open(args.config, encoding="utf-8") as f:
         config = json.load(f)
 
     disciplines = config["disciplines"]
     years_config = config["years"]
-    processed_years = []
 
-    for year in sorted(years_config.keys(), reverse=True):
-        output_path = os.path.join(output_dir, f"{year}.json")
+    if args.year:
+        if args.year not in years_config:
+            print(f"ERROR: year {args.year} not found in {args.config}", file=sys.stderr)
+            sys.exit(1)
+        years_to_process = [args.year]
+    else:
+        years_to_process = sorted(years_config.keys(), reverse=True)
+
+    processed_years = []
+    for year in years_to_process:
+        output_path = os.path.join(args.output_dir, f"{year}.json")
         success = process_year(year, years_config[year], disciplines, output_path)
         if success:
             processed_years.append(year)
 
-    # Write years index
-    processed_years.sort(reverse=True)
-    os.makedirs(output_dir, exist_ok=True)
-    years_index_path = os.path.join(output_dir, "years.json")
+    if args.year and args.year not in processed_years:
+        print(f"ERROR: parsing {args.year} produced no output", file=sys.stderr)
+        sys.exit(1)
+
+    # Write years index. With --year, merge into existing index so other
+    # years' entries are preserved.
+    os.makedirs(args.output_dir, exist_ok=True)
+    years_index_path = os.path.join(args.output_dir, "years.json")
+
+    if args.year:
+        existing = []
+        if os.path.exists(years_index_path):
+            try:
+                with open(years_index_path, encoding="utf-8") as f:
+                    existing = json.load(f)
+            except (json.JSONDecodeError, OSError):
+                existing = []
+        merged = set(existing) | set(processed_years)
+        index_years = sorted(merged, reverse=True)
+    else:
+        index_years = sorted(processed_years, reverse=True)
+
     with open(years_index_path, "w", encoding="utf-8") as f:
-        json.dump(processed_years, f, ensure_ascii=False, indent=2)
+        json.dump(index_years, f, ensure_ascii=False, indent=2)
 
     print(f"\n{'='*50}")
     print(f"Done! Processed years: {', '.join(processed_years)}")
