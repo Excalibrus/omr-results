@@ -1,6 +1,15 @@
 {
   "disciplines": [
     {
+      "id": "climbs",
+      "name": "Vzponi",
+      "title": "OMR vzpon - Cestno kolesarstvo 2026",
+      "bestOf": 6,
+      "bestOfGeneral": 3,
+      "races": [],
+      "numRaces": 0
+    },
+    {
       "id": "road",
       "name": "Cestne dirke",
       "title": "OMR cestna - Cestno kolesarstvo 2026",
