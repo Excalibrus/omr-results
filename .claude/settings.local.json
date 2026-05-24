@@ -7,7 +7,15 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(mkdir -p pdfs/2025)",
       "Bash(mv pdfs/*.pdf pdfs/2025/)",
-      "Bash(mkdir -p data)"
+      "Bash(mkdir -p data)",
+      "Bash(git check-ignore *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(curl -s http://localhost:8080/)",
+      "Bash(python build.py)",
+      "Bash(rm -rf /tmp/omr-smoke-test)",
+      "Bash(git fetch *)"
     ]
   }
 }
