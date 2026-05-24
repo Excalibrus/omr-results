@@ -32,6 +32,7 @@ SKIP_WORDS = {"Tekmovalec", "Vzpon", "Kolesarska", "Prijavim", "Kronometer",
 # Club name aliases: map variant names to canonical name
 CLUB_ALIASES = {
     "BAMBI": "ŠD BAM.BI",
+    "ŠD BAMBI": "ŠD BAM.BI",
     "BAM.BI": "ŠD BAM.BI",
     "B.V.G. Gulč": "B.V.G. GULČ",
     "Energija team": "ENERGIJATEAM.COM",
