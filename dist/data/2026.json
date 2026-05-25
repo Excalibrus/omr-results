@@ -232,7 +232,7 @@
       },
       "general": {
         "total": 60,
-        "rank": 1
+        "rank": 2
       }
     },
     {
@@ -274,7 +274,7 @@
       },
       "general": {
         "total": 25,
-        "rank": 3
+        "rank": 5
       }
     },
     {
@@ -316,7 +316,7 @@
       },
       "general": {
         "total": 21,
-        "rank": 6
+        "rank": 7
       }
     },
     {
@@ -358,7 +358,7 @@
       },
       "general": {
         "total": 30,
-        "rank": 4
+        "rank": 6
       }
     },
     {
@@ -420,7 +420,7 @@
       },
       "general": {
         "total": 55,
-        "rank": 1
+        "rank": 2
       }
     },
     {
@@ -462,7 +462,7 @@
       },
       "general": {
         "total": 21,
-        "rank": 6
+        "rank": 8
       }
     },
     {
@@ -500,11 +500,35 @@
             0
           ],
           "rank": 4
+        },
+        "road": {
+          "scores": [
+            0,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 4
         }
       },
       "general": {
-        "total": 18,
-        "rank": 7
+        "total": 39,
+        "rank": 4
       }
     },
     {
@@ -565,12 +589,12 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 3
+          "rank": 4
         }
       },
       "general": {
         "total": 36,
-        "rank": 3
+        "rank": 5
       }
     },
     {
@@ -738,7 +762,7 @@
         "road": {
           "scores": [
             18,
-            0,
+            21,
             0,
             0,
             0,
@@ -748,13 +772,15 @@
             0,
             0
           ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
+          "total": 39,
+          "bestOfTotal": 39,
+          "bestOfGeneralTotal": 39,
           "bestOfIndices": [
+            1,
             0
           ],
           "bestOfGeneralIndices": [
+            1,
             0
           ],
           "rank": 4
@@ -781,7 +807,7 @@
         }
       },
       "general": {
-        "total": 68,
+        "total": 89,
         "rank": 2
       }
     },
@@ -824,7 +850,7 @@
         "road": {
           "scores": [
             25,
-            0,
+            18,
             0,
             0,
             0,
@@ -834,14 +860,16 @@
             0,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 43,
+          "bestOfTotal": 43,
+          "bestOfGeneralTotal": 43,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 2
         },
@@ -867,7 +895,7 @@
         }
       },
       "general": {
-        "total": 76,
+        "total": 94,
         "rank": 1
       }
     },
@@ -910,7 +938,7 @@
         "road": {
           "scores": [
             30,
-            0,
+            30,
             0,
             0,
             0,
@@ -920,21 +948,23 @@
             0,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 60,
+          "bestOfTotal": 60,
+          "bestOfGeneralTotal": 60,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 1
         }
       },
       "general": {
-        "total": 48,
-        "rank": 4
+        "total": 78,
+        "rank": 3
       }
     },
     {
@@ -976,7 +1006,7 @@
         "road": {
           "scores": [
             21,
-            0,
+            15,
             0,
             0,
             0,
@@ -986,16 +1016,18 @@
             0,
             0
           ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
+          "total": 36,
+          "bestOfTotal": 36,
+          "bestOfGeneralTotal": 36,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
-          "rank": 3
+          "rank": 5
         },
         "tt": {
           "scores": [
@@ -1019,8 +1051,8 @@
         }
       },
       "general": {
-        "total": 54,
-        "rank": 3
+        "total": 69,
+        "rank": 4
       }
     },
     {
@@ -1082,7 +1114,7 @@
       },
       "general": {
         "total": 60,
-        "rank": 2
+        "rank": 4
       }
     },
     {
@@ -1144,7 +1176,7 @@
       },
       "general": {
         "total": 43,
-        "rank": 3
+        "rank": 7
       }
     },
     {
@@ -1186,7 +1218,7 @@
         "road": {
           "scores": [
             18,
-            0,
+            18,
             0,
             0,
             0,
@@ -1196,14 +1228,16 @@
             0,
             0
           ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
+          "total": 36,
+          "bestOfTotal": 36,
+          "bestOfGeneralTotal": 36,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 4
         },
@@ -1229,7 +1263,7 @@
         }
       },
       "general": {
-        "total": 64,
+        "total": 82,
         "rank": 1
       }
     },
@@ -1292,7 +1326,7 @@
       },
       "general": {
         "total": 39,
-        "rank": 5
+        "rank": 8
       }
     },
     {
@@ -1334,7 +1368,7 @@
         "road": {
           "scores": [
             21,
-            0,
+            30,
             0,
             0,
             0,
@@ -1344,21 +1378,23 @@
             0,
             0
           ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
+          "total": 51,
+          "bestOfTotal": 51,
+          "bestOfGeneralTotal": 51,
           "bestOfIndices": [
+            1,
             0
           ],
           "bestOfGeneralIndices": [
+            1,
             0
           ],
-          "rank": 3
+          "rank": 2
         }
       },
       "general": {
-        "total": 36,
-        "rank": 7
+        "total": 66,
+        "rank": 3
       }
     },
     {
@@ -1400,7 +1436,7 @@
         "road": {
           "scores": [
             15,
-            0,
+            15,
             0,
             0,
             0,
@@ -1410,14 +1446,16 @@
             0,
             0
           ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 5
         },
@@ -1443,8 +1481,8 @@
         }
       },
       "general": {
-        "total": 37,
-        "rank": 6
+        "total": 52,
+        "rank": 5
       }
     },
     {
@@ -1486,7 +1524,7 @@
       },
       "general": {
         "total": 11,
-        "rank": 13
+        "rank": 14
       }
     },
     {
@@ -1656,7 +1694,7 @@
       },
       "general": {
         "total": 6,
-        "rank": 18
+        "rank": 19
       }
     },
     {
@@ -1698,7 +1736,7 @@
         "road": {
           "scores": [
             21,
-            0,
+            11,
             0,
             0,
             0,
@@ -1708,16 +1746,18 @@
             0,
             0
           ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
+          "total": 32,
+          "bestOfTotal": 32,
+          "bestOfGeneralTotal": 32,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
-          "rank": 3
+          "rank": 5
         },
         "tt": {
           "scores": [
@@ -1741,7 +1781,7 @@
         }
       },
       "general": {
-        "total": 76,
+        "total": 87,
         "rank": 1
       }
     },
@@ -1781,6 +1821,30 @@
           ],
           "rank": 2
         },
+        "road": {
+          "scores": [
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 13,
+          "bestOfTotal": 13,
+          "bestOfGeneralTotal": 13,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 8
+        },
         "tt": {
           "scores": [
             0,
@@ -1803,8 +1867,8 @@
         }
       },
       "general": {
-        "total": 40,
-        "rank": 4
+        "total": 53,
+        "rank": 5
       }
     },
     {
@@ -1843,6 +1907,30 @@
           ],
           "rank": 3
         },
+        "road": {
+          "scores": [
+            0,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 6
+        },
         "tt": {
           "scores": [
             0,
@@ -1865,8 +1953,8 @@
         }
       },
       "general": {
-        "total": 51,
-        "rank": 2
+        "total": 72,
+        "rank": 3
       }
     },
     {
@@ -1908,7 +1996,7 @@
       },
       "general": {
         "total": 18,
-        "rank": 6
+        "rank": 9
       }
     },
     {
@@ -1950,7 +2038,7 @@
       },
       "general": {
         "total": 15,
-        "rank": 9
+        "rank": 11
       }
     },
     {
@@ -1992,7 +2080,7 @@
       },
       "general": {
         "total": 13,
-        "rank": 11
+        "rank": 12
       }
     },
     {
@@ -2034,7 +2122,7 @@
       },
       "general": {
         "total": 11,
-        "rank": 13
+        "rank": 14
       }
     },
     {
@@ -2118,7 +2206,7 @@
       },
       "general": {
         "total": 30,
-        "rank": 4
+        "rank": 6
       }
     },
     {
@@ -2160,7 +2248,7 @@
       },
       "general": {
         "total": 25,
-        "rank": 6
+        "rank": 9
       }
     },
     {
@@ -2221,7 +2309,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 5
+          "rank": 7
         },
         "tt": {
           "scores": [
@@ -2246,7 +2334,7 @@
       },
       "general": {
         "total": 42,
-        "rank": 2
+        "rank": 3
       }
     },
     {
@@ -2288,7 +2376,7 @@
       },
       "general": {
         "total": 18,
-        "rank": 10
+        "rank": 13
       }
     },
     {
@@ -2350,7 +2438,7 @@
       },
       "general": {
         "total": 26,
-        "rank": 5
+        "rank": 7
       }
     },
     {
@@ -2392,7 +2480,7 @@
       },
       "general": {
         "total": 13,
-        "rank": 13
+        "rank": 15
       }
     },
     {
@@ -2454,7 +2542,7 @@
       },
       "general": {
         "total": 55,
-        "rank": 3
+        "rank": 4
       }
     },
     {
@@ -2496,7 +2584,7 @@
       },
       "general": {
         "total": 25,
-        "rank": 5
+        "rank": 8
       }
     },
     {
@@ -2538,7 +2626,7 @@
         "road": {
           "scores": [
             25,
-            0,
+            30,
             0,
             0,
             0,
@@ -2548,16 +2636,18 @@
             0,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 55,
+          "bestOfTotal": 55,
+          "bestOfGeneralTotal": 55,
           "bestOfIndices": [
+            1,
             0
           ],
           "bestOfGeneralIndices": [
+            1,
             0
           ],
-          "rank": 2
+          "rank": 1
         },
         "tt": {
           "scores": [
@@ -2581,7 +2671,7 @@
         }
       },
       "general": {
-        "total": 64,
+        "total": 94,
         "rank": 1
       }
     },
@@ -2624,7 +2714,7 @@
       },
       "general": {
         "total": 18,
-        "rank": 6
+        "rank": 10
       }
     },
     {
@@ -2666,14 +2756,14 @@
       },
       "general": {
         "total": 15,
-        "rank": 8
+        "rank": 11
       }
     },
     {
       "id": 44,
       "name": "ŠALKOVIĆ Igor",
       "license": "",
-      "club": "ŠRKD Savčan",
+      "club": "ŠD BAM.BI",
       "category": "Master C",
       "disciplines": {
         "climbs": {
@@ -2704,11 +2794,35 @@
             0
           ],
           "rank": 6
+        },
+        "road": {
+          "scores": [
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 13,
+          "bestOfTotal": 13,
+          "bestOfGeneralTotal": 13,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 8
         }
       },
       "general": {
-        "total": 13,
-        "rank": 11
+        "total": 26,
+        "rank": 7
       }
     },
     {
@@ -2770,7 +2884,7 @@
       },
       "general": {
         "total": 60,
-        "rank": 1
+        "rank": 2
       }
     },
     {
@@ -2812,7 +2926,7 @@
       },
       "general": {
         "total": 25,
-        "rank": 5
+        "rank": 8
       }
     },
     {
@@ -2854,7 +2968,7 @@
       },
       "general": {
         "total": 21,
-        "rank": 9
+        "rank": 10
       }
     },
     {
@@ -2896,7 +3010,7 @@
       },
       "general": {
         "total": 18,
-        "rank": 12
+        "rank": 13
       }
     },
     {
@@ -2958,7 +3072,7 @@
       },
       "general": {
         "total": 28,
-        "rank": 4
+        "rank": 7
       }
     },
     {
@@ -3020,7 +3134,7 @@
       },
       "general": {
         "total": 31,
-        "rank": 3
+        "rank": 6
       }
     },
     {
@@ -3104,7 +3218,7 @@
         "road": {
           "scores": [
             30,
-            0,
+            25,
             0,
             0,
             0,
@@ -3114,14 +3228,16 @@
             0,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 55,
+          "bestOfTotal": 55,
+          "bestOfGeneralTotal": 55,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 1
         },
@@ -3147,8 +3263,8 @@
         }
       },
       "general": {
-        "total": 50,
-        "rank": 2
+        "total": 75,
+        "rank": 1
       }
     },
     {
@@ -3252,7 +3368,7 @@
       },
       "general": {
         "total": 15,
-        "rank": 13
+        "rank": 14
       }
     },
     {
@@ -3313,7 +3429,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 2
+          "rank": 3
         },
         "tt": {
           "scores": [
@@ -3338,7 +3454,7 @@
       },
       "general": {
         "total": 73,
-        "rank": 1
+        "rank": 2
       }
     },
     {
@@ -3376,11 +3492,35 @@
             0
           ],
           "rank": 2
+        },
+        "road": {
+          "scores": [
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 18,
+          "bestOfTotal": 18,
+          "bestOfGeneralTotal": 18,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 6
         }
       },
       "general": {
-        "total": 25,
-        "rank": 4
+        "total": 43,
+        "rank": 5
       }
     },
     {
@@ -3422,7 +3562,7 @@
         "road": {
           "scores": [
             21,
-            0,
+            15,
             0,
             0,
             0,
@@ -3432,16 +3572,18 @@
             0,
             0
           ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
+          "total": 36,
+          "bestOfTotal": 36,
+          "bestOfGeneralTotal": 36,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
-          "rank": 3
+          "rank": 2
         },
         "tt": {
           "scores": [
@@ -3465,7 +3607,7 @@
         }
       },
       "general": {
-        "total": 57,
+        "total": 72,
         "rank": 3
       }
     },
@@ -3676,7 +3818,7 @@
       },
       "general": {
         "total": 25,
-        "rank": 5
+        "rank": 6
       }
     },
     {
@@ -3718,7 +3860,7 @@
       },
       "general": {
         "total": 21,
-        "rank": 6
+        "rank": 7
       }
     },
     {
@@ -3760,7 +3902,7 @@
         "road": {
           "scores": [
             21,
-            0,
+            18,
             0,
             0,
             0,
@@ -3770,16 +3912,18 @@
             0,
             0
           ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
+          "total": 39,
+          "bestOfTotal": 39,
+          "bestOfGeneralTotal": 39,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
-          "rank": 3
+          "rank": 2
         },
         "tt": {
           "scores": [
@@ -3803,7 +3947,7 @@
         }
       },
       "general": {
-        "total": 69,
+        "total": 87,
         "rank": 1
       }
     },
@@ -3846,7 +3990,7 @@
         "road": {
           "scores": [
             25,
-            0,
+            25,
             0,
             0,
             0,
@@ -3856,21 +4000,23 @@
             0,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 50,
+          "bestOfTotal": 50,
+          "bestOfGeneralTotal": 50,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
-          "rank": 2
+          "rank": 1
         }
       },
       "general": {
-        "total": 40,
-        "rank": 3
+        "total": 65,
+        "rank": 2
       }
     },
     {
@@ -3912,7 +4058,7 @@
       },
       "general": {
         "total": 13,
-        "rank": 7
+        "rank": 10
       }
     },
     {
@@ -3973,7 +4119,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 1
+          "rank": 4
         },
         "tt": {
           "scores": [
@@ -4037,6 +4183,30 @@
           ],
           "rank": 2
         },
+        "road": {
+          "scores": [
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 13,
+          "bestOfTotal": 13,
+          "bestOfGeneralTotal": 13,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 9
+        },
         "tt": {
           "scores": [
             0,
@@ -4059,7 +4229,7 @@
         }
       },
       "general": {
-        "total": 46,
+        "total": 59,
         "rank": 2
       }
     },
@@ -4121,12 +4291,12 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 6
+          "rank": 9
         }
       },
       "general": {
         "total": 34,
-        "rank": 5
+        "rank": 8
       }
     },
     {
@@ -4187,7 +4357,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 5
+          "rank": 7
         },
         "tt": {
           "scores": [
@@ -4212,7 +4382,7 @@
       },
       "general": {
         "total": 44,
-        "rank": 3
+        "rank": 7
       }
     },
     {
@@ -4254,7 +4424,7 @@
         "road": {
           "scores": [
             30,
-            0,
+            30,
             0,
             0,
             0,
@@ -4264,14 +4434,16 @@
             0,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 60,
+          "bestOfTotal": 60,
+          "bestOfGeneralTotal": 60,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 1
         },
@@ -4297,7 +4469,7 @@
         }
       },
       "general": {
-        "total": 90,
+        "total": 120,
         "rank": 1
       }
     },
@@ -4382,7 +4554,7 @@
         "road": {
           "scores": [
             21,
-            0,
+            21,
             0,
             0,
             0,
@@ -4392,14 +4564,16 @@
             0,
             0
           ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
+          "total": 42,
+          "bestOfTotal": 42,
+          "bestOfGeneralTotal": 42,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 3
         },
@@ -4425,7 +4599,7 @@
         }
       },
       "general": {
-        "total": 57,
+        "total": 78,
         "rank": 2
       }
     },
@@ -4529,7 +4703,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 4
+          "rank": 5
         },
         "tt": {
           "scores": [
@@ -4554,7 +4728,7 @@
       },
       "general": {
         "total": 51,
-        "rank": 3
+        "rank": 4
       }
     },
     {
@@ -4596,7 +4770,7 @@
         "road": {
           "scores": [
             13,
-            0,
+            15,
             0,
             0,
             0,
@@ -4606,21 +4780,23 @@
             0,
             0
           ],
-          "total": 13,
-          "bestOfTotal": 13,
-          "bestOfGeneralTotal": 13,
+          "total": 28,
+          "bestOfTotal": 28,
+          "bestOfGeneralTotal": 28,
           "bestOfIndices": [
+            1,
             0
           ],
           "bestOfGeneralIndices": [
+            1,
             0
           ],
-          "rank": 6
+          "rank": 4
         }
       },
       "general": {
-        "total": 26,
-        "rank": 6
+        "total": 41,
+        "rank": 5
       }
     },
     {
@@ -4662,7 +4838,7 @@
       },
       "general": {
         "total": 11,
-        "rank": 10
+        "rank": 11
       }
     },
     {
@@ -4723,12 +4899,12 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 1
+          "rank": 4
         }
       },
       "general": {
         "total": 60,
-        "rank": 2
+        "rank": 3
       }
     },
     {
@@ -4767,6 +4943,30 @@
           ],
           "rank": 2
         },
+        "road": {
+          "scores": [
+            0,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 6
+        },
         "tt": {
           "scores": [
             0,
@@ -4789,8 +4989,8 @@
         }
       },
       "general": {
-        "total": 46,
-        "rank": 4
+        "total": 67,
+        "rank": 2
       }
     },
     {
@@ -4832,7 +5032,7 @@
         "road": {
           "scores": [
             25,
-            0,
+            30,
             0,
             0,
             0,
@@ -4842,16 +5042,18 @@
             0,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 55,
+          "bestOfTotal": 55,
+          "bestOfGeneralTotal": 55,
           "bestOfIndices": [
+            1,
             0
           ],
           "bestOfGeneralIndices": [
+            1,
             0
           ],
-          "rank": 2
+          "rank": 1
         },
         "tt": {
           "scores": [
@@ -4875,7 +5077,7 @@
         }
       },
       "general": {
-        "total": 71,
+        "total": 101,
         "rank": 1
       }
     },
@@ -4918,7 +5120,7 @@
         "road": {
           "scores": [
             13,
-            0,
+            15,
             0,
             0,
             0,
@@ -4928,20 +5130,22 @@
             0,
             0
           ],
-          "total": 13,
-          "bestOfTotal": 13,
-          "bestOfGeneralTotal": 13,
+          "total": 28,
+          "bestOfTotal": 28,
+          "bestOfGeneralTotal": 28,
           "bestOfIndices": [
+            1,
             0
           ],
           "bestOfGeneralIndices": [
+            1,
             0
           ],
-          "rank": 6
+          "rank": 5
         }
       },
       "general": {
-        "total": 31,
+        "total": 46,
         "rank": 6
       }
     },
@@ -4980,10 +5184,34 @@
             0
           ],
           "rank": 1
+        },
+        "road": {
+          "scores": [
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 18,
+          "bestOfTotal": 18,
+          "bestOfGeneralTotal": 18,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 6
         }
       },
       "general": {
-        "total": 30,
+        "total": 48,
         "rank": 5
       }
     },
@@ -5022,11 +5250,35 @@
             0
           ],
           "rank": 2
+        },
+        "road": {
+          "scores": [
+            0,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 25,
+          "bestOfTotal": 25,
+          "bestOfGeneralTotal": 25,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 3
         }
       },
       "general": {
-        "total": 25,
-        "rank": 6
+        "total": 50,
+        "rank": 4
       }
     },
     {
@@ -5068,7 +5320,7 @@
         "road": {
           "scores": [
             18,
-            0,
+            21,
             0,
             0,
             0,
@@ -5078,16 +5330,18 @@
             0,
             0
           ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
+          "total": 39,
+          "bestOfTotal": 39,
+          "bestOfGeneralTotal": 39,
           "bestOfIndices": [
+            1,
             0
           ],
           "bestOfGeneralIndices": [
+            1,
             0
           ],
-          "rank": 4
+          "rank": 2
         },
         "tt": {
           "scores": [
@@ -5111,8 +5365,8 @@
         }
       },
       "general": {
-        "total": 52,
-        "rank": 3
+        "total": 73,
+        "rank": 2
       }
     },
     {
@@ -5125,7 +5379,7 @@
         "road": {
           "scores": [
             30,
-            0,
+            21,
             0,
             0,
             0,
@@ -5135,14 +5389,16 @@
             0,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 51,
+          "bestOfTotal": 51,
+          "bestOfGeneralTotal": 51,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 1
         },
@@ -5168,12 +5424,49 @@
         }
       },
       "general": {
-        "total": 51,
-        "rank": 2
+        "total": 72,
+        "rank": 1
       }
     },
     {
       "id": 86,
+      "name": "ZUPANC Maja",
+      "license": "",
+      "club": "ŠD BAM.BI",
+      "category": "Ženske A",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 2
+        }
+      },
+      "general": {
+        "total": 30,
+        "rank": 4
+      }
+    },
+    {
+      "id": 87,
       "name": "GOLOB Hana",
       "license": "10170474753",
       "club": "KD BRDA DOBROVO",
@@ -5201,16 +5494,147 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 2
+          "rank": 3
         }
       },
       "general": {
         "total": 25,
+        "rank": 5
+      }
+    },
+    {
+      "id": 88,
+      "name": "KLINAR Tina",
+      "license": "10149490219",
+      "club": "Virtuslo 4Endurance",
+      "category": "Ženske A",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 25,
+          "bestOfTotal": 25,
+          "bestOfGeneralTotal": 25,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 3
+        },
+        "tt": {
+          "scores": [
+            0,
+            25,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 25,
+          "bestOfTotal": 25,
+          "bestOfGeneralTotal": 25,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 2
+        }
+      },
+      "general": {
+        "total": 50,
         "rank": 3
       }
     },
     {
-      "id": 87,
+      "id": 89,
+      "name": "ZALETEL Eva",
+      "license": "10138024011",
+      "club": "ŠD BAM.BI",
+      "category": "Ženske A",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 18,
+          "bestOfTotal": 18,
+          "bestOfGeneralTotal": 18,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 5
+        }
+      },
+      "general": {
+        "total": 18,
+        "rank": 8
+      }
+    },
+    {
+      "id": 90,
+      "name": "URH Lara",
+      "license": "10162262186",
+      "club": "RIBNO ALPINE RESORT BLED",
+      "category": "Ženske A",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 15,
+          "bestOfTotal": 15,
+          "bestOfGeneralTotal": 15,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 6
+        }
+      },
+      "general": {
+        "total": 15,
+        "rank": 9
+      }
+    },
+    {
+      "id": 91,
       "name": "DOLINAR Simona",
       "license": "10148665416",
       "club": "ŠD POLJANE",
@@ -5219,7 +5643,7 @@
         "road": {
           "scores": [
             30,
-            0,
+            30,
             0,
             0,
             0,
@@ -5229,25 +5653,27 @@
             0,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 60,
+          "bestOfTotal": 60,
+          "bestOfGeneralTotal": 60,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 1
         }
       },
       "general": {
-        "total": 30,
-        "rank": 4
+        "total": 60,
+        "rank": 1
       }
     },
     {
-      "id": 88,
+      "id": 92,
       "name": "OPEKA Ajda",
       "license": "10007138372",
       "club": "KD BRANIK MARIBOR",
@@ -5300,11 +5726,48 @@
       },
       "general": {
         "total": 50,
-        "rank": 2
+        "rank": 3
       }
     },
     {
-      "id": 89,
+      "id": 93,
+      "name": "PODGORNIK Barbara",
+      "license": "",
+      "club": "ŠD BAM.BI",
+      "category": "Ženske B",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 25,
+          "bestOfTotal": 25,
+          "bestOfGeneralTotal": 25,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 2
+        }
+      },
+      "general": {
+        "total": 25,
+        "rank": 7
+      }
+    },
+    {
+      "id": 94,
       "name": "HABJAN Dragica",
       "license": "10096533370",
       "club": "ŠD Koloka",
@@ -5313,7 +5776,7 @@
         "road": {
           "scores": [
             15,
-            0,
+            25,
             0,
             0,
             0,
@@ -5323,16 +5786,18 @@
             0,
             0
           ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
+          "total": 40,
+          "bestOfTotal": 40,
+          "bestOfGeneralTotal": 40,
           "bestOfIndices": [
+            1,
             0
           ],
           "bestOfGeneralIndices": [
+            1,
             0
           ],
-          "rank": 5
+          "rank": 3
         },
         "tt": {
           "scores": [
@@ -5356,12 +5821,12 @@
         }
       },
       "general": {
-        "total": 36,
+        "total": 61,
         "rank": 5
       }
     },
     {
-      "id": 90,
+      "id": 95,
       "name": "JAMBROŠIČ Nik",
       "license": "10127654509",
       "club": "KD OBALA",
@@ -5370,7 +5835,7 @@
         "road": {
           "scores": [
             30,
-            0,
+            25,
             0,
             0,
             0,
@@ -5380,14 +5845,16 @@
             0,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 55,
+          "bestOfTotal": 55,
+          "bestOfGeneralTotal": 55,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 1
         },
@@ -5413,12 +5880,12 @@
         }
       },
       "general": {
-        "total": 43,
-        "rank": 3
+        "total": 68,
+        "rank": 2
       }
     },
     {
-      "id": 91,
+      "id": 96,
       "name": "KLOPČIČ Leon",
       "license": "10017646809",
       "club": "KK Trbovlje",
@@ -5427,7 +5894,7 @@
         "road": {
           "scores": [
             25,
-            0,
+            21,
             0,
             0,
             0,
@@ -5437,25 +5904,64 @@
             0,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 46,
+          "bestOfTotal": 46,
+          "bestOfGeneralTotal": 46,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
-          "rank": 2
+          "rank": 3
         }
       },
       "general": {
-        "total": 25,
-        "rank": 8
+        "total": 46,
+        "rank": 6
       }
     },
     {
-      "id": 92,
+      "id": 97,
+      "name": "RAZINGER Urban",
+      "license": "10162072836",
+      "club": "ŠD BAM.BI",
+      "category": "Amaterji",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 13,
+          "bestOfTotal": 13,
+          "bestOfGeneralTotal": 13,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 6
+        }
+      },
+      "general": {
+        "total": 13,
+        "rank": 12
+      }
+    },
+    {
+      "id": 98,
       "name": "DRINOVEC Lan",
       "license": "10173226725",
       "club": "ŠD BAM.BI",
@@ -5483,16 +5989,16 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 7
+          "rank": 8
         }
       },
       "general": {
         "total": 11,
-        "rank": 13
+        "rank": 14
       }
     },
     {
-      "id": 93,
+      "id": 99,
       "name": "ŠULIGOJ Blaž",
       "license": "10140255213",
       "club": "IZVIR VIPAVA",
@@ -5520,7 +6026,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 8
+          "rank": 9
         },
         "tt": {
           "scores": [
@@ -5549,7 +6055,7 @@
       }
     },
     {
-      "id": 94,
+      "id": 100,
       "name": "LIČEN Nejc",
       "license": "10160927731",
       "club": "IZVIR VIPAVA",
@@ -5577,16 +6083,16 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 9
+          "rank": 10
         }
       },
       "general": {
         "total": 7,
-        "rank": 17
+        "rank": 18
       }
     },
     {
-      "id": 95,
+      "id": 101,
       "name": "FAJS Marko",
       "license": "10173745774",
       "club": "ŠD BAM.BI",
@@ -5614,16 +6120,16 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 10
+          "rank": 11
         }
       },
       "general": {
         "total": 6,
-        "rank": 18
+        "rank": 19
       }
     },
     {
-      "id": 96,
+      "id": 102,
       "name": "PODBERŠIČ Matija",
       "license": "10129970078",
       "club": "KD BRDA DOBROVO",
@@ -5651,7 +6157,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 11
+          "rank": 12
         },
         "tt": {
           "scores": [
@@ -5676,11 +6182,11 @@
       },
       "general": {
         "total": 12,
-        "rank": 12
+        "rank": 13
       }
     },
     {
-      "id": 97,
+      "id": 103,
       "name": "MAGDIČ Liam",
       "license": "10162268553",
       "club": "KD Knežjega mesta Celje",
@@ -5708,7 +6214,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 12
+          "rank": 13
         },
         "tt": {
           "scores": [
@@ -5733,11 +6239,11 @@
       },
       "general": {
         "total": 8,
-        "rank": 16
+        "rank": 17
       }
     },
     {
-      "id": 98,
+      "id": 104,
       "name": "VOLK Peter",
       "license": "10117948344",
       "club": "KD OBALA",
@@ -5746,7 +6252,7 @@
         "road": {
           "scores": [
             30,
-            0,
+            30,
             0,
             0,
             0,
@@ -5756,14 +6262,16 @@
             0,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 60,
+          "bestOfTotal": 60,
+          "bestOfGeneralTotal": 60,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 1
         },
@@ -5789,12 +6297,12 @@
         }
       },
       "general": {
-        "total": 51,
+        "total": 81,
         "rank": 2
       }
     },
     {
-      "id": 99,
+      "id": 105,
       "name": "TERNAR Tadej",
       "license": "10162071220",
       "club": "ŠD BAM.BI",
@@ -5803,7 +6311,7 @@
         "road": {
           "scores": [
             25,
-            0,
+            25,
             0,
             0,
             0,
@@ -5813,14 +6321,16 @@
             0,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 50,
+          "bestOfTotal": 50,
+          "bestOfGeneralTotal": 50,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 2
         },
@@ -5846,12 +6356,12 @@
         }
       },
       "general": {
-        "total": 38,
-        "rank": 5
+        "total": 63,
+        "rank": 4
       }
     },
     {
-      "id": 100,
+      "id": 106,
       "name": "PAJEK Rok",
       "license": "10017646001",
       "club": "JB TEAM NOVO MESTO",
@@ -5860,42 +6370,6 @@
         "road": {
           "scores": [
             18,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 4
-        }
-      },
-      "general": {
-        "total": 18,
-        "rank": 6
-      }
-    },
-    {
-      "id": 101,
-      "name": "ŠKAMLEC Jernej",
-      "license": "10162651095",
-      "club": "Arcont Selce",
-      "category": "Master A",
-      "disciplines": {
-        "road": {
-          "scores": [
             15,
             0,
             0,
@@ -5904,28 +6378,107 @@
             0,
             0,
             0,
-            0,
             0
           ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
+          "total": 33,
+          "bestOfTotal": 33,
+          "bestOfGeneralTotal": 33,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
-          "rank": 5
+          "rank": 3
         }
       },
       "general": {
-        "total": 15,
-        "rank": 9
+        "total": 33,
+        "rank": 6
       }
     },
     {
-      "id": 102,
+      "id": 107,
+      "name": "ŠKAMLEC Jernej",
+      "license": "10162651095",
+      "club": "Arcont Selce",
+      "category": "Master A",
+      "disciplines": {
+        "road": {
+          "scores": [
+            15,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 33,
+          "bestOfTotal": 33,
+          "bestOfGeneralTotal": 33,
+          "bestOfIndices": [
+            1,
+            0
+          ],
+          "bestOfGeneralIndices": [
+            1,
+            0
+          ],
+          "rank": 3
+        }
+      },
+      "general": {
+        "total": 33,
+        "rank": 6
+      }
+    },
+    {
+      "id": 108,
+      "name": "MERCINA Matej",
+      "license": "",
+      "club": "JB TEAM NOVO MESTO",
+      "category": "Master A",
+      "disciplines": {
+        "road": {
+          "scores": [
+            11,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 20,
+          "bestOfTotal": 20,
+          "bestOfGeneralTotal": 20,
+          "bestOfIndices": [
+            0,
+            1
+          ],
+          "bestOfGeneralIndices": [
+            0,
+            1
+          ],
+          "rank": 7
+        }
+      },
+      "general": {
+        "total": 20,
+        "rank": 8
+      }
+    },
+    {
+      "id": 109,
       "name": "KOMAC Anže",
       "license": "10152798020",
       "club": "Virtuslo 4Endurance",
@@ -5953,53 +6506,16 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 6
+          "rank": 8
         }
       },
       "general": {
         "total": 13,
-        "rank": 11
+        "rank": 12
       }
     },
     {
-      "id": 103,
-      "name": "MERCINA Matej",
-      "license": "",
-      "club": "JB TEAM NOVO MESTO",
-      "category": "Master A",
-      "disciplines": {
-        "road": {
-          "scores": [
-            11,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 11,
-          "bestOfTotal": 11,
-          "bestOfGeneralTotal": 11,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 7
-        }
-      },
-      "general": {
-        "total": 11,
-        "rank": 13
-      }
-    },
-    {
-      "id": 104,
+      "id": 110,
       "name": "SPONZA Mattia",
       "license": "10127651980",
       "club": "KD OBALA",
@@ -6027,7 +6543,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 8
+          "rank": 10
         }
       },
       "general": {
@@ -6036,7 +6552,7 @@
       }
     },
     {
-      "id": 105,
+      "id": 111,
       "name": "MIKAC Patrik",
       "license": "10139919450",
       "club": "TUŠ T.E.A.M.",
@@ -6045,7 +6561,7 @@
         "road": {
           "scores": [
             30,
-            0,
+            25,
             0,
             0,
             0,
@@ -6055,14 +6571,16 @@
             0,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 55,
+          "bestOfTotal": 55,
+          "bestOfGeneralTotal": 55,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 1
         },
@@ -6088,12 +6606,149 @@
         }
       },
       "general": {
-        "total": 60,
+        "total": 85,
         "rank": 1
       }
     },
     {
-      "id": 106,
+      "id": 112,
+      "name": "JURKOVŠEK Rok",
+      "license": "10162394451",
+      "club": "Virtuslo 4Endurance",
+      "category": "Master B",
+      "disciplines": {
+        "road": {
+          "scores": [
+            21,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 51,
+          "bestOfTotal": 51,
+          "bestOfGeneralTotal": 51,
+          "bestOfIndices": [
+            1,
+            0
+          ],
+          "bestOfGeneralIndices": [
+            1,
+            0
+          ],
+          "rank": 2
+        },
+        "tt": {
+          "scores": [
+            0,
+            15,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 15,
+          "bestOfTotal": 15,
+          "bestOfGeneralTotal": 15,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 5
+        }
+      },
+      "general": {
+        "total": 66,
+        "rank": 2
+      }
+    },
+    {
+      "id": 113,
+      "name": "POGAČAR Jani",
+      "license": "10174259066",
+      "club": "KK DOLENJSKA BALANCA",
+      "category": "Master B",
+      "disciplines": {
+        "road": {
+          "scores": [
+            18,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 36,
+          "bestOfTotal": 36,
+          "bestOfGeneralTotal": 36,
+          "bestOfIndices": [
+            0,
+            1
+          ],
+          "bestOfGeneralIndices": [
+            0,
+            1
+          ],
+          "rank": 3
+        }
+      },
+      "general": {
+        "total": 36,
+        "rank": 4
+      }
+    },
+    {
+      "id": 114,
+      "name": "SIRNIK Blaž",
+      "license": "10012024546",
+      "club": "ŠD BAM.BI",
+      "category": "Master B",
+      "disciplines": {
+        "road": {
+          "scores": [
+            11,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 26,
+          "bestOfTotal": 26,
+          "bestOfGeneralTotal": 26,
+          "bestOfIndices": [
+            1,
+            0
+          ],
+          "bestOfGeneralIndices": [
+            1,
+            0
+          ],
+          "rank": 4
+        }
+      },
+      "general": {
+        "total": 26,
+        "rank": 7
+      }
+    },
+    {
+      "id": 115,
       "name": "JESIH Martin",
       "license": "10006988428",
       "club": "B.V.G. GULČ",
@@ -6121,25 +6776,25 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 2
+          "rank": 5
         }
       },
       "general": {
         "total": 25,
-        "rank": 6
+        "rank": 9
       }
     },
     {
-      "id": 107,
-      "name": "JURKOVŠEK Rok",
-      "license": "10162394451",
-      "club": "Virtuslo 4Endurance",
+      "id": 116,
+      "name": "BREGANT Jernej",
+      "license": "10174065571",
+      "club": "KK DOLENJSKA BALANCA",
       "category": "Master B",
       "disciplines": {
         "road": {
           "scores": [
-            21,
             0,
+            21,
             0,
             0,
             0,
@@ -6153,78 +6808,41 @@
           "bestOfTotal": 21,
           "bestOfGeneralTotal": 21,
           "bestOfIndices": [
-            0
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            1
           ],
-          "rank": 3
+          "rank": 6
         },
         "tt": {
           "scores": [
             0,
-            15,
+            13,
             0,
             0,
             0,
             0
           ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
+          "total": 13,
+          "bestOfTotal": 13,
+          "bestOfGeneralTotal": 13,
           "bestOfIndices": [
             1
           ],
           "bestOfGeneralIndices": [
             1
           ],
-          "rank": 5
+          "rank": 6
         }
       },
       "general": {
-        "total": 36,
-        "rank": 3
+        "total": 34,
+        "rank": 5
       }
     },
     {
-      "id": 108,
-      "name": "POGAČAR Jani",
-      "license": "10174259066",
-      "club": "KK DOLENJSKA BALANCA",
-      "category": "Master B",
-      "disciplines": {
-        "road": {
-          "scores": [
-            18,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 4
-        }
-      },
-      "general": {
-        "total": 18,
-        "rank": 10
-      }
-    },
-    {
-      "id": 109,
+      "id": 117,
       "name": "STIBILJ Nejc",
       "license": "10150556714",
       "club": "KD OBALA",
@@ -6252,25 +6870,25 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 6
+          "rank": 8
         }
       },
       "general": {
         "total": 13,
-        "rank": 13
+        "rank": 15
       }
     },
     {
-      "id": 110,
-      "name": "SIRNIK Blaž",
-      "license": "10012024546",
-      "club": "ŠD BAM.BI",
-      "category": "Master B",
+      "id": 118,
+      "name": "GRUŠOVNIK Matjaž",
+      "license": "10051616411",
+      "club": "Arcont Selce",
+      "category": "Master C",
       "disciplines": {
         "road": {
           "scores": [
-            11,
-            0,
+            18,
+            25,
             0,
             0,
             0,
@@ -6280,25 +6898,86 @@
             0,
             0
           ],
-          "total": 11,
-          "bestOfTotal": 11,
-          "bestOfGeneralTotal": 11,
+          "total": 43,
+          "bestOfTotal": 43,
+          "bestOfGeneralTotal": 43,
           "bestOfIndices": [
+            1,
             0
           ],
           "bestOfGeneralIndices": [
+            1,
             0
           ],
-          "rank": 7
+          "rank": 2
         }
       },
       "general": {
-        "total": 11,
-        "rank": 16
+        "total": 43,
+        "rank": 5
       }
     },
     {
-      "id": 111,
+      "id": 119,
+      "name": "PERVANJE Boštjan",
+      "license": "10138640969",
+      "club": "B.V.G. GULČ",
+      "category": "Master C",
+      "disciplines": {
+        "road": {
+          "scores": [
+            21,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 39,
+          "bestOfTotal": 39,
+          "bestOfGeneralTotal": 39,
+          "bestOfIndices": [
+            0,
+            1
+          ],
+          "bestOfGeneralIndices": [
+            0,
+            1
+          ],
+          "rank": 3
+        },
+        "tt": {
+          "scores": [
+            0,
+            21,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 3
+        }
+      },
+      "general": {
+        "total": 60,
+        "rank": 2
+      }
+    },
+    {
+      "id": 120,
       "name": "TIRŠEK Anton",
       "license": "10151754157",
       "club": "KOŠTRUNI",
@@ -6326,7 +7005,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 1
+          "rank": 4
         },
         "tt": {
           "scores": [
@@ -6355,40 +7034,20 @@
       }
     },
     {
-      "id": 112,
-      "name": "PERVANJE Boštjan",
-      "license": "10138640969",
-      "club": "B.V.G. GULČ",
+      "id": 121,
+      "name": "KALIŠNIK Tomaž",
+      "license": "",
+      "club": "KD MENGEŠ",
       "category": "Master C",
       "disciplines": {
         "road": {
           "scores": [
-            21,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 3
-        },
-        "tt": {
-          "scores": [
             0,
             21,
+            0,
+            0,
+            0,
+            0,
             0,
             0,
             0,
@@ -6403,53 +7062,16 @@
           "bestOfGeneralIndices": [
             1
           ],
-          "rank": 3
+          "rank": 5
         }
       },
       "general": {
-        "total": 42,
-        "rank": 4
+        "total": 21,
+        "rank": 9
       }
     },
     {
-      "id": 113,
-      "name": "GRUŠOVNIK Matjaž",
-      "license": "10051616411",
-      "club": "Arcont Selce",
-      "category": "Master C",
-      "disciplines": {
-        "road": {
-          "scores": [
-            18,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 4
-        }
-      },
-      "general": {
-        "total": 18,
-        "rank": 6
-      }
-    },
-    {
-      "id": 114,
+      "id": 122,
       "name": "ŽALIG Iztok",
       "license": "10151903600",
       "club": "KK TROPOVCI",
@@ -6477,16 +7099,110 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 5
+          "rank": 6
         }
       },
       "general": {
         "total": 15,
-        "rank": 8
+        "rank": 11
       }
     },
     {
-      "id": 115,
+      "id": 123,
+      "name": "BERGANT Rok",
+      "license": "10060377935",
+      "club": "KK Postojna",
+      "category": "Master C",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 15,
+          "bestOfTotal": 15,
+          "bestOfGeneralTotal": 15,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 6
+        },
+        "tt": {
+          "scores": [
+            0,
+            15,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 15,
+          "bestOfTotal": 15,
+          "bestOfGeneralTotal": 15,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 5
+        }
+      },
+      "general": {
+        "total": 30,
+        "rank": 6
+      }
+    },
+    {
+      "id": 124,
+      "name": "KRAJNC Danijel",
+      "license": "2025TZS078",
+      "club": "Team Granfondo Slovenija",
+      "category": "Master C",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 11,
+          "bestOfTotal": 11,
+          "bestOfGeneralTotal": 11,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 9
+        }
+      },
+      "general": {
+        "total": 11,
+        "rank": 14
+      }
+    },
+    {
+      "id": 125,
       "name": "PRESEN Dejan",
       "license": "101 409 795 78",
       "club": "Virtuslo 4Endurance",
@@ -6495,7 +7211,7 @@
         "road": {
           "scores": [
             25,
-            0,
+            30,
             0,
             0,
             0,
@@ -6505,25 +7221,125 @@
             0,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 55,
+          "bestOfTotal": 55,
+          "bestOfGeneralTotal": 55,
           "bestOfIndices": [
+            1,
             0
           ],
           "bestOfGeneralIndices": [
+            1,
             0
           ],
-          "rank": 2
+          "rank": 1
         }
       },
       "general": {
-        "total": 25,
+        "total": 55,
+        "rank": 3
+      }
+    },
+    {
+      "id": 126,
+      "name": "PENKO Peter",
+      "license": "10120696171",
+      "club": "KD BRDA DOBROVO",
+      "category": "Master D",
+      "disciplines": {
+        "road": {
+          "scores": [
+            18,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 36,
+          "bestOfTotal": 36,
+          "bestOfGeneralTotal": 36,
+          "bestOfIndices": [
+            0,
+            1
+          ],
+          "bestOfGeneralIndices": [
+            0,
+            1
+          ],
+          "rank": 3
+        },
+        "tt": {
+          "scores": [
+            0,
+            7,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 7,
+          "bestOfTotal": 7,
+          "bestOfGeneralTotal": 7,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 9
+        }
+      },
+      "general": {
+        "total": 43,
+        "rank": 4
+      }
+    },
+    {
+      "id": 127,
+      "name": "JUVANČIČ Gregor",
+      "license": "10017640846",
+      "club": "ŠD BAM.BI",
+      "category": "Master D",
+      "disciplines": {
+        "road": {
+          "scores": [
+            15,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 36,
+          "bestOfTotal": 36,
+          "bestOfGeneralTotal": 36,
+          "bestOfIndices": [
+            1,
+            0
+          ],
+          "bestOfGeneralIndices": [
+            1,
+            0
+          ],
+          "rank": 3
+        }
+      },
+      "general": {
+        "total": 36,
         "rank": 5
       }
     },
     {
-      "id": 116,
+      "id": 128,
       "name": "NERAD Primož",
       "license": "10172043022",
       "club": "ŠD Metek",
@@ -6551,110 +7367,16 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 3
-        }
-      },
-      "general": {
-        "total": 21,
-        "rank": 9
-      }
-    },
-    {
-      "id": 117,
-      "name": "PENKO Peter",
-      "license": "10120696171",
-      "club": "KD BRDA DOBROVO",
-      "category": "Master D",
-      "disciplines": {
-        "road": {
-          "scores": [
-            18,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 4
-        },
-        "tt": {
-          "scores": [
-            0,
-            7,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 7,
-          "bestOfTotal": 7,
-          "bestOfGeneralTotal": 7,
-          "bestOfIndices": [
-            1
-          ],
-          "bestOfGeneralIndices": [
-            1
-          ],
-          "rank": 9
-        }
-      },
-      "general": {
-        "total": 25,
-        "rank": 5
-      }
-    },
-    {
-      "id": 118,
-      "name": "JUVANČIČ Gregor",
-      "license": "10017640846",
-      "club": "ŠD BAM.BI",
-      "category": "Master D",
-      "disciplines": {
-        "road": {
-          "scores": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
           "rank": 5
         }
       },
       "general": {
-        "total": 15,
-        "rank": 13
+        "total": 21,
+        "rank": 10
       }
     },
     {
-      "id": 119,
+      "id": 129,
       "name": "HREN Aleš",
       "license": "10017617709",
       "club": "ŠD POLJANE",
@@ -6663,7 +7385,7 @@
         "road": {
           "scores": [
             30,
-            0,
+            30,
             0,
             0,
             0,
@@ -6673,14 +7395,16 @@
             0,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 60,
+          "bestOfTotal": 60,
+          "bestOfGeneralTotal": 60,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 1
         },
@@ -6706,12 +7430,126 @@
         }
       },
       "general": {
-        "total": 60,
-        "rank": 2
+        "total": 90,
+        "rank": 1
       }
     },
     {
-      "id": 120,
+      "id": 130,
+      "name": "PREŠEREN Jani",
+      "license": "10017553748",
+      "club": "Team BTS Company",
+      "category": "Master E",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 25,
+          "bestOfTotal": 25,
+          "bestOfGeneralTotal": 25,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 3
+        },
+        "tt": {
+          "scores": [
+            0,
+            25,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 25,
+          "bestOfTotal": 25,
+          "bestOfGeneralTotal": 25,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 2
+        }
+      },
+      "general": {
+        "total": 50,
+        "rank": 4
+      }
+    },
+    {
+      "id": 131,
+      "name": "DOLENC Andrej",
+      "license": "10118710095",
+      "club": "POLYCOM RACING TEAM",
+      "category": "Master E",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 5
+        },
+        "tt": {
+          "scores": [
+            0,
+            21,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 3
+        }
+      },
+      "general": {
+        "total": 42,
+        "rank": 6
+      }
+    },
+    {
+      "id": 132,
       "name": "BANFI Danilo",
       "license": "10158833036",
       "club": "KK TROPOVCI",
@@ -6739,7 +7577,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 4
+          "rank": 6
         }
       },
       "general": {
@@ -6748,7 +7586,7 @@
       }
     },
     {
-      "id": 121,
+      "id": 133,
       "name": "ISKRA Tomislav",
       "license": "10017555566",
       "club": "KD BRDA DOBROVO",
@@ -6776,7 +7614,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 1
+          "rank": 3
         },
         "tt": {
           "scores": [
@@ -6801,11 +7639,181 @@
       },
       "general": {
         "total": 55,
-        "rank": 2
+        "rank": 3
       }
     },
     {
-      "id": 122,
+      "id": 134,
+      "name": "KALAN Aleš",
+      "license": "10009612377",
+      "club": "ŠD BAM.BI",
+      "category": "Master F",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 3
+        }
+      },
+      "general": {
+        "total": 30,
+        "rank": 4
+      }
+    },
+    {
+      "id": 135,
+      "name": "PODGORNIK Bojan",
+      "license": "",
+      "club": "ŠD BAM.BI",
+      "category": "Master F",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 5
+        }
+      },
+      "general": {
+        "total": 21,
+        "rank": 7
+      }
+    },
+    {
+      "id": 136,
+      "name": "LOZEJ Istok",
+      "license": "10137603170",
+      "club": "IZVIR VIPAVA",
+      "category": "Master F",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 15,
+          "bestOfTotal": 15,
+          "bestOfGeneralTotal": 15,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 6
+        }
+      },
+      "general": {
+        "total": 15,
+        "rank": 9
+      }
+    },
+    {
+      "id": 137,
+      "name": "MESOJEDEC Matjaž",
+      "license": "10017633671",
+      "club": "ŠD TURBO M",
+      "category": "Master G",
+      "disciplines": {
+        "road": {
+          "scores": [
+            21,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 42,
+          "bestOfTotal": 42,
+          "bestOfGeneralTotal": 42,
+          "bestOfIndices": [
+            0,
+            1
+          ],
+          "bestOfGeneralIndices": [
+            0,
+            1
+          ],
+          "rank": 1
+        },
+        "tt": {
+          "scores": [
+            0,
+            7,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 7,
+          "bestOfTotal": 7,
+          "bestOfGeneralTotal": 7,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 9
+        }
+      },
+      "general": {
+        "total": 49,
+        "rank": 5
+      }
+    },
+    {
+      "id": 138,
       "name": "ČIBEJ Bruno",
       "license": "10017569613",
       "club": "IZVIR VIPAVA",
@@ -6814,7 +7822,7 @@
         "road": {
           "scores": [
             25,
-            0,
+            11,
             0,
             0,
             0,
@@ -6824,14 +7832,16 @@
             0,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 36,
+          "bestOfTotal": 36,
+          "bestOfGeneralTotal": 36,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 2
         },
@@ -6857,69 +7867,12 @@
         }
       },
       "general": {
-        "total": 40,
+        "total": 51,
         "rank": 4
       }
     },
     {
-      "id": 123,
-      "name": "MESOJEDEC Matjaž",
-      "license": "10017633671",
-      "club": "ŠD TURBO M",
-      "category": "Master G",
-      "disciplines": {
-        "road": {
-          "scores": [
-            21,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 3
-        },
-        "tt": {
-          "scores": [
-            0,
-            7,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 7,
-          "bestOfTotal": 7,
-          "bestOfGeneralTotal": 7,
-          "bestOfIndices": [
-            1
-          ],
-          "bestOfGeneralIndices": [
-            1
-          ],
-          "rank": 9
-        }
-      },
-      "general": {
-        "total": 28,
-        "rank": 8
-      }
-    },
-    {
-      "id": 124,
+      "id": 139,
       "name": "DEBEVC Marko",
       "license": "10161851756",
       "club": "ŠD BAM.BI",
@@ -6928,7 +7881,7 @@
         "road": {
           "scores": [
             18,
-            0,
+            18,
             0,
             0,
             0,
@@ -6938,16 +7891,18 @@
             0,
             0
           ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
+          "total": 36,
+          "bestOfTotal": 36,
+          "bestOfGeneralTotal": 36,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
-          "rank": 4
+          "rank": 2
         },
         "tt": {
           "scores": [
@@ -6971,12 +7926,143 @@
         }
       },
       "general": {
-        "total": 31,
-        "rank": 6
+        "total": 49,
+        "rank": 5
       }
     },
     {
-      "id": 125,
+      "id": 140,
+      "name": "MELANŠEK Iztok",
+      "license": "10001189848",
+      "club": "TUŠ T.E.A.M.",
+      "category": "Master G",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 4
+        }
+      },
+      "general": {
+        "total": 30,
+        "rank": 9
+      }
+    },
+    {
+      "id": 141,
+      "name": "LENARŠIČ Albin",
+      "license": "10088436904",
+      "club": "B.V.G. GULČ",
+      "category": "Master G",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 25,
+          "bestOfTotal": 25,
+          "bestOfGeneralTotal": 25,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 6
+        },
+        "tt": {
+          "scores": [
+            0,
+            30,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 1
+        }
+      },
+      "general": {
+        "total": 55,
+        "rank": 3
+      }
+    },
+    {
+      "id": 142,
+      "name": "KUTNAR Frančišek Brane",
+      "license": "10017635489",
+      "club": "ŠD BAM.BI",
+      "category": "Master G",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 15,
+          "bestOfTotal": 15,
+          "bestOfGeneralTotal": 15,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 7
+        }
+      },
+      "general": {
+        "total": 15,
+        "rank": 12
+      }
+    },
+    {
+      "id": 143,
       "name": "BAJEC Franc",
       "license": "10017569108",
       "club": "KK Postojna",
@@ -7004,7 +8090,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 7
+          "rank": 11
         },
         "tt": {
           "scores": [
@@ -7029,11 +8115,11 @@
       },
       "general": {
         "total": 17,
-        "rank": 10
+        "rank": 11
       }
     },
     {
-      "id": 126,
+      "id": 144,
       "name": "JUG Sergej",
       "license": "10017593457",
       "club": "KD BRDA DOBROVO",
@@ -7061,16 +8147,90 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 8
+          "rank": 12
         }
       },
       "general": {
         "total": 9,
-        "rank": 11
+        "rank": 13
       }
     },
     {
-      "id": 127,
+      "id": 145,
+      "name": "NOVAK Branko",
+      "license": "10017637917",
+      "club": "ŠD BAM.BI",
+      "category": "Master G",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 9,
+          "bestOfTotal": 9,
+          "bestOfGeneralTotal": 9,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 12
+        }
+      },
+      "general": {
+        "total": 9,
+        "rank": 13
+      }
+    },
+    {
+      "id": 146,
+      "name": "BAHAR Matjaž",
+      "license": "10150985231",
+      "club": "ŠD TURBO M",
+      "category": "Master G",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 7,
+          "bestOfTotal": 7,
+          "bestOfGeneralTotal": 7,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 14
+        }
+      },
+      "general": {
+        "total": 7,
+        "rank": 16
+      }
+    },
+    {
+      "id": 147,
       "name": "SKUBIC Borislav",
       "license": "10017632257",
       "club": "ŠKD SUPER POTENCIAL",
@@ -7079,7 +8239,7 @@
         "road": {
           "scores": [
             25,
-            0,
+            25,
             0,
             0,
             0,
@@ -7089,14 +8249,16 @@
             0,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 50,
+          "bestOfTotal": 50,
+          "bestOfGeneralTotal": 50,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 2
         },
@@ -7122,12 +8284,49 @@
         }
       },
       "general": {
-        "total": 46,
-        "rank": 4
+        "total": 71,
+        "rank": 3
       }
     },
     {
-      "id": 128,
+      "id": 148,
+      "name": "RUS Dušan",
+      "license": "10004543422",
+      "club": "KK RAVNE NA KOROŠKEM",
+      "category": "Master H",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 18,
+          "bestOfTotal": 18,
+          "bestOfGeneralTotal": 18,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 5
+        }
+      },
+      "general": {
+        "total": 18,
+        "rank": 9
+      }
+    },
+    {
+      "id": 149,
       "name": "GRIČAR Bruno",
       "license": "10163577043",
       "club": "KK DOLENJSKA BALANCA",
@@ -7155,7 +8354,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 5
+          "rank": 7
         },
         "tt": {
           "scores": [
@@ -7180,11 +8379,129 @@
       },
       "general": {
         "total": 28,
-        "rank": 5
+        "rank": 6
       }
     },
     {
-      "id": 129,
+      "id": 150,
+      "name": "GOLČMAN Andrej",
+      "license": "10052481832",
+      "club": "KK GORJE",
+      "category": "Master I",
+      "disciplines": {
+        "road": {
+          "scores": [
+            18,
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 43,
+          "bestOfTotal": 43,
+          "bestOfGeneralTotal": 43,
+          "bestOfIndices": [
+            1,
+            0
+          ],
+          "bestOfGeneralIndices": [
+            1,
+            0
+          ],
+          "rank": 2
+        },
+        "tt": {
+          "scores": [
+            0,
+            15,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 15,
+          "bestOfTotal": 15,
+          "bestOfGeneralTotal": 15,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 5
+        }
+      },
+      "general": {
+        "total": 58,
+        "rank": 4
+      }
+    },
+    {
+      "id": 151,
+      "name": "HABJAN Andrej",
+      "license": "10126390475",
+      "club": "ŠD Koloka",
+      "category": "Master I",
+      "disciplines": {
+        "road": {
+          "scores": [
+            15,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 33,
+          "bestOfTotal": 33,
+          "bestOfGeneralTotal": 33,
+          "bestOfIndices": [
+            1,
+            0
+          ],
+          "bestOfGeneralIndices": [
+            1,
+            0
+          ],
+          "rank": 3
+        },
+        "tt": {
+          "scores": [
+            0,
+            13,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 13,
+          "bestOfTotal": 13,
+          "bestOfGeneralTotal": 13,
+          "bestOfIndices": [
+            1
+          ],
+          "bestOfGeneralIndices": [
+            1
+          ],
+          "rank": 6
+        }
+      },
+      "general": {
+        "total": 46,
+        "rank": 6
+      }
+    },
+    {
+      "id": 152,
       "name": "KLEMENC Anton",
       "license": "",
       "club": "CALCIT BIKE TEAM",
@@ -7212,7 +8529,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 3
+          "rank": 6
         },
         "tt": {
           "scores": [
@@ -7237,125 +8554,11 @@
       },
       "general": {
         "total": 51,
-        "rank": 3
-      }
-    },
-    {
-      "id": 130,
-      "name": "GOLČMAN Andrej",
-      "license": "10052481832",
-      "club": "KK GORJE",
-      "category": "Master I",
-      "disciplines": {
-        "road": {
-          "scores": [
-            18,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 4
-        },
-        "tt": {
-          "scores": [
-            0,
-            15,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
-          "bestOfIndices": [
-            1
-          ],
-          "bestOfGeneralIndices": [
-            1
-          ],
-          "rank": 5
-        }
-      },
-      "general": {
-        "total": 33,
         "rank": 5
       }
     },
     {
-      "id": 131,
-      "name": "HABJAN Andrej",
-      "license": "10126390475",
-      "club": "ŠD Koloka",
-      "category": "Master I",
-      "disciplines": {
-        "road": {
-          "scores": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 5
-        },
-        "tt": {
-          "scores": [
-            0,
-            13,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 13,
-          "bestOfTotal": 13,
-          "bestOfGeneralTotal": 13,
-          "bestOfIndices": [
-            1
-          ],
-          "bestOfGeneralIndices": [
-            1
-          ],
-          "rank": 6
-        }
-      },
-      "general": {
-        "total": 28,
-        "rank": 7
-      }
-    },
-    {
-      "id": 132,
+      "id": 153,
       "name": "KASTELIC Ivan",
       "license": "10017553445",
       "club": "B.V.G. GULČ",
@@ -7364,7 +8567,7 @@
         "road": {
           "scores": [
             30,
-            0,
+            30,
             0,
             0,
             0,
@@ -7374,14 +8577,16 @@
             0,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 60,
+          "bestOfTotal": 60,
+          "bestOfGeneralTotal": 60,
           "bestOfIndices": [
-            0
+            0,
+            1
           ],
           "bestOfGeneralIndices": [
-            0
+            0,
+            1
           ],
           "rank": 1
         },
@@ -7407,12 +8612,12 @@
         }
       },
       "general": {
-        "total": 55,
+        "total": 85,
         "rank": 1
       }
     },
     {
-      "id": 133,
+      "id": 154,
       "name": "CIGOJ Zorko",
       "license": "10017551930",
       "club": "KD BRDA DOBROVO",
@@ -7440,7 +8645,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 2
+          "rank": 3
         },
         "tt": {
           "scores": [
@@ -7465,11 +8670,11 @@
       },
       "general": {
         "total": 55,
-        "rank": 1
+        "rank": 3
       }
     },
     {
-      "id": 134,
+      "id": 155,
       "name": "MIHOVILOVIĆ Ivan",
       "license": "10017569411",
       "club": "IZVIR VIPAVA",
@@ -7497,7 +8702,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 3
+          "rank": 5
         },
         "tt": {
           "scores": [
@@ -7522,11 +8727,11 @@
       },
       "general": {
         "total": 39,
-        "rank": 4
+        "rank": 6
       }
     },
     {
-      "id": 135,
+      "id": 156,
       "name": "SAKSIDA Marko",
       "license": "10017551627",
       "club": "KD BRDA DOBROVO",
@@ -7554,7 +8759,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 5
+          "rank": 7
         }
       },
       "general": {
@@ -7563,40 +8768,7 @@
       }
     },
     {
-      "id": 136,
-      "name": "KLINAR Tina",
-      "license": "10149490219",
-      "club": "Virtuslo 4Endurance",
-      "category": "Ženske A",
-      "disciplines": {
-        "tt": {
-          "scores": [
-            0,
-            25,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
-          "bestOfIndices": [
-            1
-          ],
-          "bestOfGeneralIndices": [
-            1
-          ],
-          "rank": 2
-        }
-      },
-      "general": {
-        "total": 25,
-        "rank": 3
-      }
-    },
-    {
-      "id": 137,
+      "id": 157,
       "name": "MEŠKO Matejka",
       "license": "10082919624",
       "club": "KD SLOVENSKE SPECIALKARKE",
@@ -7629,7 +8801,7 @@
       }
     },
     {
-      "id": 138,
+      "id": 158,
       "name": "BEČ Barbara",
       "license": "10159169405",
       "club": "mebloJOGI - PRO CONCRETE",
@@ -7662,7 +8834,7 @@
       }
     },
     {
-      "id": 139,
+      "id": 159,
       "name": "POLJANC Miha",
       "license": "10141819034",
       "club": "Virtuslo 4Endurance",
@@ -7691,11 +8863,11 @@
       },
       "general": {
         "total": 11,
-        "rank": 13
+        "rank": 14
       }
     },
     {
-      "id": 140,
+      "id": 160,
       "name": "ŽGAJNAR Miha",
       "license": "10162677670",
       "club": "B.V.G. GULČ",
@@ -7724,11 +8896,11 @@
       },
       "general": {
         "total": 6,
-        "rank": 18
+        "rank": 19
       }
     },
     {
-      "id": 141,
+      "id": 161,
       "name": "ARKO Jan",
       "license": "",
       "club": "Team Granfondo Slovenija",
@@ -7757,11 +8929,11 @@
       },
       "general": {
         "total": 18,
-        "rank": 6
+        "rank": 9
       }
     },
     {
-      "id": 142,
+      "id": 162,
       "name": "KODRIČ Nejc",
       "license": "10164642629",
       "club": "Virtuslo 4Endurance",
@@ -7790,11 +8962,11 @@
       },
       "general": {
         "total": 11,
-        "rank": 13
+        "rank": 14
       }
     },
     {
-      "id": 143,
+      "id": 163,
       "name": "BAHČ Anže",
       "license": "10140434762",
       "club": "Virtuslo 4Endurance",
@@ -7823,11 +8995,11 @@
       },
       "general": {
         "total": 25,
-        "rank": 6
+        "rank": 9
       }
     },
     {
-      "id": 144,
+      "id": 164,
       "name": "KOROŠEC Robert",
       "license": "10141365255",
       "club": "Team BTS Company",
@@ -7856,11 +9028,11 @@
       },
       "general": {
         "total": 21,
-        "rank": 9
+        "rank": 12
       }
     },
     {
-      "id": 145,
+      "id": 165,
       "name": "ZAVRL Jan",
       "license": "10140433752",
       "club": "Virtuslo 4Endurance",
@@ -7889,44 +9061,11 @@
       },
       "general": {
         "total": 18,
-        "rank": 10
-      }
-    },
-    {
-      "id": 146,
-      "name": "BREGANT Jernej",
-      "license": "10174065571",
-      "club": "KK DOLENJSKA BALANCA",
-      "category": "Master B",
-      "disciplines": {
-        "tt": {
-          "scores": [
-            0,
-            13,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 13,
-          "bestOfTotal": 13,
-          "bestOfGeneralTotal": 13,
-          "bestOfIndices": [
-            1
-          ],
-          "bestOfGeneralIndices": [
-            1
-          ],
-          "rank": 6
-        }
-      },
-      "general": {
-        "total": 13,
         "rank": 13
       }
     },
     {
-      "id": 147,
+      "id": 166,
       "name": "KOGOVŠEK Leon",
       "license": "10148502839",
       "club": "Virtuslo 4Endurance",
@@ -7959,7 +9098,7 @@
       }
     },
     {
-      "id": 148,
+      "id": 167,
       "name": "KUNAVER Tom",
       "license": "10058893734",
       "club": "KD ALPE SiS",
@@ -7992,40 +9131,7 @@
       }
     },
     {
-      "id": 149,
-      "name": "BERGANT Rok",
-      "license": "10060377935",
-      "club": "KK Postojna",
-      "category": "Master C",
-      "disciplines": {
-        "tt": {
-          "scores": [
-            0,
-            15,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
-          "bestOfIndices": [
-            1
-          ],
-          "bestOfGeneralIndices": [
-            1
-          ],
-          "rank": 5
-        }
-      },
-      "general": {
-        "total": 15,
-        "rank": 8
-      }
-    },
-    {
-      "id": 150,
+      "id": 168,
       "name": "NEDOH Miha",
       "license": "10115590537",
       "club": "KK PANTAL",
@@ -8054,11 +9160,11 @@
       },
       "general": {
         "total": 13,
-        "rank": 11
+        "rank": 13
       }
     },
     {
-      "id": 151,
+      "id": 169,
       "name": "STIBILJ Jernej",
       "license": "10017587090",
       "club": "ŠD TURBO M",
@@ -8087,11 +9193,11 @@
       },
       "general": {
         "total": 25,
-        "rank": 5
+        "rank": 8
       }
     },
     {
-      "id": 152,
+      "id": 170,
       "name": "KITEK Sašo",
       "license": "10017628015",
       "club": "KK Pocinkovalnica Celje",
@@ -8120,11 +9226,11 @@
       },
       "general": {
         "total": 21,
-        "rank": 9
+        "rank": 10
       }
     },
     {
-      "id": 153,
+      "id": 171,
       "name": "PRAZNIK Boris",
       "license": "10017645900",
       "club": "Team 82",
@@ -8153,77 +9259,11 @@
       },
       "general": {
         "total": 15,
-        "rank": 13
+        "rank": 14
       }
     },
     {
-      "id": 154,
-      "name": "PREŠEREN Jani",
-      "license": "10017553748",
-      "club": "Team BTS Company",
-      "category": "Master E",
-      "disciplines": {
-        "tt": {
-          "scores": [
-            0,
-            25,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
-          "bestOfIndices": [
-            1
-          ],
-          "bestOfGeneralIndices": [
-            1
-          ],
-          "rank": 2
-        }
-      },
-      "general": {
-        "total": 25,
-        "rank": 4
-      }
-    },
-    {
-      "id": 155,
-      "name": "DOLENC Andrej",
-      "license": "10118710095",
-      "club": "POLYCOM RACING TEAM",
-      "category": "Master E",
-      "disciplines": {
-        "tt": {
-          "scores": [
-            0,
-            21,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
-          "bestOfIndices": [
-            1
-          ],
-          "bestOfGeneralIndices": [
-            1
-          ],
-          "rank": 3
-        }
-      },
-      "general": {
-        "total": 21,
-        "rank": 6
-      }
-    },
-    {
-      "id": 156,
+      "id": 172,
       "name": "LOZEJ Istok",
       "license": "10137603170",
       "club": "IZVIR VIPAVA",
@@ -8256,40 +9296,7 @@
       }
     },
     {
-      "id": 157,
-      "name": "LENARŠIČ Albin",
-      "license": "10088436904",
-      "club": "B.V.G. GULČ",
-      "category": "Master G",
-      "disciplines": {
-        "tt": {
-          "scores": [
-            0,
-            30,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
-          "bestOfIndices": [
-            1
-          ],
-          "bestOfGeneralIndices": [
-            1
-          ],
-          "rank": 1
-        }
-      },
-      "general": {
-        "total": 30,
-        "rank": 7
-      }
-    },
-    {
-      "id": 158,
+      "id": 173,
       "name": "PRPAR Vlado",
       "license": "10017577693",
       "club": "TUŠ T.E.A.M.",
@@ -8318,11 +9325,11 @@
       },
       "general": {
         "total": 18,
-        "rank": 9
+        "rank": 10
       }
     },
     {
-      "id": 159,
+      "id": 174,
       "name": "BOGATAJ Igor",
       "license": "10017592548",
       "club": "KD ROG",
@@ -8351,11 +9358,11 @@
       },
       "general": {
         "total": 9,
-        "rank": 11
+        "rank": 13
       }
     },
     {
-      "id": 160,
+      "id": 175,
       "name": "BOKALIČ Marko",
       "license": "10102477349",
       "club": "B.V.G. GULČ",
@@ -8388,7 +9395,7 @@
       }
     },
     {
-      "id": 161,
+      "id": 176,
       "name": "ČUDEN Marjan",
       "license": "10017553243",
       "club": "Team BTS Company",
@@ -8417,11 +9424,11 @@
       },
       "general": {
         "total": 11,
-        "rank": 10
+        "rank": 11
       }
     },
     {
-      "id": 162,
+      "id": 177,
       "name": "POPOVIČ Ivan",
       "license": "10017553647",
       "club": "B.V.G. GULČ",
@@ -8454,7 +9461,7 @@
       }
     },
     {
-      "id": 163,
+      "id": 178,
       "name": "RAVBAR Rudi",
       "license": "10088450139",
       "club": "KD SPRINT",
@@ -8487,7 +9494,7 @@
       }
     },
     {
-      "id": 164,
+      "id": 179,
       "name": "OTONIČAR Janez",
       "license": "10017568401",
       "club": "KK Postojna",
@@ -8523,15 +9530,15 @@
   "clubs": [
     {
       "name": "ŠD BAM.BI",
-      "total": 941,
-      "riderCount": 27,
+      "total": 1494,
+      "riderCount": 36,
       "raceScores": [
         0,
         179,
         330,
         0,
-        432,
-        0,
+        445,
+        540,
         0,
         0,
         0,
@@ -8562,52 +9569,82 @@
         {
           "name": "CEGLAR Vida",
           "category": "Ženske D",
-          "total": 76
-        },
-        {
-          "name": "SEKNE Gal",
-          "category": "Master A",
-          "total": 76
+          "total": 94
         },
         {
           "name": "ŠVAB Anže",
           "category": "Master C",
-          "total": 64
+          "total": 94
         },
         {
-          "name": "VERČIČ Uroš",
-          "category": "Master E",
-          "total": 57
-        },
-        {
-          "name": "REVEN Dare",
-          "category": "Master H",
-          "total": 57
-        },
-        {
-          "name": "ANŽEL Jožefa",
-          "category": "Ženske D",
-          "total": 54
+          "name": "SEKNE Gal",
+          "category": "Master A",
+          "total": 87
         },
         {
           "name": "ŠVAB Lilijana",
           "category": "Ženske D",
-          "total": 48
+          "total": 78
         },
         {
-          "name": "BOGATAJ Janez",
-          "category": "Master G",
-          "total": 46
+          "name": "REVEN Dare",
+          "category": "Master H",
+          "total": 78
+        },
+        {
+          "name": "VERČIČ Uroš",
+          "category": "Master E",
+          "total": 72
+        },
+        {
+          "name": "ANŽEL Jožefa",
+          "category": "Ženske D",
+          "total": 69
+        },
+        {
+          "name": "GREGORC Gašper",
+          "category": "Amaterji",
+          "total": 66
         },
         {
           "name": "STROJIN ROBERT",
           "category": "Master F",
-          "total": 40
+          "total": 65
         },
         {
           "name": "TERNAR Tadej",
           "category": "Master A",
-          "total": 38
+          "total": 63
+        },
+        {
+          "name": "BOGATAJ Janez",
+          "category": "Master G",
+          "total": 59
+        },
+        {
+          "name": "KOŽELJ Franci",
+          "category": "Master J",
+          "total": 50
+        },
+        {
+          "name": "DEBEVC Marko",
+          "category": "Master G",
+          "total": 49
+        },
+        {
+          "name": "HAFNER Franc",
+          "category": "Master J",
+          "total": 48
+        },
+        {
+          "name": "ŠVAB Vinko",
+          "category": "Master H",
+          "total": 41
+        },
+        {
+          "name": "ZUPANC Sabina",
+          "category": "Ženske B",
+          "total": 39
         },
         {
           "name": "BOLKA Špela",
@@ -8615,14 +9652,9 @@
           "total": 36
         },
         {
-          "name": "GREGORC Gašper",
-          "category": "Amaterji",
+          "name": "JUVANČIČ Gregor",
+          "category": "Master D",
           "total": 36
-        },
-        {
-          "name": "DEBEVC Marko",
-          "category": "Master G",
-          "total": 31
         },
         {
           "name": "ZAPLOTNIK Darja",
@@ -8635,8 +9667,13 @@
           "total": 30
         },
         {
-          "name": "HAFNER Franc",
-          "category": "Master J",
+          "name": "ZUPANC Maja",
+          "category": "Ženske A",
+          "total": 30
+        },
+        {
+          "name": "KALAN Aleš",
+          "category": "Master F",
           "total": 30
         },
         {
@@ -8645,8 +9682,13 @@
           "total": 26
         },
         {
-          "name": "ŠVAB Vinko",
-          "category": "Master H",
+          "name": "ŠALKOVIĆ Igor",
+          "category": "Master C",
+          "total": 26
+        },
+        {
+          "name": "SIRNIK Blaž",
+          "category": "Master B",
           "total": 26
         },
         {
@@ -8655,14 +9697,14 @@
           "total": 25
         },
         {
-          "name": "KOŽELJ Franci",
-          "category": "Master J",
+          "name": "PODGORNIK Barbara",
+          "category": "Ženske B",
           "total": 25
         },
         {
-          "name": "ZUPANC Sabina",
-          "category": "Ženske B",
-          "total": 18
+          "name": "PODGORNIK Bojan",
+          "category": "Master F",
+          "total": 21
         },
         {
           "name": "KNEZ Iztok",
@@ -8670,9 +9712,19 @@
           "total": 18
         },
         {
-          "name": "JUVANČIČ Gregor",
-          "category": "Master D",
+          "name": "ZALETEL Eva",
+          "category": "Ženske A",
+          "total": 18
+        },
+        {
+          "name": "KUTNAR Frančišek Brane",
+          "category": "Master G",
           "total": 15
+        },
+        {
+          "name": "RAZINGER Urban",
+          "category": "Amaterji",
+          "total": 13
         },
         {
           "name": "LUŽAR Slavko",
@@ -8685,9 +9737,9 @@
           "total": 11
         },
         {
-          "name": "SIRNIK Blaž",
-          "category": "Master B",
-          "total": 11
+          "name": "NOVAK Branko",
+          "category": "Master G",
+          "total": 9
         },
         {
           "name": "FAJS Marko",
@@ -8699,7 +9751,7 @@
     },
     {
       "name": "KD BRDA DOBROVO",
-      "total": 684,
+      "total": 768,
       "riderCount": 19,
       "raceScores": [
         0,
@@ -8707,7 +9759,7 @@
         259,
         0,
         243,
-        0,
+        84,
         0,
         0,
         0,
@@ -8736,19 +9788,19 @@
       ],
       "riders": [
         {
-          "name": "DANEVČIČ Marko",
-          "category": "Master G",
-          "total": 85
-        },
-        {
           "name": "RAKOŠ Dragan",
           "category": "Master I",
-          "total": 71
+          "total": 101
         },
         {
           "name": "RAKOŠ Ivica",
           "category": "Ženske D",
-          "total": 68
+          "total": 89
+        },
+        {
+          "name": "DANEVČIČ Marko",
+          "category": "Master G",
+          "total": 85
         },
         {
           "name": "ISKRA Tomislav",
@@ -8766,19 +9818,24 @@
           "total": 51
         },
         {
+          "name": "KIRIČ Avgust",
+          "category": "Master I",
+          "total": 46
+        },
+        {
           "name": "HVALA Oskar",
           "category": "Master G",
           "total": 44
         },
         {
+          "name": "PENKO Peter",
+          "category": "Master D",
+          "total": 43
+        },
+        {
           "name": "ŠKERLJ Igor",
           "category": "Master G",
           "total": 34
-        },
-        {
-          "name": "KIRIČ Avgust",
-          "category": "Master I",
-          "total": 31
         },
         {
           "name": "SKERLJ Ivanka",
@@ -8793,11 +9850,6 @@
         {
           "name": "GOLOB Hana",
           "category": "Ženske A",
-          "total": 25
-        },
-        {
-          "name": "PENKO Peter",
-          "category": "Master D",
           "total": 25
         },
         {
@@ -8834,92 +9886,16 @@
       "rank": 2
     },
     {
-      "name": "KK Pocinkovalnica Celje",
-      "total": 268,
-      "riderCount": 7,
-      "raceScores": [
-        0,
-        106,
-        21,
-        0,
-        141,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "ROŠKAR Zlatko",
-          "category": "Master F",
-          "total": 69
-        },
-        {
-          "name": "GLAMOČAK Tajda",
-          "category": "Ženske A",
-          "total": 60
-        },
-        {
-          "name": "PLANK Marko",
-          "category": "Master C",
-          "total": 55
-        },
-        {
-          "name": "JOŠT Barbara",
-          "category": "Ženske C",
-          "total": 25
-        },
-        {
-          "name": "MLAKER Boštjan",
-          "category": "Master C",
-          "total": 25
-        },
-        {
-          "name": "KITEK Sašo",
-          "category": "Master D",
-          "total": 21
-        },
-        {
-          "name": "JOŠT Mihael",
-          "category": "Master F",
-          "total": 13
-        }
-      ],
-      "rank": 3
-    },
-    {
       "name": "TUŠ T.E.A.M.",
-      "total": 253,
-      "riderCount": 5,
+      "total": 356,
+      "riderCount": 6,
       "raceScores": [
         0,
         108,
         60,
         0,
         85,
-        0,
+        103,
         0,
         0,
         0,
@@ -8950,7 +9926,12 @@
         {
           "name": "ŽAVBI Andrej",
           "category": "Master H",
-          "total": 90
+          "total": 120
+        },
+        {
+          "name": "MIKAC Patrik",
+          "category": "Master B",
+          "total": 85
         },
         {
           "name": "BRATUŠ Dean",
@@ -8958,14 +9939,14 @@
           "total": 60
         },
         {
-          "name": "MIKAC Patrik",
-          "category": "Master B",
-          "total": 60
-        },
-        {
           "name": "JELIĆ Borja",
           "category": "Master E",
-          "total": 25
+          "total": 43
+        },
+        {
+          "name": "MELANŠEK Iztok",
+          "category": "Master G",
+          "total": 30
         },
         {
           "name": "PRPAR Vlado",
@@ -8973,163 +9954,11 @@
           "total": 18
         }
       ],
-      "rank": 4
-    },
-    {
-      "name": "Team BTS Company",
-      "total": 220,
-      "riderCount": 6,
-      "raceScores": [
-        0,
-        130,
-        18,
-        0,
-        72,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "JOŠT Jaka",
-          "category": "Amaterji",
-          "total": 60
-        },
-        {
-          "name": "PREŠEREN Janez",
-          "category": "Master J",
-          "total": 52
-        },
-        {
-          "name": "EMERŠIČ Marko",
-          "category": "Master A",
-          "total": 51
-        },
-        {
-          "name": "PREŠEREN Jani",
-          "category": "Master E",
-          "total": 25
-        },
-        {
-          "name": "KOROŠEC Robert",
-          "category": "Master B",
-          "total": 21
-        },
-        {
-          "name": "ČUDEN Marjan",
-          "category": "Master H",
-          "total": 11
-        }
-      ],
-      "rank": 5
-    },
-    {
-      "name": "KD OBALA",
-      "total": 219,
-      "riderCount": 8,
-      "raceScores": [
-        0,
-        40,
-        97,
-        0,
-        82,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "VOLK Peter",
-          "category": "Master A",
-          "total": 51
-        },
-        {
-          "name": "JAMBROŠIČ Nik",
-          "category": "Amaterji",
-          "total": 43
-        },
-        {
-          "name": "ČRNE Mitja",
-          "category": "Master B",
-          "total": 42
-        },
-        {
-          "name": "PUGELJ Špela",
-          "category": "Ženske A",
-          "total": 25
-        },
-        {
-          "name": "KASAL Peter",
-          "category": "Master B",
-          "total": 18
-        },
-        {
-          "name": "ŽITKO Jernej",
-          "category": "Master C",
-          "total": 18
-        },
-        {
-          "name": "STIBILJ Nejc",
-          "category": "Master B",
-          "total": 13
-        },
-        {
-          "name": "SPONZA Mattia",
-          "category": "Master A",
-          "total": 9
-        }
-      ],
-      "rank": 6
+      "rank": 3
     },
     {
       "name": "Virtuslo 4Endurance",
-      "total": 214,
+      "total": 299,
       "riderCount": 12,
       "raceScores": [
         0,
@@ -9137,7 +9966,7 @@
         59,
         0,
         41,
-        0,
+        85,
         0,
         0,
         0,
@@ -9168,17 +9997,17 @@
         {
           "name": "JURKOVŠEK Rok",
           "category": "Master B",
-          "total": 36
+          "total": 66
         },
         {
           "name": "PRESEN Dejan",
           "category": "Master D",
-          "total": 25
+          "total": 55
         },
         {
           "name": "KLINAR Tina",
           "category": "Ženske A",
-          "total": 25
+          "total": 50
         },
         {
           "name": "BAHČ Anže",
@@ -9226,19 +10055,19 @@
           "total": 9
         }
       ],
-      "rank": 7
+      "rank": 4
     },
     {
-      "name": "IZVIR VIPAVA",
-      "total": 209,
-      "riderCount": 10,
+      "name": "Team BTS Company",
+      "total": 287,
+      "riderCount": 6,
       "raceScores": [
         0,
-        64,
-        62,
+        130,
+        18,
         0,
-        83,
-        0,
+        72,
+        67,
         0,
         0,
         0,
@@ -9267,61 +10096,198 @@
       ],
       "riders": [
         {
-          "name": "ČIBEJ Bruno",
-          "category": "Master G",
-          "total": 40
-        },
-        {
-          "name": "MIHOVILOVIĆ Ivan",
+          "name": "PREŠEREN Janez",
           "category": "Master J",
-          "total": 39
+          "total": 73
         },
         {
-          "name": "OBRANOVIČ Marko",
-          "category": "Master D",
-          "total": 28
+          "name": "EMERŠIČ Marko",
+          "category": "Master A",
+          "total": 72
         },
         {
-          "name": "LIKAR Robert",
+          "name": "JOŠT Jaka",
+          "category": "Amaterji",
+          "total": 60
+        },
+        {
+          "name": "PREŠEREN Jani",
+          "category": "Master E",
+          "total": 50
+        },
+        {
+          "name": "KOROŠEC Robert",
+          "category": "Master B",
+          "total": 21
+        },
+        {
+          "name": "ČUDEN Marjan",
+          "category": "Master H",
+          "total": 11
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "name": "KK Pocinkovalnica Celje",
+      "total": 286,
+      "riderCount": 7,
+      "raceScores": [
+        0,
+        106,
+        21,
+        0,
+        141,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "ROŠKAR Zlatko",
           "category": "Master F",
+          "total": 87
+        },
+        {
+          "name": "GLAMOČAK Tajda",
+          "category": "Ženske A",
+          "total": 60
+        },
+        {
+          "name": "PLANK Marko",
+          "category": "Master C",
+          "total": 55
+        },
+        {
+          "name": "JOŠT Barbara",
+          "category": "Ženske C",
           "total": 25
         },
         {
-          "name": "MARUŠIČ Jan",
-          "category": "Master A",
-          "total": 15
-        },
-        {
-          "name": "MILIC Jernej",
+          "name": "MLAKER Boštjan",
           "category": "Master C",
-          "total": 15
+          "total": 25
         },
         {
-          "name": "ŠULIGOJ Blaž",
-          "category": "Amaterji",
-          "total": 14
+          "name": "KITEK Sašo",
+          "category": "Master D",
+          "total": 21
         },
         {
-          "name": "ŠTOR Mark",
-          "category": "Master A",
+          "name": "JOŠT Mihael",
+          "category": "Master F",
           "total": 13
-        },
-        {
-          "name": "LOZEJ Istok",
-          "category": "Master E",
-          "total": 13
-        },
-        {
-          "name": "LIČEN Nejc",
-          "category": "Amaterji",
-          "total": 7
         }
       ],
-      "rank": 8
+      "rank": 6
+    },
+    {
+      "name": "KD OBALA",
+      "total": 274,
+      "riderCount": 8,
+      "raceScores": [
+        0,
+        40,
+        97,
+        0,
+        82,
+        55,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "VOLK Peter",
+          "category": "Master A",
+          "total": 81
+        },
+        {
+          "name": "JAMBROŠIČ Nik",
+          "category": "Amaterji",
+          "total": 68
+        },
+        {
+          "name": "ČRNE Mitja",
+          "category": "Master B",
+          "total": 42
+        },
+        {
+          "name": "PUGELJ Špela",
+          "category": "Ženske A",
+          "total": 25
+        },
+        {
+          "name": "KASAL Peter",
+          "category": "Master B",
+          "total": 18
+        },
+        {
+          "name": "ŽITKO Jernej",
+          "category": "Master C",
+          "total": 18
+        },
+        {
+          "name": "STIBILJ Nejc",
+          "category": "Master B",
+          "total": 13
+        },
+        {
+          "name": "SPONZA Mattia",
+          "category": "Master A",
+          "total": 9
+        }
+      ],
+      "rank": 7
     },
     {
       "name": "B.V.G. GULČ",
-      "total": 201,
+      "total": 274,
       "riderCount": 7,
       "raceScores": [
         0,
@@ -9329,7 +10295,7 @@
         76,
         0,
         0,
-        0,
+        73,
         0,
         0,
         0,
@@ -9360,17 +10326,17 @@
         {
           "name": "KASTELIC Ivan",
           "category": "Master J",
-          "total": 55
+          "total": 85
         },
         {
           "name": "PERVANJE Boštjan",
           "category": "Master C",
-          "total": 42
+          "total": 60
         },
         {
           "name": "LENARŠIČ Albin",
           "category": "Master G",
-          "total": 30
+          "total": 55
         },
         {
           "name": "JESIH Martin",
@@ -9393,19 +10359,19 @@
           "total": 6
         }
       ],
-      "rank": 9
+      "rank": 7
     },
     {
-      "name": "ŠD TURBO M",
-      "total": 159,
-      "riderCount": 4,
+      "name": "IZVIR VIPAVA",
+      "total": 235,
+      "riderCount": 11,
       "raceScores": [
         0,
-        53,
-        51,
+        64,
+        62,
         0,
-        55,
-        0,
+        83,
+        26,
         0,
         0,
         0,
@@ -9434,31 +10400,66 @@
       ],
       "riders": [
         {
-          "name": "COLNARIČ Slavko",
-          "category": "Master I",
-          "total": 60
-        },
-        {
-          "name": "PAPIČ Milivoj",
-          "category": "Master I",
-          "total": 46
-        },
-        {
-          "name": "MESOJEDEC Matjaž",
+          "name": "ČIBEJ Bruno",
           "category": "Master G",
+          "total": 51
+        },
+        {
+          "name": "MIHOVILOVIĆ Ivan",
+          "category": "Master J",
+          "total": 39
+        },
+        {
+          "name": "OBRANOVIČ Marko",
+          "category": "Master D",
           "total": 28
         },
         {
-          "name": "STIBILJ Jernej",
-          "category": "Master D",
+          "name": "LIKAR Robert",
+          "category": "Master F",
           "total": 25
+        },
+        {
+          "name": "MARUŠIČ Jan",
+          "category": "Master A",
+          "total": 15
+        },
+        {
+          "name": "MILIC Jernej",
+          "category": "Master C",
+          "total": 15
+        },
+        {
+          "name": "LOZEJ Istok",
+          "category": "Master F",
+          "total": 15
+        },
+        {
+          "name": "ŠULIGOJ Blaž",
+          "category": "Amaterji",
+          "total": 14
+        },
+        {
+          "name": "ŠTOR Mark",
+          "category": "Master A",
+          "total": 13
+        },
+        {
+          "name": "LOZEJ Istok",
+          "category": "Master E",
+          "total": 13
+        },
+        {
+          "name": "LIČEN Nejc",
+          "category": "Amaterji",
+          "total": 7
         }
       ],
-      "rank": 10
+      "rank": 9
     },
     {
       "name": "ŠD POLJANE",
-      "total": 143,
+      "total": 216,
       "riderCount": 4,
       "raceScores": [
         0,
@@ -9466,7 +10467,7 @@
         60,
         0,
         38,
-        0,
+        73,
         0,
         0,
         0,
@@ -9497,17 +10498,17 @@
         {
           "name": "HREN Aleš",
           "category": "Master E",
+          "total": 90
+        },
+        {
+          "name": "DOLINAR Simona",
+          "category": "Ženske B",
           "total": 60
         },
         {
           "name": "POTISK Tilen",
           "category": "Master A",
-          "total": 40
-        },
-        {
-          "name": "DOLINAR Simona",
-          "category": "Ženske B",
-          "total": 30
+          "total": 53
         },
         {
           "name": "DOLINAR Gašper",
@@ -9515,11 +10516,77 @@
           "total": 13
         }
       ],
+      "rank": 10
+    },
+    {
+      "name": "ŠD TURBO M",
+      "total": 208,
+      "riderCount": 5,
+      "raceScores": [
+        0,
+        53,
+        51,
+        0,
+        55,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "PAPIČ Milivoj",
+          "category": "Master I",
+          "total": 67
+        },
+        {
+          "name": "COLNARIČ Slavko",
+          "category": "Master I",
+          "total": 60
+        },
+        {
+          "name": "MESOJEDEC Matjaž",
+          "category": "Master G",
+          "total": 49
+        },
+        {
+          "name": "STIBILJ Jernej",
+          "category": "Master D",
+          "total": 25
+        },
+        {
+          "name": "BAHAR Matjaž",
+          "category": "Master G",
+          "total": 7
+        }
+      ],
       "rank": 11
     },
     {
       "name": "KK Trbovlje",
-      "total": 113,
+      "total": 170,
       "riderCount": 3,
       "raceScores": [
         0,
@@ -9527,7 +10594,7 @@
         70,
         0,
         13,
-        0,
+        57,
         0,
         0,
         0,
@@ -9558,24 +10625,24 @@
         {
           "name": "JANČIČ Katarina",
           "category": "Ženske A",
-          "total": 51
+          "total": 72
         },
         {
           "name": "JANČIČ Klemen",
           "category": "Amaterji",
-          "total": 37
+          "total": 52
         },
         {
           "name": "KLOPČIČ Leon",
           "category": "Amaterji",
-          "total": 25
+          "total": 46
         }
       ],
       "rank": 12
     },
     {
       "name": "Arcont Selce",
-      "total": 89,
+      "total": 157,
       "riderCount": 4,
       "raceScores": [
         0,
@@ -9583,7 +10650,7 @@
         63,
         0,
         15,
-        0,
+        68,
         0,
         0,
         0,
@@ -9614,17 +10681,17 @@
         {
           "name": "KAUČIČ Primož",
           "category": "Master D",
-          "total": 50
+          "total": 75
         },
         {
           "name": "GRUŠOVNIK Matjaž",
           "category": "Master C",
-          "total": 18
+          "total": 43
         },
         {
           "name": "ŠKAMLEC Jernej",
           "category": "Master A",
-          "total": 15
+          "total": 33
         },
         {
           "name": "CEBEK Blaž",
@@ -9633,6 +10700,169 @@
         }
       ],
       "rank": 13
+    },
+    {
+      "name": "ŠD Koloka",
+      "total": 107,
+      "riderCount": 2,
+      "raceScores": [
+        0,
+        34,
+        30,
+        0,
+        0,
+        43,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "HABJAN Dragica",
+          "category": "Ženske D",
+          "total": 61
+        },
+        {
+          "name": "HABJAN Andrej",
+          "category": "Master I",
+          "total": 46
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "name": "KK DOLENJSKA BALANCA",
+      "total": 98,
+      "riderCount": 3,
+      "raceScores": [
+        0,
+        26,
+        33,
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "POGAČAR Jani",
+          "category": "Master B",
+          "total": 36
+        },
+        {
+          "name": "BREGANT Jernej",
+          "category": "Master B",
+          "total": 34
+        },
+        {
+          "name": "GRIČAR Bruno",
+          "category": "Master H",
+          "total": 28
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "name": "JB TEAM NOVO MESTO",
+      "total": 92,
+      "riderCount": 3,
+      "raceScores": [
+        0,
+        21,
+        29,
+        0,
+        18,
+        24,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "JAZBEC Gal",
+          "category": "Amaterji",
+          "total": 39
+        },
+        {
+          "name": "PAJEK Rok",
+          "category": "Master A",
+          "total": 33
+        },
+        {
+          "name": "MERCINA Matej",
+          "category": "Master A",
+          "total": 20
+        }
+      ],
+      "rank": 16
     },
     {
       "name": "KD SLOVENSKE SPECIALKARKE",
@@ -9683,7 +10913,104 @@
           "total": 30
         }
       ],
-      "rank": 14
+      "rank": 17
+    },
+    {
+      "name": "KK ZAPRAVLJIVČEK",
+      "total": 82,
+      "riderCount": 1,
+      "raceScores": [
+        0,
+        25,
+        18,
+        0,
+        21,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "HOČEVAR Anže",
+          "category": "Amaterji",
+          "total": 82
+        }
+      ],
+      "rank": 18
+    },
+    {
+      "name": "KK GORJE",
+      "total": 82,
+      "riderCount": 2,
+      "raceScores": [
+        0,
+        30,
+        18,
+        0,
+        9,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "GOLČMAN Andrej",
+          "category": "Master I",
+          "total": 58
+        },
+        {
+          "name": "POJE Maks",
+          "category": "Amaterji",
+          "total": 24
+        }
+      ],
+      "rank": 18
     },
     {
       "name": "KD ALPE SiS",
@@ -9734,170 +11061,18 @@
           "total": 7
         }
       ],
-      "rank": 15
-    },
-    {
-      "name": "JB TEAM NOVO MESTO",
-      "total": 68,
-      "riderCount": 3,
-      "raceScores": [
-        0,
-        21,
-        29,
-        0,
-        18,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "JAZBEC Gal",
-          "category": "Amaterji",
-          "total": 39
-        },
-        {
-          "name": "PAJEK Rok",
-          "category": "Master A",
-          "total": 18
-        },
-        {
-          "name": "MERCINA Matej",
-          "category": "Master A",
-          "total": 11
-        }
-      ],
-      "rank": 16
-    },
-    {
-      "name": "KK ZAPRAVLJIVČEK",
-      "total": 64,
-      "riderCount": 1,
-      "raceScores": [
-        0,
-        25,
-        18,
-        0,
-        21,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "HOČEVAR Anže",
-          "category": "Amaterji",
-          "total": 64
-        }
-      ],
-      "rank": 17
-    },
-    {
-      "name": "ŠD Koloka",
-      "total": 64,
-      "riderCount": 2,
-      "raceScores": [
-        0,
-        34,
-        30,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "HABJAN Dragica",
-          "category": "Ženske D",
-          "total": 36
-        },
-        {
-          "name": "HABJAN Andrej",
-          "category": "Master I",
-          "total": 28
-        }
-      ],
-      "rank": 17
+      "rank": 20
     },
     {
       "name": "KK Postojna",
-      "total": 62,
+      "total": 77,
       "riderCount": 4,
       "raceScores": [
         0,
         36,
         11,
         0,
+        15,
         15,
         0,
         0,
@@ -9923,10 +11098,14 @@
         0,
         0,
         0,
-        0,
         0
       ],
       "riders": [
+        {
+          "name": "BERGANT Rok",
+          "category": "Master C",
+          "total": 30
+        },
         {
           "name": "BAJEC Franc",
           "category": "Master G",
@@ -9938,17 +11117,58 @@
           "total": 15
         },
         {
-          "name": "BERGANT Rok",
-          "category": "Master C",
-          "total": 15
-        },
-        {
           "name": "OTONIČAR Janez",
           "category": "Master J",
           "total": 15
         }
       ],
-      "rank": 19
+      "rank": 21
+    },
+    {
+      "name": "ŠKD SUPER POTENCIAL",
+      "total": 71,
+      "riderCount": 1,
+      "raceScores": [
+        0,
+        21,
+        25,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "SKUBIC Borislav",
+          "category": "Master H",
+          "total": 71
+        }
+      ],
+      "rank": 22
     },
     {
       "name": "KOŠTRUNI",
@@ -9994,114 +11214,7 @@
           "total": 60
         }
       ],
-      "rank": 20
-    },
-    {
-      "name": "KK DOLENJSKA BALANCA",
-      "total": 59,
-      "riderCount": 3,
-      "raceScores": [
-        0,
-        26,
-        33,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "GRIČAR Bruno",
-          "category": "Master H",
-          "total": 28
-        },
-        {
-          "name": "POGAČAR Jani",
-          "category": "Master B",
-          "total": 18
-        },
-        {
-          "name": "BREGANT Jernej",
-          "category": "Master B",
-          "total": 13
-        }
-      ],
-      "rank": 21
-    },
-    {
-      "name": "KK GORJE",
-      "total": 57,
-      "riderCount": 2,
-      "raceScores": [
-        0,
-        30,
-        18,
-        0,
-        9,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "GOLČMAN Andrej",
-          "category": "Master I",
-          "total": 33
-        },
-        {
-          "name": "POJE Maks",
-          "category": "Amaterji",
-          "total": 24
-        }
-      ],
-      "rank": 22
+      "rank": 23
     },
     {
       "name": "KD BRANIK MARIBOR",
@@ -10152,7 +11265,7 @@
           "total": 7
         }
       ],
-      "rank": 22
+      "rank": 24
     },
     {
       "name": "GANESHA TEAM",
@@ -10203,7 +11316,7 @@
           "total": 25
         }
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "name": "CALCIT BIKE TEAM",
@@ -10249,7 +11362,7 @@
           "total": 51
         }
       ],
-      "rank": 25
+      "rank": 26
     },
     {
       "name": "KK TROPOVCI",
@@ -10305,53 +11418,7 @@
           "total": 13
         }
       ],
-      "rank": 26
-    },
-    {
-      "name": "ŠKD SUPER POTENCIAL",
-      "total": 46,
-      "riderCount": 1,
-      "raceScores": [
-        0,
-        21,
-        25,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "SKUBIC Borislav",
-          "category": "Master H",
-          "total": 46
-        }
-      ],
-      "rank": 26
+      "rank": 27
     },
     {
       "name": "KK ROGLA",
@@ -10405,6 +11472,52 @@
       "rank": 28
     },
     {
+      "name": "POLYCOM RACING TEAM",
+      "total": 42,
+      "riderCount": 1,
+      "raceScores": [
+        0,
+        21,
+        0,
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "DOLENC Andrej",
+          "category": "Master E",
+          "total": 42
+        }
+      ],
+      "rank": 29
+    },
+    {
       "name": "KK ZAGORSKA DOLINA",
       "total": 31,
       "riderCount": 1,
@@ -10448,7 +11561,58 @@
           "total": 31
         }
       ],
-      "rank": 29
+      "rank": 30
+    },
+    {
+      "name": "Team Granfondo Slovenija",
+      "total": 29,
+      "riderCount": 2,
+      "raceScores": [
+        0,
+        18,
+        0,
+        0,
+        0,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "ARKO Jan",
+          "category": "Master A",
+          "total": 18
+        },
+        {
+          "name": "KRAJNC Danijel",
+          "category": "Master C",
+          "total": 11
+        }
+      ],
+      "rank": 31
     },
     {
       "name": "mebloJOGI - PRO CONCRETE",
@@ -10494,7 +11658,7 @@
           "total": 25
         }
       ],
-      "rank": 30
+      "rank": 32
     },
     {
       "name": "KD Litijski Tempomat",
@@ -10540,7 +11704,7 @@
           "total": 21
         }
       ],
-      "rank": 31
+      "rank": 33
     },
     {
       "name": "KK ZAVRŠNICA",
@@ -10586,7 +11750,53 @@
           "total": 21
         }
       ],
-      "rank": 31
+      "rank": 33
+    },
+    {
+      "name": "KD MENGEŠ",
+      "total": 21,
+      "riderCount": 1,
+      "raceScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "KALIŠNIK Tomaž",
+          "category": "Master C",
+          "total": 21
+        }
+      ],
+      "rank": 33
     },
     {
       "name": "ŠD Metek",
@@ -10632,53 +11842,7 @@
           "total": 21
         }
       ],
-      "rank": 31
-    },
-    {
-      "name": "POLYCOM RACING TEAM",
-      "total": 21,
-      "riderCount": 1,
-      "raceScores": [
-        0,
-        21,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "DOLENC Andrej",
-          "category": "Master E",
-          "total": 21
-        }
-      ],
-      "rank": 31
+      "rank": 33
     },
     {
       "name": "KD SPRINT",
@@ -10724,7 +11888,7 @@
           "total": 21
         }
       ],
-      "rank": 31
+      "rank": 33
     },
     {
       "name": "Pogiteam Gusto Ljubljana",
@@ -10770,19 +11934,19 @@
           "total": 20
         }
       ],
-      "rank": 36
+      "rank": 38
     },
     {
-      "name": "Team Granfondo Slovenija",
+      "name": "KK RAVNE NA KOROŠKEM",
       "total": 18,
       "riderCount": 1,
       "raceScores": [
         0,
+        0,
+        0,
+        0,
+        0,
         18,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -10811,12 +11975,58 @@
       ],
       "riders": [
         {
-          "name": "ARKO Jan",
-          "category": "Master A",
+          "name": "RUS Dušan",
+          "category": "Master H",
           "total": 18
         }
       ],
-      "rank": 37
+      "rank": 39
+    },
+    {
+      "name": "RIBNO ALPINE RESORT BLED",
+      "total": 15,
+      "riderCount": 1,
+      "raceScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "URH Lara",
+          "category": "Ženske A",
+          "total": 15
+        }
+      ],
+      "rank": 40
     },
     {
       "name": "Team 82",
@@ -10862,53 +12072,7 @@
           "total": 15
         }
       ],
-      "rank": 38
-    },
-    {
-      "name": "ŠRKD Savčan",
-      "total": 13,
-      "riderCount": 1,
-      "raceScores": [
-        0,
-        0,
-        0,
-        0,
-        13,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "ŠALKOVIĆ Igor",
-          "category": "Master C",
-          "total": 13
-        }
-      ],
-      "rank": 39
+      "rank": 40
     },
     {
       "name": "KK PANTAL",
@@ -10954,7 +12118,7 @@
           "total": 13
         }
       ],
-      "rank": 39
+      "rank": 42
     },
     {
       "name": "Golovec trails",
@@ -11000,7 +12164,7 @@
           "total": 11
         }
       ],
-      "rank": 41
+      "rank": 43
     },
     {
       "name": "KD ROG",
@@ -11046,7 +12210,7 @@
           "total": 9
         }
       ],
-      "rank": 42
+      "rank": 44
     },
     {
       "name": "KD Knežjega mesta Celje",
@@ -11092,7 +12256,7 @@
           "total": 8
         }
       ],
-      "rank": 43
+      "rank": 45
     }
   ],
   "clubRaces": [
