@@ -13,7 +13,7 @@ pdfs/
   2024/
     ...
 data/                            # Generated JSON output
-  2025.json
+  2025.json 
   years.json
 config.json                      # Scoring rules & PDF mappings
 parse_results.py                 # PDF parser
