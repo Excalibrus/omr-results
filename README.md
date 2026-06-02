@@ -12,7 +12,7 @@ pdfs/
     Cestno kolesarstvo (2).pdf   # Time trials (kronometer)
   2024/
     ...
-data/                            # Generated JSON output
+data/                            # Generated JSON output d
   2025.json 
   years.json
 config.json                      # Scoring rules & PDF mappings
