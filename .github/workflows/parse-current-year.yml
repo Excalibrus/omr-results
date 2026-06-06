@@ -38,6 +38,7 @@ jobs:
       - name: Commit and push if changed
         env:
           YEAR: ${{ steps.year.outputs.year }}
+          EVENT: ${{ github.event_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -45,7 +46,15 @@ jobs:
           git add "dist/data/${YEAR}.json" "dist/data/years.json"
 
           if git diff --cached --quiet; then
-            echo "No changes — skipping commit."
+            if [ "$EVENT" = "workflow_dispatch" ]; then
+              # Manual run: force a push so Pages (deploy-from-branch) rebuilds
+              # even when the parsed data is unchanged.
+              echo "No data changes, but manual run — forcing redeploy."
+              git commit --allow-empty -m "chore: redeploy ${YEAR} results (manual)"
+              git push
+            else
+              echo "No changes — skipping commit."
+            fi
             exit 0
           fi
 
