@@ -614,11 +614,59 @@ def get_rider_key(rider):
     return keys
 
 
+def load_existing_output(output_path):
+    """Load a previously written <year>.json, or None if absent/unreadable."""
+    if not os.path.exists(output_path):
+        return None
+    try:
+        with open(output_path, encoding="utf-8") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
+def reconstruct_discipline(existing_output, disc_id):
+    """Rebuild (disc_meta, raw_riders) for one discipline from a prior
+    <year>.json so it can be re-fed into the merge. Returns (None, None) if the
+    discipline is absent or had no riders. The merge recomputes bestOf/rank
+    fields, so only raw per-race scores and identity need to be restored.
+    """
+    if not existing_output:
+        return None, None
+    disc_meta = next(
+        (d for d in existing_output.get("disciplines", []) if d.get("id") == disc_id),
+        None)
+    if not disc_meta:
+        return None, None
+    raw_riders = []
+    for mr in existing_output.get("riders", []):
+        dd = mr.get("disciplines", {}).get(disc_id)
+        if not dd:
+            continue
+        raw_riders.append({
+            "rank": dd.get("rank", 0),
+            "name": mr.get("name", ""),
+            "license": mr.get("license", ""),
+            "club": mr.get("club", ""),
+            "category": mr.get("category", ""),
+            "scores": dd.get("scores", []),
+            "total": dd.get("total", 0),
+        })
+    if not raw_riders:
+        return None, None
+    return disc_meta, raw_riders
+
+
 def process_year(year, year_config, disciplines, output_path):
     """Process all disciplines for a single year and write output JSON."""
     print(f"\n{'='*50}")
     print(f"Processing year {year}")
     print(f"{'='*50}")
+
+    # Prior output for this year, used to preserve a discipline's data when a
+    # fresh parse comes back empty (e.g. the source published the results shell
+    # before any race is scored, or a transient server hiccup).
+    existing_output = load_existing_output(output_path)
 
     disciplines_data = []
     all_parsed = {}
@@ -687,17 +735,34 @@ def process_year(year, year_config, disciplines, output_path):
                 print(f"  WARNING: {pdf_path} not found, skipping")
                 continue
 
+        # If the parse produced no riders but we have prior good data for this
+        # discipline, keep the old data rather than wiping it. An empty result
+        # is almost always a transient source state, not a real reset to zero.
+        restored_races = None
+        if not riders:
+            old_meta, old_riders = reconstruct_discipline(existing_output, disc_id)
+            if old_riders:
+                print(f"  WARNING: parsed 0 riders for {disc['name']} {year}; "
+                      f"keeping {len(old_riders)} rider(s) from existing {output_path}")
+                riders = old_riders
+                title = old_meta.get("title", title)
+                restored_races = old_meta.get("races", [])
+                num_races = old_meta.get("numRaces", len(restored_races))
+
         # Config race names override extracted ones if provided
-        config_names = disc_year.get("raceNames", [])
-        races = []
-        for i, d in enumerate(race_dates):
-            if config_names and i < len(config_names) and config_names[i]:
-                name = config_names[i]
-            elif i < len(extracted_names) and extracted_names[i]:
-                name = extracted_names[i]
-            else:
-                name = f"Race {i+1}"
-            races.append({"date": d, "name": name})
+        if restored_races is not None:
+            races = restored_races
+        else:
+            config_names = disc_year.get("raceNames", [])
+            races = []
+            for i, d in enumerate(race_dates):
+                if config_names and i < len(config_names) and config_names[i]:
+                    name = config_names[i]
+                elif i < len(extracted_names) and extracted_names[i]:
+                    name = extracted_names[i]
+                else:
+                    name = f"Race {i+1}"
+                races.append({"date": d, "name": name})
 
         disciplines_data.append({
             "id": disc_id,
