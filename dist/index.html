@@ -578,6 +578,13 @@ function render() {
   const content = document.getElementById('content');
   const search = document.getElementById('searchInput').value.toLowerCase().trim();
 
+  // Guard against a stale tab (e.g. a discipline saved in localStorage that
+  // this year's data doesn't contain) falling through to the discipline branch.
+  if (activeTab !== 'general' && activeTab !== 'clubs' &&
+      !DATA.disciplines.some(d => d.id === activeTab)) {
+    activeTab = 'general';
+  }
+
   // Scoring info
   const info = document.getElementById('scoringInfo');
   if (activeTab === 'clubs') {

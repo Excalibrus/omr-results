@@ -723,31 +723,35 @@ def process_year(year, year_config, disciplines, output_path):
                     print(f"  WARNING: HTML parse failed ({e}), falling back to PDF")
                     riders = None
 
-        # 3. Fall back to PDF
-        if riders is None:
-            if not pdf_path:
-                print(f"  WARNING: no source available for {disc['name']} {year}, skipping")
-                continue
+        # 3. Fall back to PDF (only if one is configured)
+        if riders is None and pdf_path:
             print(f"Parsing {disc['name']} from {pdf_path}...")
             try:
                 riders, title, race_dates, num_races, extracted_names = parse_pdf(pdf_path)
             except FileNotFoundError:
-                print(f"  WARNING: {pdf_path} not found, skipping")
-                continue
+                print(f"  WARNING: {pdf_path} not found")
+                riders = None
 
-        # If the parse produced no riders but we have prior good data for this
-        # discipline, keep the old data rather than wiping it. An empty result
-        # is almost always a transient source state, not a real reset to zero.
+        # If no source yielded riders — fetch failure, no local fallback, an
+        # empty results page, or a parse that returned nothing — keep the prior
+        # committed data for this discipline rather than dropping it. An empty or
+        # unreachable source is almost always transient, not a real reset to zero.
+        # This must run for the fetch-failed case too (riders still None), not
+        # only the parsed-empty case, or a discipline silently disappears from
+        # the output the way 2026 climbs/road did.
         restored_races = None
         if not riders:
             old_meta, old_riders = reconstruct_discipline(existing_output, disc_id)
             if old_riders:
-                print(f"  WARNING: parsed 0 riders for {disc['name']} {year}; "
+                print(f"  WARNING: no fresh data for {disc['name']} {year}; "
                       f"keeping {len(old_riders)} rider(s) from existing {output_path}")
                 riders = old_riders
-                title = old_meta.get("title", title)
+                title = old_meta.get("title", "")
                 restored_races = old_meta.get("races", [])
                 num_races = old_meta.get("numRaces", len(restored_races))
+            else:
+                print(f"  WARNING: no source or prior data for {disc['name']} {year}, skipping")
+                continue
 
         # Config race names override extracted ones if provided
         if restored_races is not None:
