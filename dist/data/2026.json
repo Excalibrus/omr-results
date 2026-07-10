@@ -1158,11 +1158,34 @@
             0
           ],
           "rank": 2
+        },
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
+          "bestOfIndices": [
+            3
+          ],
+          "bestOfGeneralIndices": [
+            3
+          ],
+          "rank": 3
         }
       },
       "general": {
-        "total": 30,
-        "rank": 5
+        "total": 60,
+        "rank": 4
       }
     },
     {
@@ -1257,7 +1280,7 @@
       "id": 15,
       "name": "RANT Petra",
       "license": "10175790050",
-      "club": "Rio Mare",
+      "club": "GANESHA TEAM",
       "category": "Ženske C",
       "disciplines": {
         "climbs": {
@@ -1296,28 +1319,28 @@
             0,
             0,
             0,
-            25,
+            21,
             0,
             0,
             0,
             0,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
           "bestOfIndices": [
             3
           ],
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 3
+          "rank": 4
         }
       },
       "general": {
-        "total": 55,
-        "rank": 4
+        "total": 51,
+        "rank": 5
       }
     },
     {
@@ -12198,16 +12221,16 @@
             0,
             0,
             0,
-            30,
+            25,
             40,
             0,
             0,
             0,
             0
           ],
-          "total": 70,
-          "bestOfTotal": 70,
-          "bestOfGeneralTotal": 70,
+          "total": 65,
+          "bestOfTotal": 65,
+          "bestOfGeneralTotal": 65,
           "bestOfIndices": [
             4,
             3
@@ -12241,7 +12264,7 @@
         }
       },
       "general": {
-        "total": 140,
+        "total": 135,
         "rank": 1
       }
     },
@@ -17541,7 +17564,7 @@
   "clubs": [
     {
       "name": "ŠD BAM.BI",
-      "total": 3264,
+      "total": 3294,
       "riderCount": 39,
       "raceScores": [
         179,
@@ -17552,7 +17575,7 @@
         101,
         103,
         227,
-        262,
+        292,
         261,
         224,
         212,
@@ -17668,6 +17691,11 @@
           "total": 66
         },
         {
+          "name": "ZAPLOTNIK Darja",
+          "category": "Ženske C",
+          "total": 60
+        },
+        {
           "name": "JUVANČIČ Gregor",
           "category": "Master D",
           "total": 57
@@ -17701,11 +17729,6 @@
           "name": "PODGORNIK Bojan",
           "category": "Master F",
           "total": 32
-        },
-        {
-          "name": "ZAPLOTNIK Darja",
-          "category": "Ženske C",
-          "total": 30
         },
         {
           "name": "ZUPANC Maja",
@@ -19072,7 +19095,7 @@
     },
     {
       "name": "KD SLOVENSKE SPECIALKARKE",
-      "total": 364,
+      "total": 359,
       "riderCount": 2,
       "raceScores": [
         60,
@@ -19083,7 +19106,7 @@
         0,
         0,
         65,
-        60,
+        55,
         69,
         0,
         30,
@@ -19116,7 +19139,7 @@
         {
           "name": "MEŠKO Matejka",
           "category": "Ženske C",
-          "total": 140
+          "total": 135
         }
       ],
       "rank": 17
@@ -19589,6 +19612,67 @@
       "rank": 24
     },
     {
+      "name": "GANESHA TEAM",
+      "total": 239,
+      "riderCount": 4,
+      "raceScores": [
+        0,
+        0,
+        0,
+        55,
+        0,
+        0,
+        0,
+        0,
+        21,
+        0,
+        55,
+        0,
+        108,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "ŠKRAJNAR Špela",
+          "category": "Ženske B",
+          "total": 90
+        },
+        {
+          "name": "DOGŠA Iztok",
+          "category": "Master D",
+          "total": 80
+        },
+        {
+          "name": "RANT Petra",
+          "category": "Ženske C",
+          "total": 51
+        },
+        {
+          "name": "JAUK Marjan",
+          "category": "Master F",
+          "total": 18
+        }
+      ],
+      "rank": 25
+    },
+    {
       "name": "JB TEAM NOVO MESTO",
       "total": 224,
       "riderCount": 5,
@@ -19652,7 +19736,7 @@
           "total": 25
         }
       ],
-      "rank": 25
+      "rank": 26
     },
     {
       "name": "KK ZAVRŠNICA",
@@ -19703,7 +19787,7 @@
           "total": 71
         }
       ],
-      "rank": 26
+      "rank": 27
     },
     {
       "name": "KD ALPE SiS",
@@ -19754,7 +19838,7 @@
           "total": 30
         }
       ],
-      "rank": 27
+      "rank": 28
     },
     {
       "name": "KOŠTRUNI",
@@ -19798,62 +19882,6 @@
           "name": "TIRŠEK Anton",
           "category": "Master C",
           "total": 190
-        }
-      ],
-      "rank": 28
-    },
-    {
-      "name": "GANESHA TEAM",
-      "total": 188,
-      "riderCount": 3,
-      "raceScores": [
-        0,
-        0,
-        0,
-        55,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        55,
-        0,
-        78,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "ŠKRAJNAR Špela",
-          "category": "Ženske B",
-          "total": 90
-        },
-        {
-          "name": "DOGŠA Iztok",
-          "category": "Master D",
-          "total": 80
-        },
-        {
-          "name": "JAUK Marjan",
-          "category": "Master F",
-          "total": 18
         }
       ],
       "rank": 29
@@ -20771,52 +20799,6 @@
       "rank": 46
     },
     {
-      "name": "Rio Mare",
-      "total": 55,
-      "riderCount": 1,
-      "raceScores": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        25,
-        0,
-        0,
-        0,
-        30,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "RANT Petra",
-          "category": "Ženske C",
-          "total": 55
-        }
-      ],
-      "rank": 47
-    },
-    {
       "name": "KK RAVNE NA KOROŠKEM",
       "total": 54,
       "riderCount": 1,
@@ -20860,7 +20842,7 @@
           "total": 54
         }
       ],
-      "rank": 48
+      "rank": 47
     },
     {
       "name": "KD MENGEŠ",
@@ -20906,7 +20888,7 @@
           "total": 51
         }
       ],
-      "rank": 49
+      "rank": 48
     },
     {
       "name": "KK PANTAL",
@@ -20952,7 +20934,7 @@
           "total": 46
         }
       ],
-      "rank": 50
+      "rank": 49
     },
     {
       "name": "KK SOČA",
@@ -21003,7 +20985,7 @@
           "total": 18
         }
       ],
-      "rank": 51
+      "rank": 50
     },
     {
       "name": "TEAM EPPINGER",
@@ -21049,7 +21031,7 @@
           "total": 38
         }
       ],
-      "rank": 52
+      "rank": 51
     },
     {
       "name": "ENERGIJATEAM.COM",
@@ -21095,7 +21077,7 @@
           "total": 34
         }
       ],
-      "rank": 53
+      "rank": 52
     },
     {
       "name": "ŠD GRMADA",
@@ -21146,7 +21128,7 @@
           "total": 15
         }
       ],
-      "rank": 54
+      "rank": 53
     },
     {
       "name": "TK TRISPORT LELOSI",
@@ -21192,7 +21174,7 @@
           "total": 30
         }
       ],
-      "rank": 55
+      "rank": 54
     },
     {
       "name": "RC KAC",
@@ -21238,7 +21220,7 @@
           "total": 30
         }
       ],
-      "rank": 55
+      "rank": 54
     },
     {
       "name": "Ocean Orchids Cycling Team",
@@ -21289,7 +21271,7 @@
           "total": 6
         }
       ],
-      "rank": 57
+      "rank": 56
     },
     {
       "name": "SMART MONEY RIKITEAM",
@@ -21335,7 +21317,7 @@
           "total": 25
         }
       ],
-      "rank": 58
+      "rank": 57
     },
     {
       "name": "PERUTNINA PTUJ",
@@ -21381,7 +21363,7 @@
           "total": 24
         }
       ],
-      "rank": 59
+      "rank": 58
     },
     {
       "name": "RKD Krško",
@@ -21432,7 +21414,7 @@
           "total": 7
         }
       ],
-      "rank": 60
+      "rank": 59
     },
     {
       "name": "Pogiteam Gusto Ljubljana",
@@ -21478,7 +21460,7 @@
           "total": 20
         }
       ],
-      "rank": 61
+      "rank": 60
     },
     {
       "name": "CCN Metalac",
@@ -21524,7 +21506,7 @@
           "total": 15
         }
       ],
-      "rank": 62
+      "rank": 61
     },
     {
       "name": "Team 82",
@@ -21570,7 +21552,7 @@
           "total": 15
         }
       ],
-      "rank": 62
+      "rank": 61
     },
     {
       "name": "Golovec trails",
@@ -21616,7 +21598,7 @@
           "total": 11
         }
       ],
-      "rank": 64
+      "rank": 63
     },
     {
       "name": "SD STRAHOVICA",
@@ -21662,7 +21644,7 @@
           "total": 11
         }
       ],
-      "rank": 64
+      "rank": 63
     },
     {
       "name": "ŠD Luka Koper",
@@ -21713,7 +21695,7 @@
           "total": 3
         }
       ],
-      "rank": 66
+      "rank": 65
     },
     {
       "name": "Pogi Team UAE Generali",
@@ -21759,7 +21741,7 @@
           "total": 7
         }
       ],
-      "rank": 67
+      "rank": 66
     },
     {
       "name": "KK Završnica",
@@ -21805,7 +21787,7 @@
           "total": 7
         }
       ],
-      "rank": 67
+      "rank": 66
     },
     {
       "name": "MTB ŠOLA KOČEVJE",
@@ -21851,7 +21833,7 @@
           "total": 3
         }
       ],
-      "rank": 69
+      "rank": 68
     },
     {
       "name": "KK Kamen Kociper",
@@ -21897,7 +21879,7 @@
           "total": 2
         }
       ],
-      "rank": 70
+      "rank": 69
     }
   ],
   "clubRaces": [
