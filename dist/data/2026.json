@@ -5819,6 +5819,75 @@
     },
     {
       "id": 79,
+      "name": "MAROT Blaž",
+      "license": "10017625991",
+      "club": "KK Pocinkovalnica Celje",
+      "category": "Master A",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
+          "bestOfIndices": [
+            4,
+            8
+          ],
+          "bestOfGeneralIndices": [
+            4,
+            8
+          ],
+          "rank": 8
+        },
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            7,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 7,
+          "bestOfTotal": 7,
+          "bestOfGeneralTotal": 7,
+          "bestOfIndices": [
+            4
+          ],
+          "bestOfGeneralIndices": [
+            4
+          ],
+          "rank": 18
+        }
+      },
+      "general": {
+        "total": 37,
+        "rank": 18
+      }
+    },
+    {
+      "id": 80,
       "name": "GROŠELJ Matic",
       "license": "10014881602",
       "club": "MBK ČRNI VRH",
@@ -5885,7 +5954,7 @@
       }
     },
     {
-      "id": 80,
+      "id": 81,
       "name": "MERCINA Matej",
       "license": "",
       "club": "JB TEAM NOVO MESTO",
@@ -5920,7 +5989,7 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 11
+          "rank": 12
         },
         "road": {
           "scores": [
@@ -5958,7 +6027,7 @@
       }
     },
     {
-      "id": 81,
+      "id": 82,
       "name": "GROŠELJ Žiga",
       "license": "10007973178",
       "club": "IZVIR VIPAVA",
@@ -5993,7 +6062,7 @@
           "bestOfGeneralIndices": [
             7
           ],
-          "rank": 11
+          "rank": 12
         }
       },
       "general": {
@@ -6002,7 +6071,7 @@
       }
     },
     {
-      "id": 82,
+      "id": 83,
       "name": "ČERNIGOJ Tilen",
       "license": "10141033132",
       "club": "TEAM EPPINGER",
@@ -6037,7 +6106,7 @@
           "bestOfGeneralIndices": [
             7
           ],
-          "rank": 13
+          "rank": 14
         },
         "road": {
           "scores": [
@@ -6071,7 +6140,7 @@
       }
     },
     {
-      "id": 83,
+      "id": 84,
       "name": "FRANGEŽ Blaž",
       "license": "10173165693",
       "club": "KD BRANIK MARIBOR",
@@ -6083,7 +6152,7 @@
             0,
             0,
             0,
-            15,
+            13,
             0,
             0,
             0,
@@ -6097,88 +6166,21 @@
             0,
             0
           ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
+          "total": 13,
+          "bestOfTotal": 13,
+          "bestOfGeneralTotal": 13,
           "bestOfIndices": [
             4
           ],
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 14
+          "rank": 15
         }
       },
       "general": {
-        "total": 15,
+        "total": 13,
         "rank": 25
-      }
-    },
-    {
-      "id": 84,
-      "name": "MAROT Blaž",
-      "license": "10017625991",
-      "club": "KK Pocinkovalnica Celje",
-      "category": "Master A",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
-          "bestOfIndices": [
-            8
-          ],
-          "bestOfGeneralIndices": [
-            8
-          ],
-          "rank": 14
-        },
-        "road": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            7,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 7,
-          "bestOfTotal": 7,
-          "bestOfGeneralTotal": 7,
-          "bestOfIndices": [
-            4
-          ],
-          "bestOfGeneralIndices": [
-            4
-          ],
-          "rank": 18
-        }
-      },
-      "general": {
-        "total": 22,
-        "rank": 21
       }
     },
     {
@@ -6217,7 +6219,7 @@
           "bestOfGeneralIndices": [
             8
           ],
-          "rank": 16
+          "rank": 15
         },
         "road": {
           "scores": [
@@ -6247,7 +6249,7 @@
       },
       "general": {
         "total": 22,
-        "rank": 21
+        "rank": 22
       }
     },
     {
@@ -17148,7 +17150,7 @@
       },
       "general": {
         "total": 30,
-        "rank": 19
+        "rank": 20
       }
     },
     {
@@ -17186,7 +17188,7 @@
       },
       "general": {
         "total": 25,
-        "rank": 20
+        "rank": 21
       }
     },
     {
@@ -20102,7 +20104,7 @@
       },
       "general": {
         "total": 32,
-        "rank": 18
+        "rank": 19
       }
     },
     {
@@ -21010,7 +21012,7 @@
     },
     {
       "name": "KK Pocinkovalnica Celje",
-      "total": 1418,
+      "total": 1433,
       "riderCount": 11,
       "raceScores": [
         106,
@@ -21025,7 +21027,7 @@
         140,
         76,
         106,
-        110,
+        125,
         91,
         55,
         75,
@@ -21087,14 +21089,14 @@
           "total": 46
         },
         {
+          "name": "MAROT Blaž",
+          "category": "Master A",
+          "total": 37
+        },
+        {
           "name": "DEČKO Denis",
           "category": "Master D",
           "total": 25
-        },
-        {
-          "name": "MAROT Blaž",
-          "category": "Master A",
-          "total": 22
         },
         {
           "name": "KITEK Sašo",
@@ -21753,7 +21755,7 @@
     },
     {
       "name": "KD BRANIK MARIBOR",
-      "total": 727,
+      "total": 725,
       "riderCount": 12,
       "raceScores": [
         25,
@@ -21768,7 +21770,7 @@
         101,
         15,
         18,
-        125,
+        123,
         33,
         0,
         39,
@@ -21837,7 +21839,7 @@
         {
           "name": "FRANGEŽ Blaž",
           "category": "Master A",
-          "total": 15
+          "total": 13
         },
         {
           "name": "GAČNIK Dejan",
