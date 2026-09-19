@@ -668,8 +668,7 @@ function renderGeneralTable(riders, search) {
 
   let discHeaders = '';
   DATA.disciplines.forEach(d => {
-    const unofficial = d.races.some(r => r.unofficial);
-    discHeaders += `<th title="${esc(d.name)} (najboljših ${d.bestOfGeneral})">${esc(d.name)}${unofficial ? UNOFFICIAL_TAG : ''}</th>`;
+    discHeaders += `<th title="${esc(d.name)} (najboljših ${d.bestOfGeneral})">${esc(d.name)}</th>`;
   });
 
   let html = `
