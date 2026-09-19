@@ -21805,42 +21805,6 @@
     },
     {
       "id": 335,
-      "name": "ŠPILJAK Dragutin",
-      "license": "10080418539",
-      "club": "BK SOKOL VINKOVCI",
-      "category": "Master F",
-      "disciplines": {
-        "road": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            21,
-            0
-          ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
-          "bestOfIndices": [
-            7
-          ],
-          "bestOfGeneralIndices": [
-            7
-          ],
-          "rank": 9
-        }
-      },
-      "general": {
-        "total": 21,
-        "rank": 16
-      }
-    },
-    {
-      "id": 336,
       "name": "MORI Mitja",
       "license": "10071275176",
       "club": "GANESHA TEAM",
@@ -21873,6 +21837,42 @@
       "general": {
         "total": 25,
         "rank": 15
+      }
+    },
+    {
+      "id": 336,
+      "name": "ŠPILJAK Dragutin",
+      "license": "10080418539",
+      "club": "BK SOKOL VINKOVCI",
+      "category": "Master F",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            21,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            7
+          ],
+          "bestOfGeneralIndices": [
+            7
+          ],
+          "rank": 9
+        }
+      },
+      "general": {
+        "total": 21,
+        "rank": 16
       }
     },
     {
