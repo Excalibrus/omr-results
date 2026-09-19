@@ -19,6 +19,7 @@
       --bronze: #f59e0b;
       --green: #34d399;
       --dimmed: rgba(148, 163, 184, 0.35);
+      --unofficial: #c4ad74;
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -75,6 +76,20 @@
       text-transform: uppercase;
       white-space: nowrap;
     }
+
+    /* Races filled from live timing before the official results: muted tag + soft colour */
+    .unofficial-tag {
+      display: block;
+      font-size: 0.58rem;
+      font-weight: 500;
+      color: var(--unofficial);
+      text-transform: none;
+      letter-spacing: 0;
+      opacity: 0.85;
+    }
+
+    td.score.unofficial.has-value { color: var(--unofficial); }
+    td.disc-total.unofficial { color: var(--unofficial); }
 
     .stats-bar {
       display: flex;
@@ -653,7 +668,8 @@ function renderGeneralTable(riders, search) {
 
   let discHeaders = '';
   DATA.disciplines.forEach(d => {
-    discHeaders += `<th title="${esc(d.name)} (najboljših ${d.bestOfGeneral})">${esc(d.name)}</th>`;
+    const unofficial = d.races.some(r => r.unofficial);
+    discHeaders += `<th title="${esc(d.name)} (najboljših ${d.bestOfGeneral})">${esc(d.name)}${unofficial ? UNOFFICIAL_TAG : ''}</th>`;
   });
 
   let html = `
@@ -676,7 +692,9 @@ function renderGeneralTable(riders, search) {
       const dd = r.disciplines[d.id];
       if (dd) {
         const val = dd.bestOfGeneralTotal;
-        discCells += `<td class="disc-total${val > 0 ? ' has-value' : ''}">${val || '-'}</td>`;
+        // soft colour when an unofficial race counts toward this discipline total
+        const unofficial = dd.bestOfGeneralIndices.some(i => d.races[i] && d.races[i].unofficial);
+        discCells += `<td class="disc-total${val > 0 ? ' has-value' : ''}${unofficial ? ' unofficial' : ''}">${val || '-'}</td>`;
       } else {
         discCells += '<td class="disc-total">-</td>';
       }
@@ -703,8 +721,8 @@ function renderDisciplineTable(riders, search) {
 
   let raceHeaders = '';
   disc.races.forEach(race => {
-    const short = race.name.length > 16 ? race.name.substring(0, 14) + '...' : race.name;
-    raceHeaders += `<th title="${esc(race.name)}">${race.date}<span class="race-date">${esc(short)}</span></th>`;
+    const short = shorten(race.name, 16);
+    raceHeaders += `<th title="${esc(race.name)}">${race.date}<span class="race-date">${esc(short)}</span>${race.unofficial ? UNOFFICIAL_TAG : ''}</th>`;
   });
 
   let html = `
@@ -732,6 +750,7 @@ function renderDisciplineTable(riders, search) {
       const cls = ['score'];
       if (hasValue) cls.push('has-value');
       if (counts) cls.push('counts');
+      if (disc.races[i] && disc.races[i].unofficial) cls.push('unofficial');
       scoreCells += `<td class="${cls.join(' ')}">${hasValue ? s : '-'}</td>`;
     });
 
@@ -769,8 +788,8 @@ function renderClubs(content, search) {
 
   let raceHeaders = '';
   races.forEach(r => {
-    const short = r.name.length > 14 ? r.name.substring(0, 12) + '...' : r.name;
-    raceHeaders += `<th title="${esc(r.discipline)}: ${esc(r.name)}">${r.date}<span class="race-date">${esc(short)}</span></th>`;
+    const short = shorten(r.name, 14);
+    raceHeaders += `<th title="${esc(r.discipline)}: ${esc(r.name)}">${r.date}<span class="race-date">${esc(short)}</span>${r.unofficial ? UNOFFICIAL_TAG : ''}</th>`;
   });
 
   let html = `
@@ -788,8 +807,9 @@ function renderClubs(content, search) {
     const rowCls = rank <= 3 ? ` class="rank-${rank}"` : '';
 
     let raceCells = '';
-    c.raceScores.forEach(s => {
-      raceCells += `<td class="score${s > 0 ? ' has-value' : ''}">${s > 0 ? s : '-'}</td>`;
+    c.raceScores.forEach((s, i) => {
+      const unofficial = races[i] && races[i].unofficial ? ' unofficial' : '';
+      raceCells += `<td class="score${s > 0 ? ' has-value' : ''}${unofficial}">${s > 0 ? s : '-'}</td>`;
     });
 
     html += `<tr${rowCls}><td>${medal}${rank}</td><td class="name-col">${highlight(c.name, search)}</td>${raceCells}<td class="total-col sticky-col">${c.total}</td></tr>`;
@@ -803,6 +823,13 @@ function esc(text) {
   const div = document.createElement('div');
   div.textContent = text;
   return div.innerHTML;
+}
+
+// Races filled from live timing before the official results are published
+const UNOFFICIAL_TAG = '<span class="unofficial-tag">neuradni rezultati</span>';
+
+function shorten(name, max) {
+  return name.length > max ? name.substring(0, max - 2) + '...' : name;
 }
 
 function highlight(text, search) {

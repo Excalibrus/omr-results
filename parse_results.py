@@ -614,6 +614,272 @@ def get_rider_key(rider):
     return keys
 
 
+# --- Unofficial (live-timing) results ---------------------------------------
+# A race whose official column is still empty can be pre-filled from the
+# prijavim.se live-timing feed. Driven by config, per discipline:
+#   "road": { ..., "unofficial": [ { "liveScore": 6610, "race": "VODICE" } ] }
+# `liveScore` is the match id from https://prijavim.se/results/live_score/<id>,
+# `race` a case-insensitive substring of the race name in the official header,
+# optional `points` selects the table ("regular" default, "premium" for DP).
+# The entry is ignored (with a warning) as soon as the official column carries
+# points, so official results are never overwritten; delete it afterwards.
+
+LIVE_TIMING_URL = "https://prijavim.se/ajax/get_live_timing_results/{id}"
+LIVE_SCORE_URL = "https://prijavim.se/results/live_score/{id}"
+START_LIST_URL = "https://prijavim.se/calendar/checkings/{id}"
+
+POINTS_TABLES = {
+    "regular": [30, 25, 21, 18, 15, 13, 11, 9, 7, 6, 5, 4, 3, 2, 1],
+    "premium": [40, 34, 29, 25, 21, 18, 15, 12, 9, 7, 5, 4, 3, 2, 1],
+}
+
+
+def fetch_json(url):
+    """Fetch and decode a JSON document (tolerates a UTF-8 BOM). None on failure."""
+    text = fetch_url(url)
+    if text is None:
+        return None
+    try:
+        return json.loads(text.lstrip('\ufeff'))
+    except json.JSONDecodeError as e:
+        print(f"  WARNING: {url} is not valid JSON: {e}")
+        return None
+
+
+class StartListParser(HTMLParser):
+    """Parse the start list (calendar/checkings/<id>) into rows of
+    {surname, first, category, club, uci}. Club and UCI ID are read from the
+    data-* attributes of the row's menu cell, name/category from the cells
+    under the "Priimek"/"Ime"/"Kategorija" headers."""
+
+    def __init__(self):
+        super().__init__()
+        self.rows = []
+        self.headers = []
+        self.in_table = False
+        self.in_th = False
+        self.in_td = False
+        self.cells = []
+        self.attrs = {}
+        self.text = ''
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag == 'table' and 'checkings' in (a.get('class') or '').split():
+            self.in_table = True
+        elif not self.in_table:
+            return
+        elif tag == 'tr':
+            self.cells, self.attrs = [], {}
+        elif tag == 'th':
+            self.in_th, self.text = True, ''
+        elif tag == 'td':
+            self.in_td, self.text = True, ''
+            if 'dt-control' in (a.get('class') or ''):
+                self.attrs = {k[5:]: (v or '') for k, v in attrs if k.startswith('data-')}
+
+    def handle_endtag(self, tag):
+        if not self.in_table:
+            return
+        if tag == 'th' and self.in_th:
+            self.in_th = False
+            self.headers.append(self.text.strip())
+        elif tag == 'td' and self.in_td:
+            self.in_td = False
+            self.cells.append(re.sub(r'\s+', ' ', self.text).strip())
+        elif tag == 'tr' and self.cells:
+            self._finish_row()
+        elif tag == 'table':
+            self.in_table = False
+
+    def handle_data(self, data):
+        if self.in_th or self.in_td:
+            self.text += data
+
+    def _col(self, name, default):
+        for i, h in enumerate(self.headers):
+            if h.lower().startswith(name):
+                return i
+        return default
+
+    def _finish_row(self):
+        cells, attrs = self.cells, self.attrs
+        self.cells, self.attrs = [], {}
+        si, fi = self._col('priimek', 1), self._col('ime', 2)
+        ci, ki, ui = self._col('kategorija', 4), self._col('klub', 3), self._col('uci', 5)
+        if len(cells) <= max(si, fi, ci):
+            return
+        uci = re.sub(r'\s+', '', attrs.get('uci', ''))
+        if not uci and len(cells) > ui:
+            m = re.search(r'\d{8,}', cells[ui].replace(' ', ''))
+            uci = m.group(0) if m else ''
+        self.rows.append({
+            "surname": cells[si], "first": cells[fi], "category": cells[ci],
+            "club": attrs.get('club') or (cells[ki] if len(cells) > ki else ''),
+            "uci": uci,
+        })
+
+
+def parse_live_timing(feed):
+    """Flatten the live-timing feed into result rows (all races, all categories)."""
+    rows = []
+    for race in (feed or {}).values():
+        for cat in (race.get("categories") or {}).values():
+            category = (cat.get("category_name") or "").strip()
+            for res in cat.get("results") or []:
+                first = (res.get("first_name") or "").strip()
+                last = (res.get("last_name") or "").strip()
+                rows.append({
+                    "category": category,
+                    "rank": (res.get("rank") or "").strip(),
+                    "name": f"{last.upper()} {first}".strip(),
+                    "club": (res.get("club") or "").strip(),
+                })
+    return rows
+
+
+def official_rider_keys(all_parsed):
+    """Identity keys of every rider present in the official sources."""
+    keys = set()
+    for riders in all_parsed.values():
+        for r in riders:
+            keys.update(get_rider_key(r))
+    return keys
+
+
+def fetch_unofficial_rows(entry, official_keys, points):
+    """Fetch live timing + start list for one config entry and return the rows
+    that earn points: [{category, name, license, club, points}]. None if either
+    fetch failed. Eligibility (OMR rules as applied by the organiser):
+      - on the start list with a UCI ID -> counts
+      - on the start list without a UCI ID -> counts only if the rider already
+        appears in this year's official standings
+      - not on the start list -> counts only if the feed names a club
+    """
+    match_id = entry["liveScore"]
+    feed = fetch_json(LIVE_TIMING_URL.format(id=match_id))
+    start_html = fetch_url(START_LIST_URL.format(id=match_id))
+    if feed is None or start_html is None:
+        return None
+    sl = StartListParser()
+    sl.feed(start_html)
+    start_list = {(s["category"], normalize_name(f"{s['surname']} {s['first']}")): s for s in sl.rows}
+    print(f"  live timing {match_id}: {len(sl.rows)} on start list")
+
+    rows = []
+    skipped = []
+    for res in parse_live_timing(feed):
+        cat = res["category"]
+        if cat not in CATEGORIES:
+            continue
+        if not res["rank"].isdigit():
+            continue  # DNF / DNS / DSQ
+        rank = int(res["rank"])
+        if rank > len(points):
+            continue
+        key = (cat, normalize_name(res["name"]))
+        start = start_list.get(key)
+        if start is None:
+            eligible = bool(res["club"])
+            uci = ""
+        else:
+            uci = start["uci"]
+            eligible = bool(uci) or ("name", cat, key[1]) in official_keys
+        if not eligible:
+            skipped.append(f"{res['name']} ({cat}, {rank}.)")
+            continue
+        rows.append({
+            "category": cat,
+            "name": res["name"],
+            "license": uci,
+            "club": normalize_club(res["club"] or (start["club"] if start else "")),
+            "points": points[rank - 1],
+        })
+    if skipped:
+        print(f"  live timing {match_id}: no points for {', '.join(skipped)}")
+    return rows
+
+
+def restore_unofficial_rows(existing_output, disc_id, race_name):
+    """Recover an unofficial race column from the previous <year>.json so a
+    transient live-feed failure does not drop it for one run."""
+    disc_meta, old_riders = reconstruct_discipline(existing_output, disc_id)
+    if not disc_meta:
+        return None
+    idx = next((i for i, r in enumerate(disc_meta.get("races", []))
+                if r.get("unofficial") and r.get("name") == race_name), None)
+    if idx is None:
+        return None
+    return [{"category": r["category"], "name": r["name"], "license": r["license"],
+             "club": r["club"], "points": r["scores"][idx]}
+            for r in old_riders if idx < len(r["scores"]) and r["scores"][idx] > 0]
+
+
+def apply_unofficial_entry(entry, disc_meta, riders, official_keys, existing_output):
+    """Fill one race column of a discipline from the live-timing feed."""
+    races = disc_meta["races"]
+    needle = entry["race"].upper()
+    matches = [i for i, r in enumerate(races) if needle in r["name"].upper()]
+    if len(matches) != 1:
+        print(f"  WARNING: unofficial entry {entry!r}: race matches {len(matches)} columns, skipping")
+        return
+    idx = matches[0]
+    race = races[idx]
+    if any(idx < len(r["scores"]) and r["scores"][idx] > 0 for r in riders):
+        if race.get("unofficial"):
+            print(f"  unofficial column '{race['name']}' kept from previous output")
+        else:
+            print(f"  WARNING: official results present for '{race['name']}'; "
+                  f"ignoring unofficial entry {entry!r} - remove it from config.json")
+        return
+
+    points = POINTS_TABLES[entry.get("points", "regular")]
+    rows = fetch_unofficial_rows(entry, official_keys, points)
+    source = "live timing"
+    if rows is None:
+        rows = restore_unofficial_rows(existing_output, disc_meta["id"], race["name"])
+        source = "previous output"
+        if rows is None:
+            print(f"  WARNING: live timing {entry['liveScore']} unavailable and nothing to restore; "
+                  f"'{race['name']}' stays empty")
+            return
+        print(f"  WARNING: live timing {entry['liveScore']} unavailable; restoring '{race['name']}' from previous output")
+
+    by_lic = {("lic", r["category"], r["license"]): r for r in riders if r["license"]}
+    by_name = {("name", r["category"], normalize_name(r["name"])): r for r in riders}
+    best_of = disc_meta["bestOf"]
+    added = 0
+    for row in rows:
+        rider = None
+        if row["license"]:
+            rider = by_lic.get(("lic", row["category"], row["license"]))
+        if rider is None:
+            rider = by_name.get(("name", row["category"], normalize_name(row["name"])))
+        if rider is None:
+            rider = {
+                "rank": 0, "name": row["name"], "license": row["license"],
+                "club": row["club"], "category": row["category"],
+                "scores": [0] * len(races), "total": 0,
+                "unofficial": True,  # club is a live-timing guess: no vote in the merge
+            }
+            riders.append(rider)
+            by_name[("name", row["category"], normalize_name(row["name"]))] = rider
+            if row["license"]:
+                by_lic[("lic", row["category"], row["license"])] = rider
+            added += 1
+        while len(rider["scores"]) < len(races):
+            rider["scores"].append(0)
+        # The source total is the best-of total, so shift it by the best-of delta
+        old = best_of_sum(rider["scores"], best_of)
+        rider["scores"][idx] = row["points"]
+        rider["total"] += best_of_sum(rider["scores"], best_of) - old
+
+    race["unofficial"] = True
+    race["unofficialSource"] = LIVE_SCORE_URL.format(id=entry["liveScore"])
+    print(f"  unofficial '{race['name']}' ({race['date']}) from {source}: "
+          f"{len(rows)} riders scored, {added} new")
+
+
 def load_existing_output(output_path):
     """Load a previously written <year>.json, or None if absent/unreadable."""
     if not os.path.exists(output_path):
@@ -789,6 +1055,13 @@ def process_year(year, year_config, disciplines, output_path):
         print(f"  No data found for {year}, skipping output")
         return False
 
+    # Pre-fill empty race columns from live timing (config "unofficial")
+    official_keys = official_rider_keys(all_parsed)
+    for disc_meta in disciplines_data:
+        for entry in year_config[disc_meta["id"]].get("unofficial", []):
+            apply_unofficial_entry(entry, disc_meta, all_parsed[disc_meta["id"]],
+                                   official_keys, existing_output)
+
     # Merge riders across disciplines
     key_to_merged_id = {}
     merged_riders = []
@@ -828,7 +1101,8 @@ def process_year(year, year_config, disciplines, output_path):
                 merged_riders.append(mr)
 
             # Track club appearances to pick the most common one
-            if rider["club"]:
+            # (live-timing-only records don't vote; their club is a guess)
+            if rider["club"] and not rider.get("unofficial"):
                 counts = rider_club_counts[existing_id]
                 counts[rider["club"]] = counts.get(rider["club"], 0) + 1
 
@@ -914,7 +1188,8 @@ def process_year(year, year_config, disciplines, output_path):
                 "disc_name": disc_meta["name"],
                 "race_index": i,
                 "date": race["date"],
-                "name": race["name"]
+                "name": race["name"],
+                "unofficial": race.get("unofficial", False)
             })
     # Sort by date (dd.mm. format -> parse to comparable)
     def date_sort_key(r):
@@ -968,7 +1243,8 @@ def process_year(year, year_config, disciplines, output_path):
         c["riders"].sort(key=lambda r: -r["total"])
 
     # Build club races list for UI (date-sorted, no disc_id internals)
-    club_races = [{"date": r["date"], "name": r["name"], "discipline": r["disc_name"]} for r in all_races]
+    club_races = [{"date": r["date"], "name": r["name"], "discipline": r["disc_name"],
+                   **({"unofficial": True} if r["unofficial"] else {})} for r in all_races]
 
     # Build output
     data = {

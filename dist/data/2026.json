@@ -111,7 +111,9 @@
         },
         {
           "date": "19.09.",
-          "name": "15. VN OBČINE VODICE IN  POKAL LIDL 2026 OMR"
+          "name": "15. VN OBČINE VODICE IN  POKAL LIDL 2026 OMR",
+          "unofficial": true,
+          "unofficialSource": "https://prijavim.se/results/live_score/6610"
         },
         {
           "date": "17.10.",
@@ -303,7 +305,7 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 14
+          "rank": 15
         }
       },
       "general": {
@@ -375,7 +377,7 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 11
+          "rank": 13
         },
         "tt": {
           "scores": [
@@ -457,19 +459,21 @@
             0,
             0,
             25,
-            0,
+            25,
             0
           ],
-          "total": 25,
-          "bestOfTotal": 25,
-          "bestOfGeneralTotal": 25,
+          "total": 50,
+          "bestOfTotal": 50,
+          "bestOfGeneralTotal": 50,
           "bestOfIndices": [
-            6
+            6,
+            7
           ],
           "bestOfGeneralIndices": [
-            6
+            6,
+            7
           ],
-          "rank": 12
+          "rank": 7
         },
         "tt": {
           "scores": [
@@ -494,8 +498,8 @@
         }
       },
       "general": {
-        "total": 131,
-        "rank": 3
+        "total": 156,
+        "rank": 2
       }
     },
     {
@@ -608,7 +612,7 @@
       },
       "general": {
         "total": 36,
-        "rank": 14
+        "rank": 15
       }
     },
     {
@@ -651,7 +655,7 @@
       },
       "general": {
         "total": 30,
-        "rank": 15
+        "rank": 16
       }
     },
     {
@@ -742,7 +746,7 @@
       },
       "general": {
         "total": 151,
-        "rank": 2
+        "rank": 3
       }
     },
     {
@@ -874,7 +878,7 @@
       },
       "general": {
         "total": 25,
-        "rank": 19
+        "rank": 20
       }
     },
     {
@@ -937,7 +941,7 @@
             2,
             6
           ],
-          "rank": 6
+          "rank": 8
         }
       },
       "general": {
@@ -1137,21 +1141,23 @@
             29,
             0,
             21,
-            0,
+            21,
             0
           ],
-          "total": 80,
-          "bestOfTotal": 80,
-          "bestOfGeneralTotal": 80,
+          "total": 101,
+          "bestOfTotal": 101,
+          "bestOfGeneralTotal": 101,
           "bestOfIndices": [
             3,
             4,
-            6
+            6,
+            7
           ],
           "bestOfGeneralIndices": [
             3,
             4,
-            6
+            6,
+            7
           ],
           "rank": 3
         },
@@ -1180,7 +1186,7 @@
         }
       },
       "general": {
-        "total": 245,
+        "total": 266,
         "rank": 2
       }
     },
@@ -1237,17 +1243,18 @@
             40,
             0,
             25,
-            0,
+            25,
             0
           ],
-          "total": 141,
-          "bestOfTotal": 141,
-          "bestOfGeneralTotal": 141,
+          "total": 166,
+          "bestOfTotal": 166,
+          "bestOfGeneralTotal": 145,
           "bestOfIndices": [
             4,
             2,
             0,
             6,
+            7,
             3
           ],
           "bestOfGeneralIndices": [
@@ -1255,7 +1262,7 @@
             2,
             0,
             6,
-            3
+            7
           ],
           "rank": 2
         },
@@ -1284,7 +1291,7 @@
         }
       },
       "general": {
-        "total": 291,
+        "total": 295,
         "rank": 1
       }
     },
@@ -1458,11 +1465,11 @@
             34,
             30,
             30,
-            0,
+            30,
             0
           ],
-          "total": 179,
-          "bestOfTotal": 179,
+          "total": 184,
+          "bestOfTotal": 184,
           "bestOfGeneralTotal": 154,
           "bestOfIndices": [
             4,
@@ -1470,7 +1477,7 @@
             1,
             5,
             6,
-            3
+            7
           ],
           "bestOfGeneralIndices": [
             4,
@@ -2043,7 +2050,7 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 4
+          "rank": 5
         }
       },
       "general": {
@@ -2259,26 +2266,26 @@
             34,
             30,
             21,
-            0,
+            25,
             0
           ],
-          "total": 153,
-          "bestOfTotal": 153,
-          "bestOfGeneralTotal": 135,
+          "total": 160,
+          "bestOfTotal": 160,
+          "bestOfGeneralTotal": 139,
           "bestOfIndices": [
             4,
             5,
             0,
             3,
-            6,
-            1
+            7,
+            6
           ],
           "bestOfGeneralIndices": [
             4,
             5,
             0,
             3,
-            6
+            7
           ],
           "rank": 2
         },
@@ -2307,7 +2314,7 @@
         }
       },
       "general": {
-        "total": 325,
+        "total": 329,
         "rank": 1
       }
     },
@@ -2364,26 +2371,26 @@
             21,
             15,
             18,
-            0,
+            18,
             0
           ],
-          "total": 106,
-          "bestOfTotal": 106,
-          "bestOfGeneralTotal": 93,
+          "total": 111,
+          "bestOfTotal": 111,
+          "bestOfGeneralTotal": 96,
           "bestOfIndices": [
             1,
             4,
             0,
             6,
-            5,
-            3
+            7,
+            5
           ],
           "bestOfGeneralIndices": [
             1,
             4,
             0,
             6,
-            5
+            7
           ],
           "rank": 4
         },
@@ -2412,7 +2419,7 @@
         }
       },
       "general": {
-        "total": 237,
+        "total": 240,
         "rank": 4
       }
     },
@@ -2537,11 +2544,11 @@
             40,
             25,
             30,
-            0,
+            30,
             0
           ],
-          "total": 185,
-          "bestOfTotal": 185,
+          "total": 190,
+          "bestOfTotal": 190,
           "bestOfGeneralTotal": 160,
           "bestOfIndices": [
             4,
@@ -2549,7 +2556,7 @@
             1,
             3,
             6,
-            5
+            7
           ],
           "bestOfGeneralIndices": [
             4,
@@ -2640,11 +2647,11 @@
             25,
             18,
             25,
-            0,
+            21,
             0
           ],
-          "total": 144,
-          "bestOfTotal": 144,
+          "total": 147,
+          "bestOfTotal": 147,
           "bestOfGeneralTotal": 126,
           "bestOfIndices": [
             2,
@@ -2652,7 +2659,7 @@
             4,
             6,
             3,
-            5
+            7
           ],
           "bestOfGeneralIndices": [
             2,
@@ -3043,21 +3050,23 @@
             40,
             0,
             0,
-            0,
+            21,
             0
           ],
-          "total": 101,
-          "bestOfTotal": 101,
-          "bestOfGeneralTotal": 101,
+          "total": 122,
+          "bestOfTotal": 122,
+          "bestOfGeneralTotal": 122,
           "bestOfIndices": [
             4,
             3,
+            7,
             0,
             1
           ],
           "bestOfGeneralIndices": [
             4,
             3,
+            7,
             0,
             1
           ],
@@ -3088,7 +3097,7 @@
         }
       },
       "general": {
-        "total": 286,
+        "total": 307,
         "rank": 1
       }
     },
@@ -3157,7 +3166,7 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 13
+          "rank": 14
         },
         "tt": {
           "scores": [
@@ -3308,32 +3317,32 @@
             21,
             25,
             30,
-            0,
+            30,
             0
           ],
-          "total": 157,
-          "bestOfTotal": 157,
-          "bestOfGeneralTotal": 136,
+          "total": 166,
+          "bestOfTotal": 166,
+          "bestOfGeneralTotal": 145,
           "bestOfIndices": [
             1,
             3,
             6,
+            7,
             5,
-            0,
-            4
+            0
           ],
           "bestOfGeneralIndices": [
             1,
             3,
             6,
-            5,
-            0
+            7,
+            5
           ],
           "rank": 1
         }
       },
       "general": {
-        "total": 203,
+        "total": 212,
         "rank": 2
       }
     },
@@ -3401,7 +3410,7 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 31
+          "rank": 32
         },
         "tt": {
           "scores": [
@@ -3573,7 +3582,7 @@
       },
       "general": {
         "total": 56,
-        "rank": 18
+        "rank": 19
       }
     },
     {
@@ -3673,24 +3682,26 @@
             0,
             0,
             0,
-            0,
+            15,
             0
           ],
-          "total": 7,
-          "bestOfTotal": 7,
-          "bestOfGeneralTotal": 7,
+          "total": 22,
+          "bestOfTotal": 22,
+          "bestOfGeneralTotal": 22,
           "bestOfIndices": [
+            7,
             0
           ],
           "bestOfGeneralIndices": [
+            7,
             0
           ],
-          "rank": 26
+          "rank": 18
         }
       },
       "general": {
-        "total": 52,
-        "rank": 19
+        "total": 67,
+        "rank": 17
       }
     },
     {
@@ -3753,7 +3764,7 @@
           "bestOfGeneralIndices": [
             5
           ],
-          "rank": 11
+          "rank": 12
         }
       },
       "general": {
@@ -3807,7 +3818,7 @@
       },
       "general": {
         "total": 31,
-        "rank": 29
+        "rank": 30
       }
     },
     {
@@ -4137,7 +4148,7 @@
       },
       "general": {
         "total": 57,
-        "rank": 17
+        "rank": 18
       }
     },
     {
@@ -4202,7 +4213,7 @@
             3,
             4
           ],
-          "rank": 11
+          "rank": 12
         },
         "tt": {
           "scores": [
@@ -4289,7 +4300,7 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 23
+          "rank": 25
         }
       },
       "general": {
@@ -4484,12 +4495,12 @@
           "bestOfGeneralIndices": [
             5
           ],
-          "rank": 23
+          "rank": 25
         }
       },
       "general": {
         "total": 30,
-        "rank": 30
+        "rank": 32
       }
     },
     {
@@ -4551,7 +4562,7 @@
       },
       "general": {
         "total": 27,
-        "rank": 31
+        "rank": 33
       }
     },
     {
@@ -4678,7 +4689,7 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 34
+          "rank": 35
         },
         "tt": {
           "scores": [
@@ -4765,7 +4776,7 @@
             3,
             4
           ],
-          "rank": 17
+          "rank": 21
         }
       },
       "general": {
@@ -4835,7 +4846,7 @@
             1,
             5
           ],
-          "rank": 14
+          "rank": 16
         }
       },
       "general": {
@@ -4903,12 +4914,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 31
+          "rank": 32
         }
       },
       "general": {
         "total": 21,
-        "rank": 33
+        "rank": 36
       }
     },
     {
@@ -5015,7 +5026,7 @@
       },
       "general": {
         "total": 15,
-        "rank": 39
+        "rank": 41
       }
     },
     {
@@ -5058,7 +5069,7 @@
       },
       "general": {
         "total": 15,
-        "rank": 39
+        "rank": 41
       }
     },
     {
@@ -5101,7 +5112,7 @@
       },
       "general": {
         "total": 13,
-        "rank": 43
+        "rank": 44
       }
     },
     {
@@ -5144,7 +5155,7 @@
       },
       "general": {
         "total": 11,
-        "rank": 46
+        "rank": 47
       }
     },
     {
@@ -5205,7 +5216,7 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 31
+          "rank": 32
         },
         "tt": {
           "scores": [
@@ -5276,7 +5287,7 @@
       },
       "general": {
         "total": 11,
-        "rank": 46
+        "rank": 47
       }
     },
     {
@@ -5339,12 +5350,12 @@
           "bestOfGeneralIndices": [
             5
           ],
-          "rank": 28
+          "rank": 29
         }
       },
       "general": {
         "total": 15,
-        "rank": 39
+        "rank": 41
       }
     },
     {
@@ -5387,7 +5398,7 @@
       },
       "general": {
         "total": 9,
-        "rank": 49
+        "rank": 50
       }
     },
     {
@@ -5436,24 +5447,26 @@
             0,
             0,
             11,
-            0,
+            13,
             0
           ],
-          "total": 11,
-          "bestOfTotal": 11,
-          "bestOfGeneralTotal": 11,
+          "total": 24,
+          "bestOfTotal": 24,
+          "bestOfGeneralTotal": 24,
           "bestOfIndices": [
+            7,
             6
           ],
           "bestOfGeneralIndices": [
+            7,
             6
           ],
-          "rank": 22
+          "rank": 16
         }
       },
       "general": {
-        "total": 18,
-        "rank": 35
+        "total": 31,
+        "rank": 30
       }
     },
     {
@@ -5514,12 +5527,12 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 35
+          "rank": 36
         }
       },
       "general": {
         "total": 9,
-        "rank": 49
+        "rank": 50
       }
     },
     {
@@ -5580,12 +5593,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 23
+          "rank": 25
         }
       },
       "general": {
         "total": 16,
-        "rank": 37
+        "rank": 39
       }
     },
     {
@@ -5646,12 +5659,12 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 19
+          "rank": 22
         }
       },
       "general": {
         "total": 20,
-        "rank": 34
+        "rank": 37
       }
     },
     {
@@ -5694,7 +5707,7 @@
       },
       "general": {
         "total": 6,
-        "rank": 52
+        "rank": 53
       }
     },
     {
@@ -5737,7 +5750,7 @@
       },
       "general": {
         "total": 4,
-        "rank": 55
+        "rank": 56
       }
     },
     {
@@ -5780,7 +5793,7 @@
       },
       "general": {
         "total": 4,
-        "rank": 55
+        "rank": 56
       }
     },
     {
@@ -5949,7 +5962,7 @@
       },
       "general": {
         "total": 93,
-        "rank": 8
+        "rank": 9
       }
     },
     {
@@ -6074,7 +6087,7 @@
       },
       "general": {
         "total": 67,
-        "rank": 13
+        "rank": 14
       }
     },
     {
@@ -6144,7 +6157,7 @@
             3,
             1
           ],
-          "rank": 4
+          "rank": 5
         },
         "tt": {
           "scores": [
@@ -6218,7 +6231,7 @@
       },
       "general": {
         "total": 57,
-        "rank": 15
+        "rank": 16
       }
     },
     {
@@ -6272,26 +6285,26 @@
             18,
             21,
             25,
-            0,
+            30,
             0
           ],
-          "total": 135,
-          "bestOfTotal": 135,
-          "bestOfGeneralTotal": 117,
+          "total": 147,
+          "bestOfTotal": 147,
+          "bestOfGeneralTotal": 126,
           "bestOfIndices": [
-            0,
-            1,
-            6,
-            2,
-            5,
-            4
-          ],
-          "bestOfGeneralIndices": [
+            7,
             0,
             1,
             6,
             2,
             5
+          ],
+          "bestOfGeneralIndices": [
+            7,
+            0,
+            1,
+            6,
+            2
           ],
           "rank": 1
         },
@@ -6320,7 +6333,7 @@
         }
       },
       "general": {
-        "total": 240,
+        "total": 249,
         "rank": 1
       }
     },
@@ -6482,7 +6495,7 @@
       },
       "general": {
         "total": 90,
-        "rank": 9
+        "rank": 10
       }
     },
     {
@@ -6547,12 +6560,12 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 14
+          "rank": 15
         }
       },
       "general": {
         "total": 69,
-        "rank": 12
+        "rank": 13
       }
     },
     {
@@ -6597,7 +6610,7 @@
       },
       "general": {
         "total": 46,
-        "rank": 18
+        "rank": 19
       }
     },
     {
@@ -6665,7 +6678,7 @@
       },
       "general": {
         "total": 37,
-        "rank": 19
+        "rank": 20
       }
     },
     {
@@ -6716,26 +6729,28 @@
             5,
             0,
             0,
-            0,
+            13,
             0
           ],
-          "total": 9,
-          "bestOfTotal": 9,
-          "bestOfGeneralTotal": 9,
+          "total": 22,
+          "bestOfTotal": 22,
+          "bestOfGeneralTotal": 22,
           "bestOfIndices": [
+            7,
             4,
             3
           ],
           "bestOfGeneralIndices": [
+            7,
             4,
             3
           ],
-          "rank": 17
+          "rank": 13
         }
       },
       "general": {
-        "total": 35,
-        "rank": 20
+        "total": 48,
+        "rank": 17
       }
     },
     {
@@ -6807,7 +6822,7 @@
       },
       "general": {
         "total": 84,
-        "rank": 10
+        "rank": 11
       }
     },
     {
@@ -6899,26 +6914,28 @@
             29,
             0,
             0,
-            0,
+            18,
             0
           ],
-          "total": 38,
-          "bestOfTotal": 38,
-          "bestOfGeneralTotal": 38,
+          "total": 56,
+          "bestOfTotal": 56,
+          "bestOfGeneralTotal": 56,
           "bestOfIndices": [
             4,
+            7,
             3
           ],
           "bestOfGeneralIndices": [
             4,
+            7,
             3
           ],
           "rank": 8
         }
       },
       "general": {
-        "total": 56,
-        "rank": 16
+        "total": 74,
+        "rank": 12
       }
     },
     {
@@ -7017,25 +7034,27 @@
             40,
             30,
             0,
-            0,
+            18,
             0
           ],
-          "total": 125,
-          "bestOfTotal": 125,
-          "bestOfGeneralTotal": 125,
+          "total": 143,
+          "bestOfTotal": 143,
+          "bestOfGeneralTotal": 143,
           "bestOfIndices": [
             4,
             0,
             5,
-            1
+            1,
+            7
           ],
           "bestOfGeneralIndices": [
             4,
             0,
             5,
-            1
+            1,
+            7
           ],
-          "rank": 2
+          "rank": 1
         },
         "tt": {
           "scores": [
@@ -7062,7 +7081,7 @@
         }
       },
       "general": {
-        "total": 309,
+        "total": 327,
         "rank": 1
       }
     },
@@ -7238,7 +7257,7 @@
       },
       "general": {
         "total": 73,
-        "rank": 10
+        "rank": 11
       }
     },
     {
@@ -7425,7 +7444,7 @@
       },
       "general": {
         "total": 146,
-        "rank": 3
+        "rank": 4
       }
     },
     {
@@ -7499,7 +7518,7 @@
             0,
             5
           ],
-          "rank": 1
+          "rank": 2
         },
         "tt": {
           "scores": [
@@ -7592,7 +7611,7 @@
             4,
             3
           ],
-          "rank": 4
+          "rank": 5
         },
         "tt": {
           "scores": [
@@ -7616,7 +7635,7 @@
       },
       "general": {
         "total": 135,
-        "rank": 4
+        "rank": 5
       }
     },
     {
@@ -7820,7 +7839,7 @@
       },
       "general": {
         "total": 69,
-        "rank": 12
+        "rank": 13
       }
     },
     {
@@ -8110,20 +8129,22 @@
             21,
             25,
             30,
-            0,
+            30,
             0
           ],
-          "total": 101,
-          "bestOfTotal": 101,
-          "bestOfGeneralTotal": 101,
+          "total": 131,
+          "bestOfTotal": 131,
+          "bestOfGeneralTotal": 131,
           "bestOfIndices": [
             6,
+            7,
             0,
             5,
             4
           ],
           "bestOfGeneralIndices": [
             6,
+            7,
             0,
             5,
             4
@@ -8132,8 +8153,8 @@
         }
       },
       "general": {
-        "total": 126,
-        "rank": 5
+        "total": 156,
+        "rank": 3
       }
     },
     {
@@ -8378,7 +8399,7 @@
       },
       "general": {
         "total": 72,
-        "rank": 11
+        "rank": 12
       }
     },
     {
@@ -8813,7 +8834,7 @@
       },
       "general": {
         "total": 62,
-        "rank": 14
+        "rank": 15
       }
     },
     {
@@ -9460,26 +9481,26 @@
             12,
             18,
             18,
-            0,
+            30,
             0
           ],
-          "total": 137,
-          "bestOfTotal": 137,
-          "bestOfGeneralTotal": 119,
+          "total": 149,
+          "bestOfTotal": 149,
+          "bestOfGeneralTotal": 131,
           "bestOfIndices": [
             1,
-            0,
-            3,
-            2,
-            5,
-            6
-          ],
-          "bestOfGeneralIndices": [
-            1,
+            7,
             0,
             3,
             2,
             5
+          ],
+          "bestOfGeneralIndices": [
+            1,
+            7,
+            0,
+            3,
+            2
           ],
           "rank": 2
         },
@@ -9506,7 +9527,7 @@
         }
       },
       "general": {
-        "total": 226,
+        "total": 238,
         "rank": 3
       }
     },
@@ -9632,26 +9653,26 @@
             29,
             30,
             21,
-            0,
+            25,
             0
           ],
-          "total": 161,
-          "bestOfTotal": 161,
-          "bestOfGeneralTotal": 140,
+          "total": 165,
+          "bestOfTotal": 165,
+          "bestOfGeneralTotal": 144,
           "bestOfIndices": [
             0,
             2,
             5,
             4,
-            3,
-            6
+            7,
+            3
           ],
           "bestOfGeneralIndices": [
             0,
             2,
             5,
             4,
-            3
+            7
           ],
           "rank": 1
         },
@@ -9680,7 +9701,7 @@
         }
       },
       "general": {
-        "total": 300,
+        "total": 304,
         "rank": 1
       }
     },
@@ -9858,7 +9879,7 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 7
+          "rank": 8
         }
       },
       "general": {
@@ -9991,7 +10012,7 @@
       },
       "general": {
         "total": 61,
-        "rank": 15
+        "rank": 16
       }
     },
     {
@@ -10060,12 +10081,12 @@
             3,
             4
           ],
-          "rank": 8
+          "rank": 9
         }
       },
       "general": {
         "total": 52,
-        "rank": 16
+        "rank": 17
       }
     },
     {
@@ -10231,26 +10252,28 @@
             0,
             0,
             11,
-            0,
+            21,
             0
           ],
-          "total": 26,
-          "bestOfTotal": 26,
-          "bestOfGeneralTotal": 26,
+          "total": 47,
+          "bestOfTotal": 47,
+          "bestOfGeneralTotal": 47,
           "bestOfIndices": [
+            7,
             0,
             6
           ],
           "bestOfGeneralIndices": [
+            7,
             0,
             6
           ],
-          "rank": 9
+          "rank": 7
         }
       },
       "general": {
-        "total": 41,
-        "rank": 18
+        "total": 62,
+        "rank": 15
       }
     },
     {
@@ -10555,7 +10578,7 @@
       },
       "general": {
         "total": 48,
-        "rank": 17
+        "rank": 18
       }
     },
     {
@@ -10711,7 +10734,7 @@
             4,
             3
           ],
-          "rank": 5
+          "rank": 7
         }
       },
       "general": {
@@ -10854,7 +10877,7 @@
             4,
             3
           ],
-          "rank": 4
+          "rank": 6
         },
         "tt": {
           "scores": [
@@ -10953,7 +10976,7 @@
       },
       "general": {
         "total": 138,
-        "rank": 5
+        "rank": 6
       }
     },
     {
@@ -11008,26 +11031,26 @@
             29,
             30,
             30,
-            0,
+            30,
             0
           ],
-          "total": 174,
-          "bestOfTotal": 174,
-          "bestOfGeneralTotal": 149,
+          "total": 179,
+          "bestOfTotal": 179,
+          "bestOfGeneralTotal": 150,
           "bestOfIndices": [
             0,
             2,
             5,
             6,
-            4,
-            1
+            7,
+            4
           ],
           "bestOfGeneralIndices": [
             0,
             2,
             5,
             6,
-            4
+            7
           ],
           "rank": 1
         },
@@ -11054,7 +11077,7 @@
         }
       },
       "general": {
-        "total": 253,
+        "total": 254,
         "rank": 1
       }
     },
@@ -11228,7 +11251,7 @@
       },
       "general": {
         "total": 76,
-        "rank": 12
+        "rank": 13
       }
     },
     {
@@ -11389,7 +11412,7 @@
       },
       "general": {
         "total": 70,
-        "rank": 13
+        "rank": 14
       }
     },
     {
@@ -11440,22 +11463,24 @@
             12,
             0,
             0,
-            0,
+            18,
             0
           ],
-          "total": 76,
-          "bestOfTotal": 76,
-          "bestOfGeneralTotal": 76,
+          "total": 94,
+          "bestOfTotal": 94,
+          "bestOfGeneralTotal": 94,
           "bestOfIndices": [
             2,
             0,
             3,
+            7,
             4
           ],
           "bestOfGeneralIndices": [
             2,
             0,
             3,
+            7,
             4
           ],
           "rank": 3
@@ -11483,7 +11508,7 @@
         }
       },
       "general": {
-        "total": 177,
+        "total": 195,
         "rank": 3
       }
     },
@@ -11800,23 +11825,25 @@
             0,
             0,
             0,
-            0,
+            13,
             0
           ],
-          "total": 57,
-          "bestOfTotal": 57,
-          "bestOfGeneralTotal": 57,
+          "total": 70,
+          "bestOfTotal": 70,
+          "bestOfGeneralTotal": 70,
           "bestOfIndices": [
             2,
             0,
-            1
+            1,
+            7
           ],
           "bestOfGeneralIndices": [
             2,
             0,
-            1
+            1,
+            7
           ],
-          "rank": 6
+          "rank": 4
         },
         "tt": {
           "scores": [
@@ -11843,8 +11870,8 @@
         }
       },
       "general": {
-        "total": 128,
-        "rank": 6
+        "total": 141,
+        "rank": 5
       }
     },
     {
@@ -12305,23 +12332,25 @@
             0,
             25,
             21,
-            0,
+            15,
             0
           ],
-          "total": 82,
-          "bestOfTotal": 82,
-          "bestOfGeneralTotal": 82,
+          "total": 97,
+          "bestOfTotal": 97,
+          "bestOfGeneralTotal": 97,
           "bestOfIndices": [
             5,
             1,
             6,
-            0
+            0,
+            7
           ],
           "bestOfGeneralIndices": [
             5,
             1,
             6,
-            0
+            0,
+            7
           ],
           "rank": 2
         },
@@ -12346,7 +12375,7 @@
         }
       },
       "general": {
-        "total": 116,
+        "total": 131,
         "rank": 7
       }
     },
@@ -12396,26 +12425,28 @@
             18,
             0,
             25,
-            0,
+            25,
             0
           ],
-          "total": 43,
-          "bestOfTotal": 43,
-          "bestOfGeneralTotal": 43,
+          "total": 68,
+          "bestOfTotal": 68,
+          "bestOfGeneralTotal": 68,
           "bestOfIndices": [
             6,
+            7,
             4
           ],
           "bestOfGeneralIndices": [
             6,
+            7,
             4
           ],
-          "rank": 8
+          "rank": 5
         }
       },
       "general": {
-        "total": 54,
-        "rank": 15
+        "total": 79,
+        "rank": 12
       }
     },
     {
@@ -12678,23 +12709,25 @@
             15,
             0,
             0,
-            0,
+            21,
             0
           ],
-          "total": 44,
-          "bestOfTotal": 44,
-          "bestOfGeneralTotal": 44,
+          "total": 65,
+          "bestOfTotal": 65,
+          "bestOfGeneralTotal": 65,
           "bestOfIndices": [
             0,
+            7,
             4,
             3
           ],
           "bestOfGeneralIndices": [
             0,
+            7,
             4,
             3
           ],
-          "rank": 7
+          "rank": 5
         },
         "tt": {
           "scores": [
@@ -12717,7 +12750,7 @@
         }
       },
       "general": {
-        "total": 152,
+        "total": 173,
         "rank": 5
       }
     },
@@ -12792,7 +12825,7 @@
             3,
             1
           ],
-          "rank": 3
+          "rank": 4
         },
         "tt": {
           "scores": [
@@ -12959,12 +12992,12 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 11
+          "rank": 12
         }
       },
       "general": {
         "total": 69,
-        "rank": 10
+        "rank": 11
       }
     },
     {
@@ -13018,17 +13051,18 @@
             34,
             0,
             30,
-            0,
+            30,
             0
           ],
-          "total": 149,
-          "bestOfTotal": 149,
-          "bestOfGeneralTotal": 149,
+          "total": 179,
+          "bestOfTotal": 179,
+          "bestOfGeneralTotal": 154,
           "bestOfIndices": [
             4,
             0,
             1,
             6,
+            7,
             3
           ],
           "bestOfGeneralIndices": [
@@ -13036,7 +13070,7 @@
             0,
             1,
             6,
-            3
+            7
           ],
           "rank": 1
         },
@@ -13063,7 +13097,7 @@
         }
       },
       "general": {
-        "total": 275,
+        "total": 280,
         "rank": 1
       }
     },
@@ -13316,7 +13350,7 @@
             3,
             1
           ],
-          "rank": 6
+          "rank": 7
         },
         "tt": {
           "scores": [
@@ -13484,7 +13518,7 @@
       },
       "general": {
         "total": 21,
-        "rank": 15
+        "rank": 16
       }
     },
     {
@@ -13527,7 +13561,7 @@
       },
       "general": {
         "total": 18,
-        "rank": 16
+        "rank": 17
       }
     },
     {
@@ -13570,7 +13604,7 @@
       },
       "general": {
         "total": 15,
-        "rank": 18
+        "rank": 19
       }
     },
     {
@@ -13613,7 +13647,7 @@
       },
       "general": {
         "total": 15,
-        "rank": 18
+        "rank": 19
       }
     },
     {
@@ -13656,7 +13690,7 @@
       },
       "general": {
         "total": 13,
-        "rank": 20
+        "rank": 21
       }
     },
     {
@@ -13762,7 +13796,7 @@
             34,
             30,
             25,
-            0,
+            15,
             0
           ],
           "total": 158,
@@ -13975,7 +14009,7 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 6
+          "rank": 7
         },
         "tt": {
           "scores": [
@@ -14055,19 +14089,21 @@
             0,
             0,
             30,
-            0,
+            30,
             0
           ],
-          "total": 60,
-          "bestOfTotal": 60,
-          "bestOfGeneralTotal": 60,
+          "total": 90,
+          "bestOfTotal": 90,
+          "bestOfGeneralTotal": 90,
           "bestOfIndices": [
             3,
-            6
+            6,
+            7
           ],
           "bestOfGeneralIndices": [
             3,
-            6
+            6,
+            7
           ],
           "rank": 4
         },
@@ -14092,7 +14128,7 @@
         }
       },
       "general": {
-        "total": 145,
+        "total": 175,
         "rank": 4
       }
     },
@@ -14207,7 +14243,7 @@
             1,
             3
           ],
-          "rank": 7
+          "rank": 8
         },
         "tt": {
           "scores": [
@@ -14274,7 +14310,7 @@
       },
       "general": {
         "total": 30,
-        "rank": 13
+        "rank": 14
       }
     },
     {
@@ -14337,12 +14373,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 12
+          "rank": 13
         }
       },
       "general": {
         "total": 39,
-        "rank": 12
+        "rank": 13
       }
     },
     {
@@ -14477,25 +14513,27 @@
             21,
             25,
             0,
-            0,
+            25,
             0
           ],
-          "total": 97,
-          "bestOfTotal": 97,
-          "bestOfGeneralTotal": 97,
+          "total": 122,
+          "bestOfTotal": 122,
+          "bestOfGeneralTotal": 122,
           "bestOfIndices": [
             0,
             5,
+            7,
             3,
             4
           ],
           "bestOfGeneralIndices": [
             0,
             5,
+            7,
             3,
             4
           ],
-          "rank": 3
+          "rank": 2
         },
         "tt": {
           "scores": [
@@ -14520,7 +14558,7 @@
         }
       },
       "general": {
-        "total": 164,
+        "total": 189,
         "rank": 3
       }
     },
@@ -14570,29 +14608,31 @@
             29,
             0,
             21,
-            0,
+            18,
             0
           ],
-          "total": 100,
-          "bestOfTotal": 100,
-          "bestOfGeneralTotal": 100,
+          "total": 118,
+          "bestOfTotal": 118,
+          "bestOfGeneralTotal": 118,
           "bestOfIndices": [
             4,
             0,
             1,
-            6
+            6,
+            7
           ],
           "bestOfGeneralIndices": [
             4,
             0,
             1,
-            6
+            6,
+            7
           ],
-          "rank": 2
+          "rank": 3
         }
       },
       "general": {
-        "total": 115,
+        "total": 133,
         "rank": 5
       }
     },
@@ -14636,7 +14676,7 @@
       },
       "general": {
         "total": 11,
-        "rank": 21
+        "rank": 22
       }
     },
     {
@@ -14679,7 +14719,7 @@
       },
       "general": {
         "total": 9,
-        "rank": 22
+        "rank": 23
       }
     },
     {
@@ -14998,7 +15038,7 @@
       },
       "general": {
         "total": 71,
-        "rank": 14
+        "rank": 15
       }
     },
     {
@@ -15053,18 +15093,20 @@
             29,
             21,
             25,
-            0,
+            30,
             0
           ],
-          "total": 75,
-          "bestOfTotal": 75,
-          "bestOfGeneralTotal": 75,
+          "total": 105,
+          "bestOfTotal": 105,
+          "bestOfGeneralTotal": 105,
           "bestOfIndices": [
+            7,
             4,
             6,
             5
           ],
           "bestOfGeneralIndices": [
+            7,
             4,
             6,
             5
@@ -15096,7 +15138,7 @@
         }
       },
       "general": {
-        "total": 229,
+        "total": 259,
         "rank": 2
       }
     },
@@ -15153,25 +15195,27 @@
             18,
             18,
             11,
-            0,
+            21,
             0
           ],
-          "total": 62,
-          "bestOfTotal": 62,
-          "bestOfGeneralTotal": 62,
+          "total": 83,
+          "bestOfTotal": 83,
+          "bestOfGeneralTotal": 83,
           "bestOfIndices": [
+            7,
             4,
             5,
             0,
             6
           ],
           "bestOfGeneralIndices": [
+            7,
             4,
             5,
             0,
             6
           ],
-          "rank": 6
+          "rank": 5
         },
         "tt": {
           "scores": [
@@ -15198,8 +15242,8 @@
         }
       },
       "general": {
-        "total": 154,
-        "rank": 5
+        "total": 175,
+        "rank": 4
       }
     },
     {
@@ -15270,7 +15314,7 @@
             0,
             1
           ],
-          "rank": 7
+          "rank": 9
         },
         "tt": {
           "scores": [
@@ -15369,7 +15413,7 @@
       },
       "general": {
         "total": 88,
-        "rank": 10
+        "rank": 11
       }
     },
     {
@@ -15432,7 +15476,7 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 18
+          "rank": 19
         },
         "tt": {
           "scores": [
@@ -15510,26 +15554,26 @@
             12,
             15,
             18,
-            0,
+            25,
             0
           ],
-          "total": 112,
-          "bestOfTotal": 112,
-          "bestOfGeneralTotal": 100,
+          "total": 125,
+          "bestOfTotal": 125,
+          "bestOfGeneralTotal": 110,
           "bestOfIndices": [
             2,
-            0,
-            1,
-            6,
-            5,
-            4
-          ],
-          "bestOfGeneralIndices": [
-            2,
+            7,
             0,
             1,
             6,
             5
+          ],
+          "bestOfGeneralIndices": [
+            2,
+            7,
+            0,
+            1,
+            6
           ],
           "rank": 3
         },
@@ -15558,7 +15602,7 @@
         }
       },
       "general": {
-        "total": 166,
+        "total": 176,
         "rank": 3
       }
     },
@@ -15655,7 +15699,7 @@
       },
       "general": {
         "total": 71,
-        "rank": 14
+        "rank": 15
       }
     },
     {
@@ -15723,7 +15767,7 @@
       },
       "general": {
         "total": 54,
-        "rank": 18
+        "rank": 19
       }
     },
     {
@@ -16052,18 +16096,19 @@
             29,
             25,
             25,
-            0,
+            25,
             0
           ],
-          "total": 129,
-          "bestOfTotal": 129,
+          "total": 154,
+          "bestOfTotal": 154,
           "bestOfGeneralTotal": 129,
           "bestOfIndices": [
             4,
             0,
             1,
             5,
-            6
+            6,
+            7
           ],
           "bestOfGeneralIndices": [
             4,
@@ -16155,7 +16200,7 @@
             40,
             30,
             30,
-            0,
+            30,
             0
           ],
           "total": 190,
@@ -16260,7 +16305,7 @@
             21,
             18,
             15,
-            0,
+            11,
             0
           ],
           "total": 127,
@@ -16365,23 +16410,25 @@
             25,
             21,
             21,
-            0,
+            18,
             0
           ],
-          "total": 85,
-          "bestOfTotal": 85,
-          "bestOfGeneralTotal": 85,
+          "total": 103,
+          "bestOfTotal": 103,
+          "bestOfGeneralTotal": 103,
           "bestOfIndices": [
             4,
             5,
             6,
-            0
+            0,
+            7
           ],
           "bestOfGeneralIndices": [
             4,
             5,
             6,
-            0
+            0,
+            7
           ],
           "rank": 4
         },
@@ -16410,7 +16457,7 @@
         }
       },
       "general": {
-        "total": 217,
+        "total": 235,
         "rank": 4
       }
     },
@@ -16461,7 +16508,7 @@
       },
       "general": {
         "total": 63,
-        "rank": 9
+        "rank": 10
       }
     },
     {
@@ -16517,13 +16564,14 @@
             15,
             0,
             18,
-            0,
+            21,
             0
           ],
-          "total": 79,
-          "bestOfTotal": 79,
-          "bestOfGeneralTotal": 79,
+          "total": 100,
+          "bestOfTotal": 100,
+          "bestOfGeneralTotal": 87,
           "bestOfIndices": [
+            7,
             3,
             6,
             1,
@@ -16531,11 +16579,11 @@
             0
           ],
           "bestOfGeneralIndices": [
+            7,
             3,
             6,
             1,
-            4,
-            0
+            4
           ],
           "rank": 5
         },
@@ -16560,7 +16608,7 @@
         }
       },
       "general": {
-        "total": 144,
+        "total": 152,
         "rank": 6
       }
     },
@@ -16695,7 +16743,7 @@
       },
       "general": {
         "total": 55,
-        "rank": 10
+        "rank": 11
       }
     },
     {
@@ -16761,7 +16809,7 @@
       },
       "general": {
         "total": 68,
-        "rank": 8
+        "rank": 9
       }
     },
     {
@@ -16896,26 +16944,28 @@
             18,
             0,
             0,
-            0,
+            15,
             0
           ],
-          "total": 36,
-          "bestOfTotal": 36,
-          "bestOfGeneralTotal": 36,
+          "total": 51,
+          "bestOfTotal": 51,
+          "bestOfGeneralTotal": 51,
           "bestOfIndices": [
             1,
-            4
+            4,
+            7
           ],
           "bestOfGeneralIndices": [
             1,
-            4
+            4,
+            7
           ],
           "rank": 6
         }
       },
       "general": {
-        "total": 54,
-        "rank": 11
+        "total": 69,
+        "rank": 8
       }
     },
     {
@@ -17185,20 +17235,22 @@
             34,
             0,
             0,
-            0,
+            25,
             0
           ],
-          "total": 85,
-          "bestOfTotal": 85,
-          "bestOfGeneralTotal": 85,
+          "total": 110,
+          "bestOfTotal": 110,
+          "bestOfGeneralTotal": 110,
           "bestOfIndices": [
             4,
             3,
+            7,
             1
           ],
           "bestOfGeneralIndices": [
             4,
             3,
+            7,
             1
           ],
           "rank": 4
@@ -17228,8 +17280,8 @@
         }
       },
       "general": {
-        "total": 235,
-        "rank": 3
+        "total": 260,
+        "rank": 2
       }
     },
     {
@@ -17285,26 +17337,26 @@
             29,
             30,
             30,
-            0,
+            30,
             0
           ],
-          "total": 169,
-          "bestOfTotal": 169,
-          "bestOfGeneralTotal": 144,
+          "total": 174,
+          "bestOfTotal": 174,
+          "bestOfGeneralTotal": 149,
           "bestOfIndices": [
             1,
             5,
             6,
+            7,
             4,
-            0,
-            3
+            0
           ],
           "bestOfGeneralIndices": [
             1,
             5,
             6,
-            4,
-            0
+            7,
+            4
           ],
           "rank": 1
         },
@@ -17333,7 +17385,7 @@
         }
       },
       "general": {
-        "total": 296,
+        "total": 301,
         "rank": 1
       }
     },
@@ -17492,26 +17544,26 @@
             21,
             21,
             21,
-            0,
+            21,
             0
           ],
-          "total": 121,
-          "bestOfTotal": 121,
-          "bestOfGeneralTotal": 106,
+          "total": 127,
+          "bestOfTotal": 127,
+          "bestOfGeneralTotal": 109,
           "bestOfIndices": [
             2,
             4,
             5,
             6,
-            1,
-            0
+            7,
+            1
           ],
           "bestOfGeneralIndices": [
             2,
             4,
             5,
             6,
-            1
+            7
           ],
           "rank": 3
         },
@@ -17540,7 +17592,7 @@
         }
       },
       "general": {
-        "total": 212,
+        "total": 215,
         "rank": 4
       }
     },
@@ -17644,7 +17696,7 @@
       },
       "general": {
         "total": 239,
-        "rank": 2
+        "rank": 3
       }
     },
     {
@@ -17811,7 +17863,7 @@
       },
       "general": {
         "total": 165,
-        "rank": 4
+        "rank": 5
       }
     },
     {
@@ -17971,21 +18023,23 @@
             0,
             0,
             25,
-            0,
+            30,
             0
           ],
-          "total": 46,
-          "bestOfTotal": 46,
-          "bestOfGeneralTotal": 46,
+          "total": 76,
+          "bestOfTotal": 76,
+          "bestOfGeneralTotal": 76,
           "bestOfIndices": [
+            7,
             6,
             0
           ],
           "bestOfGeneralIndices": [
+            7,
             6,
             0
           ],
-          "rank": 5
+          "rank": 4
         },
         "tt": {
           "scores": [
@@ -18008,8 +18062,8 @@
         }
       },
       "general": {
-        "total": 145,
-        "rank": 5
+        "total": 175,
+        "rank": 4
       }
     },
     {
@@ -18065,26 +18119,26 @@
             25,
             21,
             21,
-            0,
+            25,
             0
           ],
-          "total": 136,
-          "bestOfTotal": 136,
-          "bestOfGeneralTotal": 118,
+          "total": 143,
+          "bestOfTotal": 143,
+          "bestOfGeneralTotal": 122,
           "bestOfIndices": [
             2,
             4,
+            7,
             1,
             5,
-            6,
-            0
+            6
           ],
           "bestOfGeneralIndices": [
             2,
             4,
+            7,
             1,
-            5,
-            6
+            5
           ],
           "rank": 2
         },
@@ -18113,7 +18167,7 @@
         }
       },
       "general": {
-        "total": 241,
+        "total": 245,
         "rank": 2
       }
     },
@@ -18183,7 +18237,7 @@
             1,
             5
           ],
-          "rank": 4
+          "rank": 5
         }
       },
       "general": {
@@ -18458,12 +18512,12 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 7
+          "rank": 9
         }
       },
       "general": {
         "total": 40,
-        "rank": 13
+        "rank": 14
       }
     },
     {
@@ -18494,12 +18548,12 @@
           "bestOfGeneralIndices": [
             1
           ],
-          "rank": 8
+          "rank": 10
         }
       },
       "general": {
         "total": 30,
-        "rank": 15
+        "rank": 16
       }
     },
     {
@@ -18530,7 +18584,7 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 8
+          "rank": 10
         },
         "tt": {
           "scores": [
@@ -18573,24 +18627,26 @@
             0,
             30,
             0,
-            0,
+            21,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 51,
+          "bestOfTotal": 51,
+          "bestOfGeneralTotal": 51,
           "bestOfIndices": [
-            5
+            5,
+            7
           ],
           "bestOfGeneralIndices": [
-            5
+            5,
+            7
           ],
-          "rank": 8
+          "rank": 4
         }
       },
       "general": {
-        "total": 30,
-        "rank": 15
+        "total": 51,
+        "rank": 12
       }
     },
     {
@@ -18621,12 +18677,12 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 12
+          "rank": 14
         }
       },
       "general": {
         "total": 25,
-        "rank": 19
+        "rank": 20
       }
     },
     {
@@ -18657,12 +18713,12 @@
           "bestOfGeneralIndices": [
             1
           ],
-          "rank": 15
+          "rank": 16
         }
       },
       "general": {
         "total": 15,
-        "rank": 21
+        "rank": 22
       }
     },
     {
@@ -18895,12 +18951,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 15
+          "rank": 19
         }
       },
       "general": {
         "total": 18,
-        "rank": 35
+        "rank": 38
       }
     },
     {
@@ -18933,12 +18989,12 @@
             6,
             5
           ],
-          "rank": 16
+          "rank": 20
         }
       },
       "general": {
         "total": 16,
-        "rank": 37
+        "rank": 39
       }
     },
     {
@@ -18957,24 +19013,26 @@
             0,
             15,
             0,
-            0,
+            18,
             0
           ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
+          "total": 33,
+          "bestOfTotal": 33,
+          "bestOfGeneralTotal": 33,
           "bestOfIndices": [
+            7,
             5
           ],
           "bestOfGeneralIndices": [
+            7,
             5
           ],
-          "rank": 17
+          "rank": 11
         }
       },
       "general": {
-        "total": 15,
-        "rank": 39
+        "total": 33,
+        "rank": 27
       }
     },
     {
@@ -19005,12 +19063,12 @@
           "bestOfGeneralIndices": [
             6
           ],
-          "rank": 19
+          "rank": 22
         }
       },
       "general": {
         "total": 13,
-        "rank": 43
+        "rank": 44
       }
     },
     {
@@ -19041,12 +19099,12 @@
           "bestOfGeneralIndices": [
             2
           ],
-          "rank": 19
+          "rank": 22
         }
       },
       "general": {
         "total": 13,
-        "rank": 43
+        "rank": 44
       }
     },
     {
@@ -19077,12 +19135,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 26
+          "rank": 28
         }
       },
       "general": {
         "total": 7,
-        "rank": 51
+        "rank": 52
       }
     },
     {
@@ -19113,12 +19171,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 28
+          "rank": 29
         }
       },
       "general": {
         "total": 6,
-        "rank": 52
+        "rank": 53
       }
     },
     {
@@ -19149,12 +19207,12 @@
           "bestOfGeneralIndices": [
             0
           ],
-          "rank": 28
+          "rank": 29
         }
       },
       "general": {
         "total": 6,
-        "rank": 52
+        "rank": 53
       }
     },
     {
@@ -19185,12 +19243,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 35
+          "rank": 36
         }
       },
       "general": {
         "total": 2,
-        "rank": 57
+        "rank": 58
       }
     },
     {
@@ -19221,7 +19279,7 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 37
+          "rank": 38
         },
         "tt": {
           "scores": [
@@ -19245,7 +19303,7 @@
       },
       "general": {
         "total": 10,
-        "rank": 48
+        "rank": 49
       }
     },
     {
@@ -19329,18 +19387,19 @@
             0,
             18,
             21,
-            0,
+            15,
             0
           ],
-          "total": 97,
-          "bestOfTotal": 97,
+          "total": 112,
+          "bestOfTotal": 112,
           "bestOfGeneralTotal": 97,
           "bestOfIndices": [
             2,
             6,
             1,
             5,
-            0
+            0,
+            7
           ],
           "bestOfGeneralIndices": [
             2,
@@ -19354,7 +19413,7 @@
       },
       "general": {
         "total": 97,
-        "rank": 7
+        "rank": 8
       }
     },
     {
@@ -19373,30 +19432,32 @@
             0,
             0,
             0,
-            0,
+            25,
             0
           ],
-          "total": 76,
-          "bestOfTotal": 76,
-          "bestOfGeneralTotal": 76,
+          "total": 101,
+          "bestOfTotal": 101,
+          "bestOfGeneralTotal": 101,
           "bestOfIndices": [
             2,
+            7,
             0,
             1,
             3
           ],
           "bestOfGeneralIndices": [
             2,
+            7,
             0,
             1,
             3
           ],
-          "rank": 5
+          "rank": 4
         }
       },
       "general": {
-        "total": 76,
-        "rank": 11
+        "total": 101,
+        "rank": 7
       }
     },
     {
@@ -19501,7 +19562,7 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 14
+          "rank": 15
         },
         "tt": {
           "scores": [
@@ -19525,7 +19586,7 @@
       },
       "general": {
         "total": 61,
-        "rank": 14
+        "rank": 15
       }
     },
     {
@@ -19558,7 +19619,7 @@
             0,
             4
           ],
-          "rank": 16
+          "rank": 17
         }
       },
       "general": {
@@ -19654,30 +19715,32 @@
             0,
             18,
             15,
-            0,
+            21,
             0
           ],
-          "total": 59,
-          "bestOfTotal": 59,
-          "bestOfGeneralTotal": 59,
+          "total": 80,
+          "bestOfTotal": 80,
+          "bestOfGeneralTotal": 80,
           "bestOfIndices": [
+            7,
             5,
             1,
             6,
             0
           ],
           "bestOfGeneralIndices": [
+            7,
             5,
             1,
             6,
             0
           ],
-          "rank": 5
+          "rank": 4
         }
       },
       "general": {
-        "total": 59,
-        "rank": 15
+        "total": 80,
+        "rank": 10
       }
     },
     {
@@ -20405,12 +20468,12 @@
             1,
             0
           ],
-          "rank": 7
+          "rank": 8
         }
       },
       "general": {
         "total": 55,
-        "rank": 14
+        "rank": 15
       }
     },
     {
@@ -20666,27 +20729,29 @@
             0,
             0,
             21,
-            0,
+            15,
             0
           ],
-          "total": 69,
-          "bestOfTotal": 69,
-          "bestOfGeneralTotal": 69,
+          "total": 84,
+          "bestOfTotal": 84,
+          "bestOfGeneralTotal": 84,
           "bestOfIndices": [
             2,
             6,
-            0
+            0,
+            7
           ],
           "bestOfGeneralIndices": [
             2,
             6,
-            0
+            0,
+            7
           ],
-          "rank": 4
+          "rank": 3
         }
       },
       "general": {
-        "total": 69,
+        "total": 84,
         "rank": 10
       }
     },
@@ -20756,12 +20821,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 10
+          "rank": 11
         }
       },
       "general": {
         "total": 13,
-        "rank": 20
+        "rank": 21
       }
     },
     {
@@ -20792,12 +20857,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 12
+          "rank": 13
         }
       },
       "general": {
         "total": 11,
-        "rank": 22
+        "rank": 23
       }
     },
     {
@@ -20828,12 +20893,12 @@
           "bestOfGeneralIndices": [
             4
           ],
-          "rank": 13
+          "rank": 14
         }
       },
       "general": {
         "total": 9,
-        "rank": 23
+        "rank": 24
       }
     },
     {
@@ -20864,12 +20929,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 14
+          "rank": 15
         }
       },
       "general": {
         "total": 7,
-        "rank": 24
+        "rank": 25
       }
     },
     {
@@ -20900,12 +20965,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 15
+          "rank": 16
         }
       },
       "general": {
         "total": 6,
-        "rank": 25
+        "rank": 26
       }
     },
     {
@@ -20936,12 +21001,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 16
+          "rank": 17
         }
       },
       "general": {
         "total": 5,
-        "rank": 26
+        "rank": 27
       }
     },
     {
@@ -20972,7 +21037,7 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 17
+          "rank": 18
         },
         "tt": {
           "scores": [
@@ -20996,7 +21061,7 @@
       },
       "general": {
         "total": 16,
-        "rank": 17
+        "rank": 18
       }
     },
     {
@@ -21053,24 +21118,26 @@
             0,
             0,
             0,
-            0,
+            13,
             0
           ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
+          "total": 43,
+          "bestOfTotal": 43,
+          "bestOfGeneralTotal": 43,
           "bestOfIndices": [
-            1
+            1,
+            7
           ],
           "bestOfGeneralIndices": [
-            1
+            1,
+            7
           ],
-          "rank": 8
+          "rank": 6
         }
       },
       "general": {
-        "total": 30,
-        "rank": 13
+        "total": 43,
+        "rank": 12
       }
     },
     {
@@ -21101,12 +21168,12 @@
           "bestOfGeneralIndices": [
             1
           ],
-          "rank": 10
+          "rank": 11
         }
       },
       "general": {
         "total": 15,
-        "rank": 19
+        "rank": 20
       }
     },
     {
@@ -21137,12 +21204,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 9
+          "rank": 10
         }
       },
       "general": {
         "total": 18,
-        "rank": 18
+        "rank": 19
       }
     },
     {
@@ -21173,12 +21240,12 @@
           "bestOfGeneralIndices": [
             3
           ],
-          "rank": 10
+          "rank": 11
         }
       },
       "general": {
         "total": 15,
-        "rank": 19
+        "rank": 20
       }
     },
     {
@@ -21256,7 +21323,7 @@
             4,
             1
           ],
-          "rank": 5
+          "rank": 7
         },
         "tt": {
           "scores": [
@@ -21284,7 +21351,7 @@
       },
       "general": {
         "total": 160,
-        "rank": 4
+        "rank": 5
       }
     },
     {
@@ -21303,30 +21370,32 @@
             9,
             0,
             15,
-            0,
+            18,
             0
           ],
-          "total": 54,
-          "bestOfTotal": 54,
-          "bestOfGeneralTotal": 54,
+          "total": 72,
+          "bestOfTotal": 72,
+          "bestOfGeneralTotal": 72,
           "bestOfIndices": [
+            7,
             1,
             3,
             6,
             4
           ],
           "bestOfGeneralIndices": [
+            7,
             1,
             3,
             6,
             4
           ],
-          "rank": 8
+          "rank": 6
         }
       },
       "general": {
-        "total": 54,
-        "rank": 18
+        "total": 72,
+        "rank": 14
       }
     },
     {
@@ -21345,23 +21414,25 @@
             15,
             0,
             0,
-            0,
+            15,
             0
           ],
-          "total": 47,
-          "bestOfTotal": 47,
-          "bestOfGeneralTotal": 47,
+          "total": 62,
+          "bestOfTotal": 62,
+          "bestOfGeneralTotal": 62,
           "bestOfIndices": [
             3,
             4,
+            7,
             0
           ],
           "bestOfGeneralIndices": [
             3,
             4,
+            7,
             0
           ],
-          "rank": 9
+          "rank": 8
         },
         "tt": {
           "scores": [
@@ -21388,8 +21459,8 @@
         }
       },
       "general": {
-        "total": 86,
-        "rank": 11
+        "total": 101,
+        "rank": 10
       }
     },
     {
@@ -21408,20 +21479,22 @@
             7,
             0,
             13,
-            0,
+            13,
             0
           ],
-          "total": 40,
-          "bestOfTotal": 40,
-          "bestOfGeneralTotal": 40,
+          "total": 53,
+          "bestOfTotal": 53,
+          "bestOfGeneralTotal": 53,
           "bestOfIndices": [
             6,
+            7,
             3,
             1,
             4
           ],
           "bestOfGeneralIndices": [
             6,
+            7,
             3,
             1,
             4
@@ -21430,7 +21503,7 @@
         }
       },
       "general": {
-        "total": 40,
+        "total": 53,
         "rank": 20
       }
     },
@@ -21490,7 +21563,7 @@
       },
       "general": {
         "total": 64,
-        "rank": 16
+        "rank": 17
       }
     },
     {
@@ -21696,6 +21769,222 @@
     },
     {
       "id": 334,
+      "name": "HOČEVAR Lucija",
+      "license": "",
+      "club": "SD Strahovica",
+      "category": "Ženske A",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            30,
+            0
+          ],
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
+          "bestOfIndices": [
+            7
+          ],
+          "bestOfGeneralIndices": [
+            7
+          ],
+          "rank": 10
+        }
+      },
+      "general": {
+        "total": 30,
+        "rank": 16
+      }
+    },
+    {
+      "id": 335,
+      "name": "ŠPILJAK Dragutin",
+      "license": "10080418539",
+      "club": "BK SOKOL VINKOVCI",
+      "category": "Master F",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            21,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            7
+          ],
+          "bestOfGeneralIndices": [
+            7
+          ],
+          "rank": 9
+        }
+      },
+      "general": {
+        "total": 21,
+        "rank": 16
+      }
+    },
+    {
+      "id": 336,
+      "name": "MORI Mitja",
+      "license": "10071275176",
+      "club": "GANESHA TEAM",
+      "category": "Master E",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            25,
+            0
+          ],
+          "total": 25,
+          "bestOfTotal": 25,
+          "bestOfGeneralTotal": 25,
+          "bestOfIndices": [
+            7
+          ],
+          "bestOfGeneralIndices": [
+            7
+          ],
+          "rank": 10
+        }
+      },
+      "general": {
+        "total": 25,
+        "rank": 15
+      }
+    },
+    {
+      "id": 337,
+      "name": "KALAN Mateja",
+      "license": "",
+      "club": "ŠD BAM.BI",
+      "category": "Ženske C",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            30,
+            0
+          ],
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
+          "bestOfIndices": [
+            7
+          ],
+          "bestOfGeneralIndices": [
+            7
+          ],
+          "rank": 3
+        }
+      },
+      "general": {
+        "total": 30,
+        "rank": 6
+      }
+    },
+    {
+      "id": 338,
+      "name": "GABER Vid",
+      "license": "10116487987",
+      "club": "RIBNO ALPINE RESORT BLED",
+      "category": "Amaterji",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            25,
+            0
+          ],
+          "total": 25,
+          "bestOfTotal": 25,
+          "bestOfGeneralTotal": 25,
+          "bestOfIndices": [
+            7
+          ],
+          "bestOfGeneralIndices": [
+            7
+          ],
+          "rank": 15
+        }
+      },
+      "general": {
+        "total": 25,
+        "rank": 34
+      }
+    },
+    {
+      "id": 339,
+      "name": "DEBELJAK Janez",
+      "license": "10017635691",
+      "club": "ŠD BAM.BI",
+      "category": "Master G",
+      "disciplines": {
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11,
+            0
+          ],
+          "total": 11,
+          "bestOfTotal": 11,
+          "bestOfGeneralTotal": 11,
+          "bestOfIndices": [
+            7
+          ],
+          "bestOfGeneralIndices": [
+            7
+          ],
+          "rank": 18
+        }
+      },
+      "general": {
+        "total": 11,
+        "rank": 24
+      }
+    },
+    {
+      "id": 340,
       "name": "ERJAVEC Martina",
       "license": "10117947738",
       "club": "KD OBALA",
@@ -21723,11 +22012,11 @@
       },
       "general": {
         "total": 29,
-        "rank": 18
+        "rank": 19
       }
     },
     {
-      "id": 335,
+      "id": 341,
       "name": "GULIČ Teja",
       "license": "10050032580",
       "club": "KD BRDA DOBROVO",
@@ -21759,7 +22048,7 @@
       }
     },
     {
-      "id": 336,
+      "id": 342,
       "name": "PODPEČAN Ana",
       "license": "",
       "club": "ENERGIJATEAM.COM",
@@ -21791,7 +22080,7 @@
       }
     },
     {
-      "id": 337,
+      "id": 343,
       "name": "BRATKOVIČ Aljaž",
       "license": "10078947876",
       "club": "JB TEAM NOVO MESTO",
@@ -21819,11 +22108,11 @@
       },
       "general": {
         "total": 25,
-        "rank": 32
+        "rank": 34
       }
     },
     {
-      "id": 338,
+      "id": 344,
       "name": "ARKO Jan",
       "license": "",
       "club": "Team Granfondo Slovenija",
@@ -21857,7 +22146,7 @@
       }
     },
     {
-      "id": 339,
+      "id": 345,
       "name": "KODRIČ Nejc",
       "license": "10164642629",
       "club": "Virtuslo 4Endurance",
@@ -21891,7 +22180,7 @@
       }
     },
     {
-      "id": 340,
+      "id": 346,
       "name": "BAHČ Anže",
       "license": "10140434762",
       "club": "Virtuslo 4Endurance",
@@ -21921,11 +22210,11 @@
       },
       "general": {
         "total": 65,
-        "rank": 13
+        "rank": 14
       }
     },
     {
-      "id": 341,
+      "id": 347,
       "name": "LESKOVAR Andrej",
       "license": "10159591353",
       "club": "Team Granfondo Slovenija",
@@ -21957,7 +22246,7 @@
       }
     },
     {
-      "id": 342,
+      "id": 348,
       "name": "PRIJATELJ Rok",
       "license": "10137732102",
       "club": "Ocean Orchids Cycling Team",
@@ -21989,7 +22278,7 @@
       }
     },
     {
-      "id": 343,
+      "id": 349,
       "name": "VELIČKI Trajče",
       "license": "10017587494",
       "club": "ŠD RIKITEAM",
@@ -22021,7 +22310,7 @@
       }
     },
     {
-      "id": 344,
+      "id": 350,
       "name": "KITEK Sašo",
       "license": "10017628015",
       "club": "KK Pocinkovalnica Celje",
@@ -22053,7 +22342,7 @@
       }
     },
     {
-      "id": 345,
+      "id": 351,
       "name": "HAJDINJAK Dušan",
       "license": "10016009024",
       "club": "TEAM TURBO TROPOVCI",
@@ -22085,7 +22374,7 @@
       }
     },
     {
-      "id": 346,
+      "id": 352,
       "name": "CESAR Igor",
       "license": "10017563650",
       "club": "Team Granfondo Slovenija",
@@ -22117,7 +22406,7 @@
       }
     },
     {
-      "id": 347,
+      "id": 353,
       "name": "BOGATAJ Igor",
       "license": "10017592548",
       "club": "KD ROG",
@@ -22149,11 +22438,11 @@
       },
       "general": {
         "total": 59,
-        "rank": 17
+        "rank": 18
       }
     },
     {
-      "id": 348,
+      "id": 354,
       "name": "POPOVIČ Ivan",
       "license": "10017553647",
       "club": "B.V.G. GULČ",
@@ -22192,8 +22481,8 @@
   "clubs": [
     {
       "name": "ŠD BAM.BI",
-      "total": 5222,
-      "riderCount": 41,
+      "total": 5452,
+      "riderCount": 43,
       "raceScores": [
         179,
         330,
@@ -22219,7 +22508,7 @@
         232,
         218,
         119,
-        0,
+        341,
         0,
         0,
         0,
@@ -22230,12 +22519,12 @@
         {
           "name": "CEGLAR Vida",
           "category": "Ženske D",
-          "total": 418
+          "total": 425
         },
         {
           "name": "ŠVAB Lilijana",
           "category": "Ženske D",
-          "total": 371
+          "total": 376
         },
         {
           "name": "REVEN Dare",
@@ -22248,29 +22537,29 @@
           "total": 290
         },
         {
-          "name": "GREGORC Gašper",
-          "category": "Amaterji",
-          "total": 278
-        },
-        {
           "name": "TERNAR Tadej",
           "category": "Master A",
-          "total": 276
+          "total": 288
+        },
+        {
+          "name": "GREGORC Gašper",
+          "category": "Amaterji",
+          "total": 287
         },
         {
           "name": "ŠVAB Anže",
           "category": "Master C",
-          "total": 262
+          "total": 274
+        },
+        {
+          "name": "ŠVAB Vinko",
+          "category": "Master H",
+          "total": 208
         },
         {
           "name": "BOGATAJ Janez",
           "category": "Master G",
           "total": 207
-        },
-        {
-          "name": "ŠVAB Vinko",
-          "category": "Master H",
-          "total": 187
         },
         {
           "name": "HAFNER Franc",
@@ -22293,6 +22582,11 @@
           "total": 173
         },
         {
+          "name": "LIČEN Manca",
+          "category": "Ženske A",
+          "total": 171
+        },
+        {
           "name": "SEKNE Gal",
           "category": "Master A",
           "total": 171
@@ -22308,24 +22602,19 @@
           "total": 161
         },
         {
-          "name": "LIČEN Manca",
-          "category": "Ženske A",
-          "total": 146
-        },
-        {
           "name": "KOŽELJ Franci",
           "category": "Master J",
           "total": 140
         },
         {
-          "name": "JUVANČIČ Gregor",
-          "category": "Master D",
-          "total": 116
-        },
-        {
           "name": "STROJIN ROBERT",
           "category": "Master F",
-          "total": 115
+          "total": 133
+        },
+        {
+          "name": "JUVANČIČ Gregor",
+          "category": "Master D",
+          "total": 131
         },
         {
           "name": "PODGORNIK Bojan",
@@ -22338,9 +22627,19 @@
           "total": 89
         },
         {
+          "name": "SIRNIK Blaž",
+          "category": "Master B",
+          "total": 80
+        },
+        {
           "name": "ZALETEL Eva",
           "category": "Ženske A",
           "total": 78
+        },
+        {
+          "name": "KUTNAR Frančišek Brane",
+          "category": "Master G",
+          "total": 72
         },
         {
           "name": "ZAPLOTNIK Darja",
@@ -22348,14 +22647,9 @@
           "total": 60
         },
         {
-          "name": "SIRNIK Blaž",
-          "category": "Master B",
-          "total": 59
-        },
-        {
-          "name": "KUTNAR Frančišek Brane",
+          "name": "NOVAK Branko",
           "category": "Master G",
-          "total": 54
+          "total": 53
         },
         {
           "name": "ŠALKOVIĆ Igor",
@@ -22368,14 +22662,14 @@
           "total": 44
         },
         {
+          "name": "KALAN Aleš",
+          "category": "Master F",
+          "total": 43
+        },
+        {
           "name": "RAZINGER Urban",
           "category": "Amaterji",
           "total": 42
-        },
-        {
-          "name": "NOVAK Branko",
-          "category": "Master G",
-          "total": 40
         },
         {
           "name": "ZUPANC Sabina",
@@ -22403,8 +22697,8 @@
           "total": 30
         },
         {
-          "name": "KALAN Aleš",
-          "category": "Master F",
+          "name": "KALAN Mateja",
+          "category": "Ženske C",
           "total": 30
         },
         {
@@ -22423,6 +22717,11 @@
           "total": 11
         },
         {
+          "name": "DEBELJAK Janez",
+          "category": "Master G",
+          "total": 11
+        },
+        {
           "name": "FAJS Marko",
           "category": "Amaterji",
           "total": 6
@@ -22437,7 +22736,7 @@
     },
     {
       "name": "KD BRDA DOBROVO",
-      "total": 3759,
+      "total": 3876,
       "riderCount": 24,
       "raceScores": [
         182,
@@ -22464,7 +22763,7 @@
         219,
         230,
         256,
-        0,
+        155,
         0,
         0,
         0,
@@ -22480,17 +22779,22 @@
         {
           "name": "RAKOŠ Dragan",
           "category": "Master I",
-          "total": 384
+          "total": 389
         },
         {
           "name": "RAKOŠ Ivica",
           "category": "Ženske D",
-          "total": 321
+          "total": 326
         },
         {
           "name": "BRATINA Marjan",
           "category": "Master H",
-          "total": 271
+          "total": 289
+        },
+        {
+          "name": "HVALA Oskar",
+          "category": "Master G",
+          "total": 223
         },
         {
           "name": "KIRIČ Avgust",
@@ -22503,9 +22807,14 @@
           "total": 203
         },
         {
-          "name": "HVALA Oskar",
-          "category": "Master G",
-          "total": 202
+          "name": "VODOPIVEC Borut",
+          "category": "Master F",
+          "total": 193
+        },
+        {
+          "name": "ISKRA Tomislav",
+          "category": "Master F",
+          "total": 189
         },
         {
           "name": "ALIČ Simon",
@@ -22516,16 +22825,6 @@
           "name": "RAZPET Marko",
           "category": "Master A",
           "total": 173
-        },
-        {
-          "name": "ISKRA Tomislav",
-          "category": "Master F",
-          "total": 164
-        },
-        {
-          "name": "VODOPIVEC Borut",
-          "category": "Master F",
-          "total": 163
         },
         {
           "name": "KONC Gorazd",
@@ -22540,7 +22839,7 @@
         {
           "name": "PENKO Peter",
           "category": "Master D",
-          "total": 128
+          "total": 141
         },
         {
           "name": "PODBERŠIČ Matija",
@@ -22597,7 +22896,7 @@
     },
     {
       "name": "TUŠ T.E.A.M.",
-      "total": 1726,
+      "total": 1774,
       "riderCount": 8,
       "raceScores": [
         108,
@@ -22624,7 +22923,7 @@
         81,
         90,
         46,
-        0,
+        78,
         0,
         0,
         0,
@@ -22640,17 +22939,17 @@
         {
           "name": "MIKAC Patrik",
           "category": "Master B",
-          "total": 399
+          "total": 417
+        },
+        {
+          "name": "PRPAR Vlado",
+          "category": "Master G",
+          "total": 298
         },
         {
           "name": "BRATUŠ Dean",
           "category": "Master D",
           "total": 275
-        },
-        {
-          "name": "PRPAR Vlado",
-          "category": "Master G",
-          "total": 268
         },
         {
           "name": "MELANŠEK Iztok",
@@ -22677,7 +22976,7 @@
     },
     {
       "name": "IZVIR VIPAVA",
-      "total": 1574,
+      "total": 1619,
       "riderCount": 29,
       "raceScores": [
         64,
@@ -22704,7 +23003,7 @@
         118,
         59,
         345,
-        0,
+        45,
         0,
         0,
         0,
@@ -22713,14 +23012,14 @@
       ],
       "riders": [
         {
+          "name": "MIHOVILOVIĆ Ivan",
+          "category": "Master J",
+          "total": 235
+        },
+        {
           "name": "LIKAR Robert",
           "category": "Master F",
           "total": 211
-        },
-        {
-          "name": "MIHOVILOVIĆ Ivan",
-          "category": "Master J",
-          "total": 205
         },
         {
           "name": "ŠTOR Mark",
@@ -22753,6 +23052,11 @@
           "total": 68
         },
         {
+          "name": "LIČEN Nejc",
+          "category": "Amaterji",
+          "total": 67
+        },
+        {
           "name": "ČIBEJ Bruno",
           "category": "Master G",
           "total": 64
@@ -22761,11 +23065,6 @@
           "name": "BEDENE KRALJ Pia",
           "category": "Ženske A",
           "total": 59
-        },
-        {
-          "name": "LIČEN Nejc",
-          "category": "Amaterji",
-          "total": 52
         },
         {
           "name": "GROŠELJ Žiga",
@@ -22889,7 +23188,7 @@
         60,
         51,
         60,
-        0,
+        15,
         0,
         0,
         0,
@@ -22957,7 +23256,7 @@
     },
     {
       "name": "B.V.G. GULČ",
-      "total": 1379,
+      "total": 1409,
       "riderCount": 8,
       "raceScores": [
         125,
@@ -22984,7 +23283,7 @@
         21,
         80,
         55,
-        0,
+        30,
         0,
         0,
         0,
@@ -23015,7 +23314,7 @@
         {
           "name": "JESIH Martin",
           "category": "Master B",
-          "total": 126
+          "total": 156
         },
         {
           "name": "POPOVIČ Ivan",
@@ -23152,7 +23451,7 @@
     },
     {
       "name": "Team BTS Company",
-      "total": 1297,
+      "total": 1304,
       "riderCount": 6,
       "raceScores": [
         130,
@@ -23179,7 +23478,7 @@
         73,
         72,
         0,
-        0,
+        25,
         0,
         0,
         0,
@@ -23195,7 +23494,7 @@
         {
           "name": "PREŠEREN Janez",
           "category": "Master J",
-          "total": 308
+          "total": 315
         },
         {
           "name": "JOŠT Jaka",
@@ -23222,7 +23521,7 @@
     },
     {
       "name": "ŠD TURBO M",
-      "total": 932,
+      "total": 970,
       "riderCount": 6,
       "raceScores": [
         53,
@@ -23249,7 +23548,7 @@
         54,
         18,
         64,
-        0,
+        50,
         0,
         0,
         0,
@@ -23260,7 +23559,7 @@
         {
           "name": "PAPIČ Milivoj",
           "category": "Master I",
-          "total": 310
+          "total": 335
         },
         {
           "name": "COLNARIČ Slavko",
@@ -23270,7 +23569,7 @@
         {
           "name": "MESOJEDEC Matjaž",
           "category": "Master G",
-          "total": 187
+          "total": 200
         },
         {
           "name": "STIBILJ Jernej",
@@ -23292,7 +23591,7 @@
     },
     {
       "name": "ŠD POLJANE",
-      "total": 902,
+      "total": 937,
       "riderCount": 5,
       "raceScores": [
         45,
@@ -23319,7 +23618,7 @@
         43,
         25,
         15,
-        0,
+        60,
         0,
         0,
         0,
@@ -23330,7 +23629,7 @@
         {
           "name": "HREN Aleš",
           "category": "Master E",
-          "total": 296
+          "total": 326
         },
         {
           "name": "POTISK Tilen",
@@ -23340,7 +23639,7 @@
         {
           "name": "DOLINAR Simona",
           "category": "Ženske B",
-          "total": 230
+          "total": 235
         },
         {
           "name": "DOLINAR Gašper",
@@ -23452,7 +23751,7 @@
     },
     {
       "name": "KD BRANIK MARIBOR",
-      "total": 822,
+      "total": 847,
       "riderCount": 13,
       "raceScores": [
         25,
@@ -23479,7 +23778,7 @@
         21,
         21,
         56,
-        0,
+        25,
         0,
         0,
         0,
@@ -23490,7 +23789,7 @@
         {
           "name": "OPEKA Ajda",
           "category": "Ženske B",
-          "total": 354
+          "total": 379
         },
         {
           "name": "MRŠNIK Matej",
@@ -23556,63 +23855,8 @@
       "rank": 12
     },
     {
-      "name": "ŠD Koloka",
-      "total": 660,
-      "riderCount": 3,
-      "raceScores": [
-        34,
-        30,
-        29,
-        0,
-        43,
-        0,
-        55,
-        55,
-        54,
-        46,
-        33,
-        43,
-        36,
-        30,
-        39,
-        28,
-        33,
-        46,
-        43,
-        25,
-        36,
-        0,
-        39,
-        30,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "HABJAN Dragica",
-          "category": "Ženske D",
-          "total": 345
-        },
-        {
-          "name": "HABJAN Andrej",
-          "category": "Master I",
-          "total": 272
-        },
-        {
-          "name": "ERZNOŽNIK JANA",
-          "category": "Ženske D",
-          "total": 43
-        }
-      ],
-      "rank": 13
-    },
-    {
       "name": "Arcont Selce",
-      "total": 657,
+      "total": 677,
       "riderCount": 5,
       "raceScores": [
         11,
@@ -23639,7 +23883,7 @@
         0,
         0,
         0,
-        0,
+        45,
         0,
         0,
         0,
@@ -23650,7 +23894,7 @@
         {
           "name": "KAUČIČ Primož",
           "category": "Master D",
-          "total": 302
+          "total": 307
         },
         {
           "name": "GRUŠOVNIK Matjaž",
@@ -23665,12 +23909,67 @@
         {
           "name": "ŠKAMLEC Jernej",
           "category": "Master A",
-          "total": 97
+          "total": 112
         },
         {
           "name": "FARAZIN Luka",
           "category": "Amaterji",
           "total": 13
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "name": "ŠD Koloka",
+      "total": 669,
+      "riderCount": 3,
+      "raceScores": [
+        34,
+        30,
+        29,
+        0,
+        43,
+        0,
+        55,
+        55,
+        54,
+        46,
+        33,
+        43,
+        36,
+        30,
+        39,
+        28,
+        33,
+        46,
+        43,
+        25,
+        36,
+        0,
+        39,
+        30,
+        42,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "HABJAN Dragica",
+          "category": "Ženske D",
+          "total": 348
+        },
+        {
+          "name": "HABJAN Andrej",
+          "category": "Master I",
+          "total": 278
+        },
+        {
+          "name": "ERZNOŽNIK JANA",
+          "category": "Ženske D",
+          "total": 43
         }
       ],
       "rank": 14
@@ -23747,8 +24046,8 @@
     },
     {
       "name": "GANESHA TEAM",
-      "total": 571,
-      "riderCount": 4,
+      "total": 596,
+      "riderCount": 5,
       "raceScores": [
         0,
         0,
@@ -23774,7 +24073,7 @@
         60,
         51,
         51,
-        0,
+        25,
         0,
         0,
         0,
@@ -23801,13 +24100,18 @@
           "name": "JAUK Marjan",
           "category": "Master F",
           "total": 69
+        },
+        {
+          "name": "MORI Mitja",
+          "category": "Master E",
+          "total": 25
         }
       ],
       "rank": 16
     },
     {
       "name": "ŠKD SUPER POTENCIAL",
-      "total": 554,
+      "total": 592,
       "riderCount": 5,
       "raceScores": [
         21,
@@ -23834,7 +24138,7 @@
         66,
         55,
         0,
-        0,
+        38,
         0,
         0,
         0,
@@ -23845,7 +24149,7 @@
         {
           "name": "SKUBIC Borislav",
           "category": "Master H",
-          "total": 369
+          "total": 394
         },
         {
           "name": "HRIBLJAN Matjaž",
@@ -23853,14 +24157,14 @@
           "total": 83
         },
         {
-          "name": "MAKAROVIČ Boris",
-          "category": "Master C",
+          "name": "VEHAR Žiga",
+          "category": "Master A",
           "total": 48
         },
         {
-          "name": "VEHAR Žiga",
-          "category": "Master A",
-          "total": 35
+          "name": "MAKAROVIČ Boris",
+          "category": "Master C",
+          "total": 48
         },
         {
           "name": "ŠTRAVS Simon",
@@ -23872,7 +24176,7 @@
     },
     {
       "name": "KK Trbovlje",
-      "total": 533,
+      "total": 546,
       "riderCount": 8,
       "raceScores": [
         30,
@@ -23899,7 +24203,7 @@
         0,
         0,
         0,
-        0,
+        13,
         0,
         0,
         0,
@@ -23930,7 +24234,7 @@
         {
           "name": "FUNKL David",
           "category": "Amaterji",
-          "total": 18
+          "total": 31
         },
         {
           "name": "TROTOVŠEK Jan",
@@ -24012,7 +24316,7 @@
     },
     {
       "name": "KD SLOVENSKE SPECIALKARKE",
-      "total": 480,
+      "total": 501,
       "riderCount": 2,
       "raceScores": [
         60,
@@ -24039,7 +24343,7 @@
         25,
         25,
         0,
-        0,
+        21,
         0,
         0,
         0,
@@ -24050,7 +24354,7 @@
         {
           "name": "PERME Tina",
           "category": "Ženske B",
-          "total": 320
+          "total": 341
         },
         {
           "name": "MEŠKO Matejka",
@@ -24062,7 +24366,7 @@
     },
     {
       "name": "KK Postojna",
-      "total": 471,
+      "total": 486,
       "riderCount": 7,
       "raceScores": [
         36,
@@ -24089,7 +24393,7 @@
         0,
         58,
         25,
-        0,
+        15,
         0,
         0,
         0,
@@ -24103,14 +24407,14 @@
           "total": 136
         },
         {
+          "name": "BAJEC Franc",
+          "category": "Master G",
+          "total": 101
+        },
+        {
           "name": "OTONIČAR Domen",
           "category": "Master E",
           "total": 96
-        },
-        {
-          "name": "BAJEC Franc",
-          "category": "Master G",
-          "total": 86
         },
         {
           "name": "BERGANT Rok",
@@ -24281,6 +24585,51 @@
       "rank": 23
     },
     {
+      "name": "KK ZAPRAVLJIVČEK",
+      "total": 397,
+      "riderCount": 1,
+      "raceScores": [
+        25,
+        18,
+        30,
+        21,
+        18,
+        25,
+        0,
+        40,
+        25,
+        40,
+        25,
+        25,
+        0,
+        0,
+        0,
+        25,
+        30,
+        0,
+        30,
+        30,
+        30,
+        30,
+        0,
+        30,
+        21,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "HOČEVAR Anže",
+          "category": "Amaterji",
+          "total": 397
+        }
+      ],
+      "rank": 24
+    },
+    {
       "name": "ŠD RIKITEAM",
       "total": 393,
       "riderCount": 3,
@@ -24333,7 +24682,7 @@
           "total": 34
         }
       ],
-      "rank": 24
+      "rank": 25
     },
     {
       "name": "KK GORJE",
@@ -24381,51 +24730,6 @@
           "name": "POJE Maks",
           "category": "Amaterji",
           "total": 112
-        }
-      ],
-      "rank": 25
-    },
-    {
-      "name": "KK ZAPRAVLJIVČEK",
-      "total": 376,
-      "riderCount": 1,
-      "raceScores": [
-        25,
-        18,
-        30,
-        21,
-        18,
-        25,
-        0,
-        40,
-        25,
-        40,
-        25,
-        25,
-        0,
-        0,
-        0,
-        25,
-        30,
-        0,
-        30,
-        30,
-        30,
-        30,
-        0,
-        30,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "HOČEVAR Anže",
-          "category": "Amaterji",
-          "total": 376
         }
       ],
       "rank": 26
@@ -24511,53 +24815,8 @@
       "rank": 27
     },
     {
-      "name": "KOŠTRUNI",
-      "total": 321,
-      "riderCount": 1,
-      "raceScores": [
-        30,
-        30,
-        25,
-        0,
-        0,
-        0,
-        30,
-        0,
-        21,
-        29,
-        0,
-        25,
-        0,
-        0,
-        30,
-        0,
-        0,
-        21,
-        0,
-        0,
-        25,
-        25,
-        30,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "TIRŠEK Anton",
-          "category": "Master C",
-          "total": 321
-        }
-      ],
-      "rank": 28
-    },
-    {
       "name": "KD ALPE SiS",
-      "total": 306,
+      "total": 327,
       "riderCount": 2,
       "raceScores": [
         25,
@@ -24584,7 +24843,7 @@
         13,
         15,
         30,
-        0,
+        21,
         0,
         0,
         0,
@@ -24595,7 +24854,7 @@
         {
           "name": "FILIPIČ Grega",
           "category": "Master E",
-          "total": 237
+          "total": 258
         },
         {
           "name": "KUNAVER Tom",
@@ -24603,7 +24862,122 @@
           "total": 69
         }
       ],
+      "rank": 28
+    },
+    {
+      "name": "KOŠTRUNI",
+      "total": 325,
+      "riderCount": 1,
+      "raceScores": [
+        30,
+        30,
+        25,
+        0,
+        0,
+        0,
+        30,
+        0,
+        21,
+        29,
+        0,
+        25,
+        0,
+        0,
+        30,
+        0,
+        0,
+        21,
+        0,
+        0,
+        25,
+        25,
+        30,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "TIRŠEK Anton",
+          "category": "Master C",
+          "total": 325
+        }
+      ],
       "rank": 29
+    },
+    {
+      "name": "JB TEAM NOVO MESTO",
+      "total": 320,
+      "riderCount": 6,
+      "raceScores": [
+        21,
+        29,
+        0,
+        18,
+        24,
+        0,
+        48,
+        50,
+        13,
+        0,
+        0,
+        21,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        31,
+        0,
+        15,
+        0,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "PAJEK Rok",
+          "category": "Master A",
+          "total": 101
+        },
+        {
+          "name": "MERCINA Matej",
+          "category": "Master A",
+          "total": 84
+        },
+        {
+          "name": "JAZBEC Gal",
+          "category": "Amaterji",
+          "total": 57
+        },
+        {
+          "name": "JAZBEC Jan",
+          "category": "Master B",
+          "total": 40
+        },
+        {
+          "name": "BRATKOVIČ Aljaž",
+          "category": "Amaterji",
+          "total": 25
+        },
+        {
+          "name": "TAJČMAN Simon",
+          "category": "Master C",
+          "total": 13
+        }
+      ],
+      "rank": 30
     },
     {
       "name": "CALCIT BIKE TEAM",
@@ -24658,7 +25032,7 @@
           "total": 15
         }
       ],
-      "rank": 30
+      "rank": 31
     },
     {
       "name": "mebloJOGI - PRO CONCRETE",
@@ -24706,76 +25080,6 @@
           "name": "CONSOLE Matija",
           "category": "Amaterji",
           "total": 33
-        }
-      ],
-      "rank": 31
-    },
-    {
-      "name": "JB TEAM NOVO MESTO",
-      "total": 295,
-      "riderCount": 6,
-      "raceScores": [
-        21,
-        29,
-        0,
-        18,
-        24,
-        0,
-        48,
-        50,
-        13,
-        0,
-        0,
-        21,
-        0,
-        0,
-        25,
-        0,
-        0,
-        0,
-        31,
-        0,
-        15,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "MERCINA Matej",
-          "category": "Master A",
-          "total": 84
-        },
-        {
-          "name": "PAJEK Rok",
-          "category": "Master A",
-          "total": 76
-        },
-        {
-          "name": "JAZBEC Gal",
-          "category": "Amaterji",
-          "total": 57
-        },
-        {
-          "name": "JAZBEC Jan",
-          "category": "Master B",
-          "total": 40
-        },
-        {
-          "name": "BRATKOVIČ Aljaž",
-          "category": "Amaterji",
-          "total": 25
-        },
-        {
-          "name": "TAJČMAN Simon",
-          "category": "Master C",
-          "total": 13
         }
       ],
       "rank": 32
@@ -24942,7 +25246,7 @@
     },
     {
       "name": "ŠD Metek",
-      "total": 252,
+      "total": 270,
       "riderCount": 5,
       "raceScores": [
         0,
@@ -24969,7 +25273,7 @@
         25,
         30,
         0,
-        0,
+        18,
         0,
         0,
         0,
@@ -24980,7 +25284,7 @@
         {
           "name": "NERAD Primož",
           "category": "Master D",
-          "total": 177
+          "total": 195
         },
         {
           "name": "ERCE Rok",
@@ -25106,6 +25410,71 @@
       "rank": 37
     },
     {
+      "name": "KK TROPOVCI",
+      "total": 223,
+      "riderCount": 5,
+      "raceScores": [
+        0,
+        33,
+        0,
+        13,
+        0,
+        0,
+        30,
+        12,
+        3,
+        0,
+        0,
+        0,
+        13,
+        0,
+        0,
+        30,
+        0,
+        32,
+        21,
+        0,
+        0,
+        0,
+        0,
+        0,
+        36,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "BANFI Danilo",
+          "category": "Master E",
+          "total": 84
+        },
+        {
+          "name": "ŽALIG Iztok",
+          "category": "Master C",
+          "total": 62
+        },
+        {
+          "name": "HORVAT Timotej Gabriel",
+          "category": "Amaterji",
+          "total": 34
+        },
+        {
+          "name": "ŽALIG Manja",
+          "category": "Ženske A",
+          "total": 30
+        },
+        {
+          "name": "ZRIM Primož",
+          "category": "Master B",
+          "total": 13
+        }
+      ],
+      "rank": 38
+    },
+    {
       "name": "KD Litijski Tempomat",
       "total": 194,
       "riderCount": 2,
@@ -25153,38 +25522,38 @@
           "total": 15
         }
       ],
-      "rank": 38
+      "rank": 39
     },
     {
-      "name": "KK TROPOVCI",
-      "total": 187,
-      "riderCount": 5,
+      "name": "RIBNO ALPINE RESORT BLED",
+      "total": 171,
+      "riderCount": 4,
       "raceScores": [
         0,
-        33,
-        0,
-        13,
         0,
         0,
-        30,
-        12,
-        3,
+        18,
+        15,
+        0,
+        0,
+        29,
+        0,
+        29,
         0,
         0,
         0,
-        13,
         0,
-        0,
-        30,
-        0,
-        32,
         21,
+        34,
         0,
         0,
         0,
         0,
         0,
         0,
+        0,
+        0,
+        25,
         0,
         0,
         0,
@@ -25193,32 +25562,27 @@
       ],
       "riders": [
         {
-          "name": "BANFI Danilo",
-          "category": "Master E",
-          "total": 69
+          "name": "RAKUŠ Jelka",
+          "category": "Ženske D",
+          "total": 92
         },
         {
-          "name": "ŽALIG Iztok",
-          "category": "Master C",
-          "total": 41
+          "name": "GALIČIČ Žiga",
+          "category": "Master D",
+          "total": 39
         },
         {
-          "name": "HORVAT Timotej Gabriel",
+          "name": "GABER Vid",
           "category": "Amaterji",
-          "total": 34
+          "total": 25
         },
         {
-          "name": "ŽALIG Manja",
+          "name": "URH Lara",
           "category": "Ženske A",
-          "total": 30
-        },
-        {
-          "name": "ZRIM Primož",
-          "category": "Master B",
-          "total": 13
+          "total": 15
         }
       ],
-      "rank": 39
+      "rank": 40
     },
     {
       "name": "KK DOLENJSKA BALANCA",
@@ -25273,66 +25637,11 @@
           "total": 41
         }
       ],
-      "rank": 40
-    },
-    {
-      "name": "RIBNO ALPINE RESORT BLED",
-      "total": 146,
-      "riderCount": 3,
-      "raceScores": [
-        0,
-        0,
-        0,
-        18,
-        15,
-        0,
-        0,
-        29,
-        0,
-        29,
-        0,
-        0,
-        0,
-        0,
-        21,
-        34,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "RAKUŠ Jelka",
-          "category": "Ženske D",
-          "total": 92
-        },
-        {
-          "name": "GALIČIČ Žiga",
-          "category": "Master D",
-          "total": 39
-        },
-        {
-          "name": "URH Lara",
-          "category": "Ženske A",
-          "total": 15
-        }
-      ],
       "rank": 41
     },
     {
       "name": "KK SOČA",
-      "total": 124,
+      "total": 149,
       "riderCount": 3,
       "raceScores": [
         0,
@@ -25359,7 +25668,7 @@
         0,
         0,
         0,
-        0,
+        25,
         0,
         0,
         0,
@@ -25370,7 +25679,7 @@
         {
           "name": "SKOČIR Primož",
           "category": "Master D",
-          "total": 54
+          "total": 79
         },
         {
           "name": "KOVAČIČ Alen",
@@ -25731,6 +26040,51 @@
       "rank": 49
     },
     {
+      "name": "TEAM EPPINGER",
+      "total": 74,
+      "riderCount": 1,
+      "raceScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        29,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        18,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "ČERNIGOJ Tilen",
+          "category": "Master A",
+          "total": 74
+        }
+      ],
+      "rank": 50
+    },
+    {
       "name": "KD Sprint",
       "total": 70,
       "riderCount": 1,
@@ -25773,27 +26127,23 @@
           "total": 70
         }
       ],
-      "rank": 50
+      "rank": 51
     },
     {
-      "name": "TEAM EPPINGER",
-      "total": 56,
+      "name": "KK RAVNE NA KOROŠKEM",
+      "total": 69,
       "riderCount": 1,
       "raceScores": [
         0,
         0,
         0,
         0,
+        18,
         0,
         0,
         0,
         0,
-        9,
-        29,
-        0,
-        0,
-        0,
-        0,
+        18,
         0,
         0,
         18,
@@ -25808,17 +26158,21 @@
         0,
         0,
         0,
+        15,
+        0,
+        0,
+        0,
         0,
         0
       ],
       "riders": [
         {
-          "name": "ČERNIGOJ Tilen",
-          "category": "Master A",
-          "total": 56
+          "name": "RUS Dušan",
+          "category": "Master H",
+          "total": 69
         }
       ],
-      "rank": 51
+      "rank": 52
     },
     {
       "name": "RKD Krško",
@@ -25866,51 +26220,6 @@
           "name": "FINK Matej",
           "category": "Master B",
           "total": 7
-        }
-      ],
-      "rank": 52
-    },
-    {
-      "name": "KK RAVNE NA KOROŠKEM",
-      "total": 54,
-      "riderCount": 1,
-      "raceScores": [
-        0,
-        0,
-        0,
-        0,
-        18,
-        0,
-        0,
-        0,
-        0,
-        18,
-        0,
-        0,
-        18,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "riders": [
-        {
-          "name": "RUS Dušan",
-          "category": "Master H",
-          "total": 54
         }
       ],
       "rank": 53
@@ -26146,6 +26455,51 @@
       "rank": 58
     },
     {
+      "name": "SD Strahovica",
+      "total": 30,
+      "riderCount": 1,
+      "raceScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "HOČEVAR Lucija",
+          "category": "Ženske A",
+          "total": 30
+        }
+      ],
+      "rank": 58
+    },
+    {
       "name": "Ocean Orchids Cycling Team",
       "total": 27,
       "riderCount": 2,
@@ -26193,7 +26547,7 @@
           "total": 6
         }
       ],
-      "rank": 59
+      "rank": 60
     },
     {
       "name": "PIKA TEAM by MASTERCARD",
@@ -26238,7 +26592,7 @@
           "total": 25
         }
       ],
-      "rank": 60
+      "rank": 61
     },
     {
       "name": "Gorenjski Glas",
@@ -26283,7 +26637,7 @@
           "total": 25
         }
       ],
-      "rank": 60
+      "rank": 61
     },
     {
       "name": "KK Završnica",
@@ -26328,7 +26682,7 @@
           "total": 22
         }
       ],
-      "rank": 62
+      "rank": 63
     },
     {
       "name": "INDU TEAM - ŠD POLJANE",
@@ -26373,7 +26727,52 @@
           "total": 21
         }
       ],
-      "rank": 63
+      "rank": 64
+    },
+    {
+      "name": "BK SOKOL VINKOVCI",
+      "total": 21,
+      "riderCount": 1,
+      "raceScores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "riders": [
+        {
+          "name": "ŠPILJAK Dragutin",
+          "category": "Master F",
+          "total": 21
+        }
+      ],
+      "rank": 64
     },
     {
       "name": "Pogiteam Gusto Ljubljana",
@@ -26418,7 +26817,7 @@
           "total": 20
         }
       ],
-      "rank": 64
+      "rank": 66
     },
     {
       "name": "MTB ŠOLA KOČEVJE",
@@ -26463,7 +26862,7 @@
           "total": 18
         }
       ],
-      "rank": 65
+      "rank": 67
     },
     {
       "name": "CCN Metalac",
@@ -26508,7 +26907,7 @@
           "total": 15
         }
       ],
-      "rank": 66
+      "rank": 68
     },
     {
       "name": "AEL LIMASSOL",
@@ -26553,7 +26952,7 @@
           "total": 15
         }
       ],
-      "rank": 66
+      "rank": 68
     },
     {
       "name": "KD Belaunce",
@@ -26598,7 +26997,7 @@
           "total": 15
         }
       ],
-      "rank": 66
+      "rank": 68
     },
     {
       "name": "Golovec trails",
@@ -26643,7 +27042,7 @@
           "total": 11
         }
       ],
-      "rank": 69
+      "rank": 71
     },
     {
       "name": "SD STRAHOVICA",
@@ -26688,7 +27087,7 @@
           "total": 11
         }
       ],
-      "rank": 69
+      "rank": 71
     },
     {
       "name": "Pogi Team UAE Generali",
@@ -26733,7 +27132,7 @@
           "total": 7
         }
       ],
-      "rank": 71
+      "rank": 73
     },
     {
       "name": "ŠRKD Savčan",
@@ -26778,7 +27177,7 @@
           "total": 4
         }
       ],
-      "rank": 72
+      "rank": 74
     },
     {
       "name": "ŠD Luka Koper",
@@ -26823,7 +27222,7 @@
           "total": 3
         }
       ],
-      "rank": 73
+      "rank": 75
     },
     {
       "name": "KK Kamen Kociper",
@@ -26868,7 +27267,7 @@
           "total": 2
         }
       ],
-      "rank": 74
+      "rank": 76
     }
   ],
   "clubRaces": [
@@ -26995,7 +27394,8 @@
     {
       "date": "19.09.",
       "name": "15. VN OBČINE VODICE IN  POKAL LIDL 2026 OMR",
-      "discipline": "Cestne dirke"
+      "discipline": "Cestne dirke",
+      "unofficial": true
     },
     {
       "date": "20.09.",

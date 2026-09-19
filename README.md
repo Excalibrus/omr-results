@@ -76,6 +76,7 @@ pip install pdfplumber
 | `bestOf` | How many best races count for discipline standings |
 | `bestOfGeneral` | How many best races count toward the general classification |
 | `raceNames` | Display names for each race (order matches dates in PDF) |
+| `unofficial` | List of `{ "liveScore": <match id>, "race": "<name substring>" }` — fills an empty race column from prijavim.se live timing until official results appear (shown with a `LIVE` badge); remove the entry once the official column has points |
 
 **General classification** = sum of each discipline's `bestOfGeneral` top scores.
 
