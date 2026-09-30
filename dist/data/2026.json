@@ -7042,27 +7042,25 @@
             40,
             30,
             0,
-            21,
+            0,
             0
           ],
-          "total": 146,
-          "bestOfTotal": 146,
-          "bestOfGeneralTotal": 146,
+          "total": 125,
+          "bestOfTotal": 125,
+          "bestOfGeneralTotal": 125,
           "bestOfIndices": [
             4,
             0,
             5,
-            1,
-            7
+            1
           ],
           "bestOfGeneralIndices": [
             4,
             0,
             5,
-            1,
-            7
+            1
           ],
-          "rank": 1
+          "rank": 3
         },
         "tt": {
           "scores": [
@@ -7089,7 +7087,7 @@
         }
       },
       "general": {
-        "total": 330,
+        "total": 309,
         "rank": 1
       }
     },
@@ -7526,7 +7524,7 @@
             0,
             5
           ],
-          "rank": 2
+          "rank": 1
         },
         "tt": {
           "scores": [
@@ -8157,7 +8155,7 @@
             5,
             4
           ],
-          "rank": 3
+          "rank": 2
         }
       },
       "general": {
@@ -22907,7 +22905,7 @@
     },
     {
       "name": "TUŠ T.E.A.M.",
-      "total": 1819,
+      "total": 1798,
       "riderCount": 8,
       "raceScores": [
         108,
@@ -22934,7 +22932,7 @@
         81,
         90,
         46,
-        81,
+        60,
         115,
         0,
         0,
@@ -22950,7 +22948,7 @@
         {
           "name": "MIKAC Patrik",
           "category": "Master B",
-          "total": 420
+          "total": 399
         },
         {
           "name": "PRPAR Vlado",
