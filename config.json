@@ -6,9 +6,10 @@
   ],
   "years": {
     "2026": {
-      "climbs": { "bestOf": 6, "bestOfGeneral": 3, "url": "https://prijavim.se/results/scores_pdf/24/732/2026" },
-      "road":   { "bestOf": 6, "bestOfGeneral": 5, "url": "https://prijavim.se/results/scores_pdf/24/695/2026",
-                  "unofficial": [ { "liveScore": 6610, "race": "VODICE" } ] },
+      "climbs": { "bestOf": 6, "bestOfGeneral": 3, "url": "https://prijavim.se/results/scores_pdf/24/732/2026",
+                  "unofficial": [ { "liveScore": 6398, "race": "STRMO REBER", "points": "premium" },
+                                  { "liveScore": 6400, "race": "KOBARID" } ] },
+      "road":   { "bestOf": 6, "bestOfGeneral": 5, "url": "https://prijavim.se/results/scores_pdf/24/695/2026" },
       "tt":     { "bestOf": 3, "bestOfGeneral": 3, "url": "https://prijavim.se/results/scores_pdf/24/731/2026" }
     },
     "2025": {

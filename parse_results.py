@@ -648,9 +648,10 @@ def fetch_json(url):
 
 class StartListParser(HTMLParser):
     """Parse the start list (calendar/checkings/<id>) into rows of
-    {surname, first, category, club, uci}. Club and UCI ID are read from the
-    data-* attributes of the row's menu cell, name/category from the cells
-    under the "Priimek"/"Ime"/"Kategorija" headers."""
+    {surname, first, category, club, uci, licence}. Club and UCI ID are read
+    from the data-* attributes of the row's menu cell, name/category from the
+    cells under the "Priimek"/"Ime"/"Kategorija" headers. The licence number
+    ("532-2026", "UNDEFINED" or empty) only exists in a commented-out cell."""
 
     def __init__(self):
         super().__init__()
@@ -661,6 +662,7 @@ class StartListParser(HTMLParser):
         self.in_td = False
         self.cells = []
         self.attrs = {}
+        self.licence = ''
         self.text = ''
 
     def handle_starttag(self, tag, attrs):
@@ -670,7 +672,7 @@ class StartListParser(HTMLParser):
         elif not self.in_table:
             return
         elif tag == 'tr':
-            self.cells, self.attrs = [], {}
+            self.cells, self.attrs, self.licence = [], {}, ''
         elif tag == 'th':
             self.in_th, self.text = True, ''
         elif tag == 'td':
@@ -696,6 +698,11 @@ class StartListParser(HTMLParser):
         if self.in_th or self.in_td:
             self.text += data
 
+    def handle_comment(self, data):
+        m = re.fullmatch(r'\s*<td[^>]*>(.*?)</td>\s*', data, re.S)
+        if self.in_table and m:
+            self.licence = m.group(1).strip()
+
     def _col(self, name, default):
         for i, h in enumerate(self.headers):
             if h.lower().startswith(name):
@@ -703,8 +710,8 @@ class StartListParser(HTMLParser):
         return default
 
     def _finish_row(self):
-        cells, attrs = self.cells, self.attrs
-        self.cells, self.attrs = [], {}
+        cells, attrs, licence = self.cells, self.attrs, self.licence
+        self.cells, self.attrs, self.licence = [], {}, ''
         si, fi = self._col('priimek', 1), self._col('ime', 2)
         ci, ki, ui = self._col('kategorija', 4), self._col('klub', 3), self._col('uci', 5)
         if len(cells) <= max(si, fi, ci):
@@ -717,6 +724,7 @@ class StartListParser(HTMLParser):
             "surname": cells[si], "first": cells[fi], "category": cells[ci],
             "club": attrs.get('club') or (cells[ki] if len(cells) > ki else ''),
             "uci": uci,
+            "licence": "" if licence == "UNDEFINED" else licence,
         })
 
 
@@ -725,7 +733,8 @@ def parse_live_timing(feed):
     rows = []
     for race in (feed or {}).values():
         for cat in (race.get("categories") or {}).values():
-            category = (cat.get("category_name") or "").strip()
+            # Some feeds number the categories ("01 - Amaterji")
+            category = re.sub(r'^\d+\s*-\s*', '', (cat.get("category_name") or "").strip())
             for res in cat.get("results") or []:
                 first = (res.get("first_name") or "").strip()
                 last = (res.get("last_name") or "").strip()
@@ -738,23 +747,23 @@ def parse_live_timing(feed):
     return rows
 
 
-def official_rider_keys(all_parsed):
-    """Identity keys of every rider present in the official sources."""
-    keys = set()
-    for riders in all_parsed.values():
-        for r in riders:
-            keys.update(get_rider_key(r))
-    return keys
+def licensed_rider_keys(all_parsed):
+    """(category, normalized name) of every rider in the official sources who
+    carries a licence number."""
+    return {(r["category"], normalize_name(r["name"]))
+            for riders in all_parsed.values() for r in riders if r["license"]}
 
 
-def fetch_unofficial_rows(entry, official_keys, points):
+def fetch_unofficial_rows(entry, licensed_keys, points):
     """Fetch live timing + start list for one config entry and return the rows
     that earn points: [{category, name, license, club, points}]. None if either
-    fetch failed. Eligibility (OMR rules as applied by the organiser):
-      - on the start list with a UCI ID -> counts
-      - on the start list without a UCI ID -> counts only if the rider already
-        appears in this year's official standings
-      - not on the start list -> counts only if the feed names a club
+    fetch failed. Eligibility (OMR rules as applied by the organiser, checked
+    against the official results of earlier 2026 races):
+      - on the start list with a licence number -> counts
+      - otherwise counts only if the rider already appears with a licence in
+        this year's official standings
+    Ineligible riders are dropped and the ones behind move up, so points go by
+    place among eligible riders, not by the live-timing rank.
     """
     match_id = entry["liveScore"]
     feed = fetch_json(LIVE_TIMING_URL.format(id=match_id))
@@ -766,35 +775,31 @@ def fetch_unofficial_rows(entry, official_keys, points):
     start_list = {(s["category"], normalize_name(f"{s['surname']} {s['first']}")): s for s in sl.rows}
     print(f"  live timing {match_id}: {len(sl.rows)} on start list")
 
+    by_category = {}
+    for res in parse_live_timing(feed):
+        if res["category"] in CATEGORIES and res["rank"].isdigit():  # skip DNF / DNS / DSQ
+            by_category.setdefault(res["category"], []).append(res)
+
     rows = []
     skipped = []
-    for res in parse_live_timing(feed):
-        cat = res["category"]
-        if cat not in CATEGORIES:
-            continue
-        if not res["rank"].isdigit():
-            continue  # DNF / DNS / DSQ
-        rank = int(res["rank"])
-        if rank > len(points):
-            continue
-        key = (cat, normalize_name(res["name"]))
-        start = start_list.get(key)
-        if start is None:
-            eligible = bool(res["club"])
-            uci = ""
-        else:
-            uci = start["uci"]
-            eligible = bool(uci) or ("name", cat, key[1]) in official_keys
-        if not eligible:
-            skipped.append(f"{res['name']} ({cat}, {rank}.)")
-            continue
-        rows.append({
-            "category": cat,
-            "name": res["name"],
-            "license": uci,
-            "club": normalize_club(res["club"] or (start["club"] if start else "")),
-            "points": points[rank - 1],
-        })
+    for cat, results in by_category.items():
+        place = 0
+        for res in sorted(results, key=lambda r: int(r["rank"])):
+            if place == len(points):
+                break
+            key = (cat, normalize_name(res["name"]))
+            start = start_list.get(key)
+            if not ((start and start["licence"]) or key in licensed_keys):
+                skipped.append(f"{res['name']} ({cat}, {res['rank']}.)")
+                continue
+            rows.append({
+                "category": cat,
+                "name": res["name"],
+                "license": start["uci"] if start else "",
+                "club": normalize_club(res["club"] or (start["club"] if start else "")),
+                "points": points[place],
+            })
+            place += 1
     if skipped:
         print(f"  live timing {match_id}: no points for {', '.join(skipped)}")
     return rows
@@ -815,7 +820,7 @@ def restore_unofficial_rows(existing_output, disc_id, race_name):
             for r in old_riders if idx < len(r["scores"]) and r["scores"][idx] > 0]
 
 
-def apply_unofficial_entry(entry, disc_meta, riders, official_keys, existing_output):
+def apply_unofficial_entry(entry, disc_meta, riders, licensed_keys, existing_output):
     """Fill one race column of a discipline from the live-timing feed."""
     races = disc_meta["races"]
     needle = entry["race"].upper()
@@ -834,7 +839,7 @@ def apply_unofficial_entry(entry, disc_meta, riders, official_keys, existing_out
         return
 
     points = POINTS_TABLES[entry.get("points", "regular")]
-    rows = fetch_unofficial_rows(entry, official_keys, points)
+    rows = fetch_unofficial_rows(entry, licensed_keys, points)
     source = "live timing"
     if rows is None:
         rows = restore_unofficial_rows(existing_output, disc_meta["id"], race["name"])
@@ -1056,11 +1061,11 @@ def process_year(year, year_config, disciplines, output_path):
         return False
 
     # Pre-fill empty race columns from live timing (config "unofficial")
-    official_keys = official_rider_keys(all_parsed)
+    licensed_keys = licensed_rider_keys(all_parsed)
     for disc_meta in disciplines_data:
         for entry in year_config[disc_meta["id"]].get("unofficial", []):
             apply_unofficial_entry(entry, disc_meta, all_parsed[disc_meta["id"]],
-                                   official_keys, existing_output)
+                                   licensed_keys, existing_output)
 
     # Merge riders across disciplines
     key_to_merged_id = {}
