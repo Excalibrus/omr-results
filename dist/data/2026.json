@@ -71,9 +71,7 @@
         },
         {
           "date": "03.10.",
-          "name": "51. Vzpon za pokal občine Kobarid",
-          "unofficial": true,
-          "unofficialSource": "https://prijavim.se/results/live_score/6400"
+          "name": "51. Vzpon za pokal občine Kobarid"
         }
       ],
       "numRaces": 16
@@ -2438,6 +2436,56 @@
     },
     {
       "id": 30,
+      "name": "SKERLJ Ivanka",
+      "license": "10017552031",
+      "club": "KD BRDA DOBROVO",
+      "category": "Ženske D",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            30,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            30,
+            40,
+            0,
+            30
+          ],
+          "total": 190,
+          "bestOfTotal": 190,
+          "bestOfGeneralTotal": 100,
+          "bestOfIndices": [
+            13,
+            0,
+            1,
+            7,
+            12,
+            15
+          ],
+          "bestOfGeneralIndices": [
+            13,
+            0,
+            1
+          ],
+          "rank": 1
+        }
+      },
+      "general": {
+        "total": 100,
+        "rank": 7
+      }
+    },
+    {
+      "id": 31,
       "name": "PREŠEREN Matejka",
       "license": "10106784351",
       "club": "KK ZAVRŠNICA",
@@ -2505,7 +2553,7 @@
       }
     },
     {
-      "id": 31,
+      "id": 32,
       "name": "ŠVAB Lilijana",
       "license": "10074978758",
       "club": "ŠD BAM.BI",
@@ -2610,7 +2658,7 @@
       }
     },
     {
-      "id": 32,
+      "id": 33,
       "name": "HABJAN Dragica",
       "license": "10096533370",
       "club": "ŠD Koloka",
@@ -2712,56 +2760,6 @@
       "general": {
         "total": 282,
         "rank": 3
-      }
-    },
-    {
-      "id": 33,
-      "name": "SKERLJ Ivanka",
-      "license": "10017552031",
-      "club": "KD BRDA DOBROVO",
-      "category": "Ženske D",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            30,
-            30,
-            0,
-            0,
-            0,
-            0,
-            0,
-            30,
-            0,
-            0,
-            0,
-            0,
-            30,
-            40,
-            0,
-            30
-          ],
-          "total": 190,
-          "bestOfTotal": 190,
-          "bestOfGeneralTotal": 100,
-          "bestOfIndices": [
-            13,
-            0,
-            1,
-            7,
-            12,
-            15
-          ],
-          "bestOfGeneralIndices": [
-            13,
-            0,
-            1
-          ],
-          "rank": 1
-        }
-      },
-      "general": {
-        "total": 100,
-        "rank": 7
       }
     },
     {
@@ -3459,6 +3457,55 @@
     },
     {
       "id": 42,
+      "name": "BRUS Jakob",
+      "license": "10073869827",
+      "club": "IZVIR VIPAVA",
+      "category": "Amaterji",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            25,
+            0,
+            18,
+            0,
+            0,
+            25,
+            29,
+            0,
+            25
+          ],
+          "total": 122,
+          "bestOfTotal": 122,
+          "bestOfGeneralTotal": 79,
+          "bestOfIndices": [
+            13,
+            7,
+            12,
+            15,
+            9
+          ],
+          "bestOfGeneralIndices": [
+            13,
+            7,
+            12
+          ],
+          "rank": 5
+        }
+      },
+      "general": {
+        "total": 79,
+        "rank": 12
+      }
+    },
+    {
+      "id": 43,
       "name": "CEBEK Blaž",
       "license": "10149439800",
       "club": "Arcont Selce",
@@ -3535,7 +3582,7 @@
       }
     },
     {
-      "id": 43,
+      "id": 44,
       "name": "HRIBLJAN Matjaž",
       "license": "",
       "club": "ŠKD SUPER POTENCIAL",
@@ -3601,55 +3648,6 @@
       "general": {
         "total": 56,
         "rank": 19
-      }
-    },
-    {
-      "id": 44,
-      "name": "BRUS Jakob",
-      "license": "10073869827",
-      "club": "IZVIR VIPAVA",
-      "category": "Amaterji",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            25,
-            0,
-            18,
-            0,
-            0,
-            25,
-            29,
-            0,
-            25
-          ],
-          "total": 122,
-          "bestOfTotal": 122,
-          "bestOfGeneralTotal": 79,
-          "bestOfIndices": [
-            13,
-            7,
-            12,
-            15,
-            9
-          ],
-          "bestOfGeneralIndices": [
-            13,
-            7,
-            12
-          ],
-          "rank": 5
-        }
-      },
-      "general": {
-        "total": 79,
-        "rank": 12
       }
     },
     {
@@ -3727,76 +3725,8 @@
     },
     {
       "id": 46,
-      "name": "HOJNIK Črtomir",
-      "license": "2026TZS049",
-      "club": "SMART MONEY RIKITEAM",
-      "category": "Amaterji",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            25,
-            0,
-            18,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 43,
-          "bestOfTotal": 43,
-          "bestOfGeneralTotal": 43,
-          "bestOfIndices": [
-            4,
-            6
-          ],
-          "bestOfGeneralIndices": [
-            4,
-            6
-          ],
-          "rank": 12
-        },
-        "road": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            30,
-            0,
-            0,
-            0
-          ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
-          "bestOfIndices": [
-            5
-          ],
-          "bestOfGeneralIndices": [
-            5
-          ],
-          "rank": 11
-        }
-      },
-      "general": {
-        "total": 73,
-        "rank": 15
-      }
-    },
-    {
-      "id": 47,
-      "name": "MILOST Enej",
-      "license": "10162360604",
+      "name": "GABERŠČEK Teo",
+      "license": "10162360503",
       "club": "IZVIR VIPAVA",
       "category": "Amaterji",
       "disciplines": {
@@ -3808,42 +3738,41 @@
             0,
             0,
             0,
-            6,
-            11,
-            9,
-            6,
             0,
-            0,
-            11,
-            0,
-            0,
-            0
-          ],
-          "total": 43,
-          "bestOfTotal": 43,
-          "bestOfGeneralTotal": 31,
-          "bestOfIndices": [
             7,
+            0,
+            13,
+            0,
+            0,
+            13,
+            0,
+            0,
+            15
+          ],
+          "total": 48,
+          "bestOfTotal": 48,
+          "bestOfGeneralTotal": 41,
+          "bestOfIndices": [
+            15,
+            9,
             12,
-            8,
-            6,
-            9
+            7
           ],
           "bestOfGeneralIndices": [
-            7,
-            12,
-            8
+            15,
+            9,
+            12
           ],
-          "rank": 12
+          "rank": 11
         }
       },
       "general": {
-        "total": 31,
-        "rank": 31
+        "total": 41,
+        "rank": 25
       }
     },
     {
-      "id": 48,
+      "id": 47,
       "name": "ŠULIGOJ Blaž",
       "license": "10140255213",
       "club": "IZVIR VIPAVA",
@@ -3940,7 +3869,124 @@
       }
     },
     {
+      "id": 48,
+      "name": "MILOST Enej",
+      "license": "10162360604",
+      "club": "IZVIR VIPAVA",
+      "category": "Amaterji",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            11,
+            9,
+            6,
+            0,
+            0,
+            11,
+            0,
+            0,
+            0
+          ],
+          "total": 43,
+          "bestOfTotal": 43,
+          "bestOfGeneralTotal": 31,
+          "bestOfIndices": [
+            7,
+            12,
+            8,
+            6,
+            9
+          ],
+          "bestOfGeneralIndices": [
+            7,
+            12,
+            8
+          ],
+          "rank": 12
+        }
+      },
+      "general": {
+        "total": 31,
+        "rank": 31
+      }
+    },
+    {
       "id": 49,
+      "name": "HOJNIK Črtomir",
+      "license": "2026TZS049",
+      "club": "SMART MONEY RIKITEAM",
+      "category": "Amaterji",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            25,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 43,
+          "bestOfTotal": 43,
+          "bestOfGeneralTotal": 43,
+          "bestOfIndices": [
+            4,
+            6
+          ],
+          "bestOfGeneralIndices": [
+            4,
+            6
+          ],
+          "rank": 12
+        },
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            0
+          ],
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
+          "bestOfIndices": [
+            5
+          ],
+          "bestOfGeneralIndices": [
+            5
+          ],
+          "rank": 11
+        }
+      },
+      "general": {
+        "total": 73,
+        "rank": 15
+      }
+    },
+    {
+      "id": 50,
       "name": "JANČIČ Klemen",
       "license": "10092053687",
       "club": "KK Trbovlje",
@@ -4039,7 +4085,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 51,
       "name": "POJE Maks",
       "license": "10161446376",
       "club": "KK GORJE",
@@ -4109,7 +4155,7 @@
       }
     },
     {
-      "id": 51,
+      "id": 52,
       "name": "JAZBEC Gal",
       "license": "10105314601",
       "club": "JB TEAM NOVO MESTO",
@@ -4175,7 +4221,7 @@
       }
     },
     {
-      "id": 52,
+      "id": 53,
       "name": "KREFT Žiga",
       "license": "10175998804",
       "club": "KD ROG",
@@ -4264,7 +4310,7 @@
       }
     },
     {
-      "id": 53,
+      "id": 54,
       "name": "KASTELIC Aljaž",
       "license": "10055965748",
       "club": "KK Trbovlje",
@@ -4332,7 +4378,7 @@
       }
     },
     {
-      "id": 54,
+      "id": 55,
       "name": "KLOPČIČ Leon",
       "license": "10017646809",
       "club": "KK Trbovlje",
@@ -4406,54 +4452,6 @@
       "general": {
         "total": 155,
         "rank": 3
-      }
-    },
-    {
-      "id": 55,
-      "name": "GABERŠČEK Teo",
-      "license": "10162360503",
-      "club": "IZVIR VIPAVA",
-      "category": "Amaterji",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            7,
-            0,
-            13,
-            0,
-            0,
-            13,
-            0,
-            0,
-            15
-          ],
-          "total": 48,
-          "bestOfTotal": 48,
-          "bestOfGeneralTotal": 41,
-          "bestOfIndices": [
-            15,
-            9,
-            12,
-            7
-          ],
-          "bestOfGeneralIndices": [
-            15,
-            9,
-            12
-          ],
-          "rank": 11
-        }
-      },
-      "general": {
-        "total": 41,
-        "rank": 25
       }
     },
     {
@@ -9253,6 +9251,75 @@
     },
     {
       "id": 128,
+      "name": "MILIC Jernej",
+      "license": "10148255992",
+      "club": "IZVIR VIPAVA",
+      "category": "Master C",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            15,
+            0,
+            0,
+            15,
+            0,
+            0,
+            13,
+            21,
+            0,
+            0,
+            0,
+            15,
+            21,
+            25,
+            0,
+            25
+          ],
+          "total": 122,
+          "bestOfTotal": 122,
+          "bestOfGeneralTotal": 71,
+          "bestOfIndices": [
+            13,
+            15,
+            7,
+            12,
+            0,
+            3
+          ],
+          "bestOfGeneralIndices": [
+            13,
+            15,
+            7
+          ],
+          "rank": 4
+        },
+        "tt": {
+          "scores": [
+            0,
+            0,
+            0,
+            11,
+            0
+          ],
+          "total": 11,
+          "bestOfTotal": 11,
+          "bestOfGeneralTotal": 11,
+          "bestOfIndices": [
+            3
+          ],
+          "bestOfGeneralIndices": [
+            3
+          ],
+          "rank": 11
+        }
+      },
+      "general": {
+        "total": 82,
+        "rank": 10
+      }
+    },
+    {
+      "id": 129,
       "name": "MLAKER Boštjan",
       "license": "",
       "club": "KK Pocinkovalnica Celje",
@@ -9323,76 +9390,80 @@
       }
     },
     {
-      "id": 129,
-      "name": "MILIC Jernej",
-      "license": "10148255992",
-      "club": "IZVIR VIPAVA",
+      "id": 130,
+      "name": "NEDOH Miha",
+      "license": "10115590537",
+      "club": "KK PANTAL",
       "category": "Master C",
       "disciplines": {
         "climbs": {
           "scores": [
-            15,
-            0,
-            0,
-            15,
-            0,
-            0,
-            13,
-            21,
             0,
             0,
             0,
-            15,
-            21,
-            25,
             0,
-            25
+            0,
+            18,
+            0,
+            18,
+            11,
+            0,
+            18,
+            11,
+            0,
+            0,
+            0,
+            21
           ],
-          "total": 122,
-          "bestOfTotal": 122,
-          "bestOfGeneralTotal": 71,
+          "total": 97,
+          "bestOfTotal": 97,
+          "bestOfGeneralTotal": 57,
           "bestOfIndices": [
-            13,
             15,
+            5,
             7,
-            12,
-            0,
-            3
+            10,
+            8,
+            11
           ],
           "bestOfGeneralIndices": [
-            13,
             15,
+            5,
             7
           ],
-          "rank": 4
+          "rank": 7
         },
         "tt": {
           "scores": [
-            0,
-            0,
-            0,
-            11,
-            0
+            13,
+            15,
+            18,
+            9,
+            15
           ],
-          "total": 11,
-          "bestOfTotal": 11,
-          "bestOfGeneralTotal": 11,
+          "total": 48,
+          "bestOfTotal": 48,
+          "bestOfGeneralTotal": 48,
           "bestOfIndices": [
-            3
+            2,
+            1,
+            4
           ],
           "bestOfGeneralIndices": [
-            3
+            2,
+            1,
+            4
           ],
-          "rank": 11
+          "rank": 6
         }
       },
       "general": {
-        "total": 82,
-        "rank": 10
+        "total": 105,
+        "rank": 6
       }
     },
     {
-      "id": 130,
+      "id": 131,
       "name": "ŽITKO Jernej",
       "license": "",
       "club": "KD OBALA",
@@ -9465,7 +9536,7 @@
       }
     },
     {
-      "id": 131,
+      "id": 132,
       "name": "ŠVAB Anže",
       "license": "",
       "club": "ŠD BAM.BI",
@@ -9565,79 +9636,6 @@
       "general": {
         "total": 259,
         "rank": 3
-      }
-    },
-    {
-      "id": 132,
-      "name": "NEDOH Miha",
-      "license": "10115590537",
-      "club": "KK PANTAL",
-      "category": "Master C",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            18,
-            0,
-            18,
-            11,
-            0,
-            18,
-            11,
-            0,
-            0,
-            0,
-            21
-          ],
-          "total": 97,
-          "bestOfTotal": 97,
-          "bestOfGeneralTotal": 57,
-          "bestOfIndices": [
-            15,
-            5,
-            7,
-            10,
-            8,
-            11
-          ],
-          "bestOfGeneralIndices": [
-            15,
-            5,
-            7
-          ],
-          "rank": 7
-        },
-        "tt": {
-          "scores": [
-            13,
-            15,
-            18,
-            9,
-            15
-          ],
-          "total": 48,
-          "bestOfTotal": 48,
-          "bestOfGeneralTotal": 48,
-          "bestOfIndices": [
-            2,
-            1,
-            4
-          ],
-          "bestOfGeneralIndices": [
-            2,
-            1,
-            4
-          ],
-          "rank": 6
-        }
-      },
-      "general": {
-        "total": 105,
-        "rank": 6
       }
     },
     {
@@ -11020,6 +11018,97 @@
     },
     {
       "id": 154,
+      "name": "OBRANOVIČ Marko",
+      "license": "10140304420",
+      "club": "IZVIR VIPAVA",
+      "category": "Master D",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            30,
+            0,
+            9,
+            0,
+            0,
+            25
+          ],
+          "total": 97,
+          "bestOfTotal": 97,
+          "bestOfGeneralTotal": 73,
+          "bestOfIndices": [
+            10,
+            15,
+            7,
+            0,
+            12
+          ],
+          "bestOfGeneralIndices": [
+            10,
+            15,
+            7
+          ],
+          "rank": 5
+        },
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            21,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            4
+          ],
+          "bestOfGeneralIndices": [
+            4
+          ],
+          "rank": 11
+        },
+        "tt": {
+          "scores": [
+            13,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 13,
+          "bestOfTotal": 13,
+          "bestOfGeneralTotal": 13,
+          "bestOfIndices": [
+            0
+          ],
+          "bestOfGeneralIndices": [
+            0
+          ],
+          "rank": 14
+        }
+      },
+      "general": {
+        "total": 107,
+        "rank": 10
+      }
+    },
+    {
+      "id": 155,
       "name": "KAUČIČ Primož",
       "license": "10153295851",
       "club": "Arcont Selce",
@@ -11123,7 +11212,7 @@
       }
     },
     {
-      "id": 155,
+      "id": 156,
       "name": "ŠIROK Jure",
       "license": "10170583069",
       "club": "KD BRDA DOBROVO",
@@ -11221,7 +11310,7 @@
       }
     },
     {
-      "id": 156,
+      "id": 157,
       "name": "HORVAT Matej",
       "license": "10172229645",
       "club": "KD BRANIK MARIBOR",
@@ -11293,97 +11382,6 @@
       "general": {
         "total": 76,
         "rank": 14
-      }
-    },
-    {
-      "id": 157,
-      "name": "OBRANOVIČ Marko",
-      "license": "10140304420",
-      "club": "IZVIR VIPAVA",
-      "category": "Master D",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            18,
-            0,
-            0,
-            30,
-            0,
-            9,
-            0,
-            0,
-            25
-          ],
-          "total": 97,
-          "bestOfTotal": 97,
-          "bestOfGeneralTotal": 73,
-          "bestOfIndices": [
-            10,
-            15,
-            7,
-            0,
-            12
-          ],
-          "bestOfGeneralIndices": [
-            10,
-            15,
-            7
-          ],
-          "rank": 5
-        },
-        "road": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            21,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
-          "bestOfIndices": [
-            4
-          ],
-          "bestOfGeneralIndices": [
-            4
-          ],
-          "rank": 11
-        },
-        "tt": {
-          "scores": [
-            13,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 13,
-          "bestOfTotal": 13,
-          "bestOfGeneralTotal": 13,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 14
-        }
-      },
-      "general": {
-        "total": 107,
-        "rank": 10
       }
     },
     {
@@ -11559,9 +11557,9 @@
     },
     {
       "id": 160,
-      "name": "PETRIČ Dejan",
-      "license": "10056062142",
-      "club": "MBK ČRNI VRH",
+      "name": "FERJANČIČ Boštjan",
+      "license": "10051266100",
+      "club": "IZVIR VIPAVA",
       "category": "Master D",
       "disciplines": {
         "climbs": {
@@ -11571,35 +11569,37 @@
             0,
             0,
             0,
-            25,
-            0,
-            21,
             0,
             0,
+            15,
             0,
             0,
             0,
             0,
+            15,
             0,
-            0
+            0,
+            18
           ],
-          "total": 46,
-          "bestOfTotal": 46,
-          "bestOfGeneralTotal": 46,
+          "total": 48,
+          "bestOfTotal": 48,
+          "bestOfGeneralTotal": 48,
           "bestOfIndices": [
-            5,
-            7
+            15,
+            7,
+            12
           ],
           "bestOfGeneralIndices": [
-            5,
-            7
+            15,
+            7,
+            12
           ],
-          "rank": 12
+          "rank": 11
         }
       },
       "general": {
-        "total": 46,
-        "rank": 19
+        "total": 48,
+        "rank": 18
       }
     },
     {
@@ -11670,6 +11670,51 @@
     },
     {
       "id": 162,
+      "name": "PETRIČ Dejan",
+      "license": "10056062142",
+      "club": "MBK ČRNI VRH",
+      "category": "Master D",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            25,
+            0,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 46,
+          "bestOfTotal": 46,
+          "bestOfGeneralTotal": 46,
+          "bestOfIndices": [
+            5,
+            7
+          ],
+          "bestOfGeneralIndices": [
+            5,
+            7
+          ],
+          "rank": 12
+        }
+      },
+      "general": {
+        "total": 46,
+        "rank": 19
+      }
+    },
+    {
+      "id": 163,
       "name": "GALIČIČ Žiga",
       "license": "",
       "club": "RIBNO ALPINE RESORT BLED",
@@ -11714,10 +11759,10 @@
       }
     },
     {
-      "id": 163,
-      "name": "FERJANČIČ Boštjan",
-      "license": "10051266100",
-      "club": "IZVIR VIPAVA",
+      "id": 164,
+      "name": "SKOČIR Primož",
+      "license": "10175342032",
+      "club": "KK SOČA",
       "category": "Master D",
       "disciplines": {
         "climbs": {
@@ -11729,39 +11774,64 @@
             0,
             0,
             0,
-            15,
+            11,
             0,
             0,
             0,
             0,
-            15,
             0,
             0,
-            18
+            0,
+            21
           ],
-          "total": 48,
-          "bestOfTotal": 48,
-          "bestOfGeneralTotal": 48,
+          "total": 32,
+          "bestOfTotal": 32,
+          "bestOfGeneralTotal": 32,
           "bestOfIndices": [
             15,
-            7,
-            12
+            7
           ],
           "bestOfGeneralIndices": [
             15,
-            7,
-            12
+            7
           ],
-          "rank": 11
+          "rank": 16
+        },
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            18,
+            0,
+            25,
+            25,
+            0
+          ],
+          "total": 68,
+          "bestOfTotal": 68,
+          "bestOfGeneralTotal": 68,
+          "bestOfIndices": [
+            6,
+            7,
+            4
+          ],
+          "bestOfGeneralIndices": [
+            6,
+            7,
+            4
+          ],
+          "rank": 5
         }
       },
       "general": {
-        "total": 48,
-        "rank": 18
+        "total": 100,
+        "rank": 11
       }
     },
     {
-      "id": 164,
+      "id": 165,
       "name": "DEČKO Denis",
       "license": "10073920044",
       "club": "KK Pocinkovalnica Celje",
@@ -11825,7 +11895,7 @@
       }
     },
     {
-      "id": 165,
+      "id": 166,
       "name": "PENKO Peter",
       "license": "10120696171",
       "club": "KD BRDA DOBROVO",
@@ -11922,7 +11992,71 @@
       }
     },
     {
-      "id": 166,
+      "id": 167,
+      "name": "PRAZNIK Boris",
+      "license": "10017645900",
+      "club": "Team 82",
+      "category": "Master D",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 18,
+          "bestOfTotal": 18,
+          "bestOfGeneralTotal": 18,
+          "bestOfIndices": [
+            9
+          ],
+          "bestOfGeneralIndices": [
+            9
+          ],
+          "rank": 19
+        },
+        "tt": {
+          "scores": [
+            15,
+            0,
+            0,
+            0,
+            21
+          ],
+          "total": 36,
+          "bestOfTotal": 36,
+          "bestOfGeneralTotal": 36,
+          "bestOfIndices": [
+            4,
+            0
+          ],
+          "bestOfGeneralIndices": [
+            4,
+            0
+          ],
+          "rank": 9
+        }
+      },
+      "general": {
+        "total": 54,
+        "rank": 17
+      }
+    },
+    {
+      "id": 168,
       "name": "NOVAK Zdravko",
       "license": "10172525796",
       "club": "KD ROG",
@@ -11988,7 +12122,50 @@
       }
     },
     {
-      "id": 167,
+      "id": 169,
+      "name": "ŠTOKELJ Miha",
+      "license": "10088138325",
+      "club": "IZVIR VIPAVA",
+      "category": "Master D",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            18,
+            0,
+            0,
+            0
+          ],
+          "total": 18,
+          "bestOfTotal": 18,
+          "bestOfGeneralTotal": 18,
+          "bestOfIndices": [
+            12
+          ],
+          "bestOfGeneralIndices": [
+            12
+          ],
+          "rank": 19
+        }
+      },
+      "general": {
+        "total": 18,
+        "rank": 29
+      }
+    },
+    {
+      "id": 170,
       "name": "RIHTARIČ David",
       "license": "10049223238",
       "club": "SMART MONEY RIKITEAM",
@@ -12054,225 +12231,7 @@
       }
     },
     {
-      "id": 168,
-      "name": "ŠTOKELJ Miha",
-      "license": "10088138325",
-      "club": "IZVIR VIPAVA",
-      "category": "Master D",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            18,
-            0,
-            0,
-            0
-          ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
-          "bestOfIndices": [
-            12
-          ],
-          "bestOfGeneralIndices": [
-            12
-          ],
-          "rank": 19
-        }
-      },
-      "general": {
-        "total": 18,
-        "rank": 29
-      }
-    },
-    {
-      "id": 169,
-      "name": "PRAZNIK Boris",
-      "license": "10017645900",
-      "club": "Team 82",
-      "category": "Master D",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            18,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
-          "bestOfIndices": [
-            9
-          ],
-          "bestOfGeneralIndices": [
-            9
-          ],
-          "rank": 19
-        },
-        "tt": {
-          "scores": [
-            15,
-            0,
-            0,
-            0,
-            21
-          ],
-          "total": 36,
-          "bestOfTotal": 36,
-          "bestOfGeneralTotal": 36,
-          "bestOfIndices": [
-            4,
-            0
-          ],
-          "bestOfGeneralIndices": [
-            4,
-            0
-          ],
-          "rank": 9
-        }
-      },
-      "general": {
-        "total": 54,
-        "rank": 17
-      }
-    },
-    {
-      "id": 170,
-      "name": "CANKAR Janez",
-      "license": "10128914701",
-      "club": "KD Belaunce",
-      "category": "Master D",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            21,
-            0,
-            0
-          ],
-          "total": 36,
-          "bestOfTotal": 36,
-          "bestOfGeneralTotal": 36,
-          "bestOfIndices": [
-            13,
-            5
-          ],
-          "bestOfGeneralIndices": [
-            13,
-            5
-          ],
-          "rank": 15
-        }
-      },
-      "general": {
-        "total": 36,
-        "rank": 23
-      }
-    },
-    {
       "id": 171,
-      "name": "ŠTRAVS Simon",
-      "license": "10151147808",
-      "club": "ŠKD SUPER POTENCIAL",
-      "category": "Master D",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            15,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
-          "bestOfIndices": [
-            11
-          ],
-          "bestOfGeneralIndices": [
-            11
-          ],
-          "rank": 23
-        },
-        "road": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            4,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 4,
-          "bestOfTotal": 4,
-          "bestOfGeneralTotal": 4,
-          "bestOfIndices": [
-            4
-          ],
-          "bestOfGeneralIndices": [
-            4
-          ],
-          "rank": 19
-        }
-      },
-      "general": {
-        "total": 19,
-        "rank": 28
-      }
-    },
-    {
-      "id": 172,
       "name": "PETAČ Klemen",
       "license": "10106783038",
       "club": "KK Završnica",
@@ -12338,7 +12297,118 @@
       }
     },
     {
+      "id": 172,
+      "name": "ŠTRAVS Simon",
+      "license": "10151147808",
+      "club": "ŠKD SUPER POTENCIAL",
+      "category": "Master D",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 15,
+          "bestOfTotal": 15,
+          "bestOfGeneralTotal": 15,
+          "bestOfIndices": [
+            11
+          ],
+          "bestOfGeneralIndices": [
+            11
+          ],
+          "rank": 23
+        },
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 4,
+          "bestOfTotal": 4,
+          "bestOfGeneralTotal": 4,
+          "bestOfIndices": [
+            4
+          ],
+          "bestOfGeneralIndices": [
+            4
+          ],
+          "rank": 19
+        }
+      },
+      "general": {
+        "total": 19,
+        "rank": 28
+      }
+    },
+    {
       "id": 173,
+      "name": "CANKAR Janez",
+      "license": "10128914701",
+      "club": "KD Belaunce",
+      "category": "Master D",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            21,
+            0,
+            0
+          ],
+          "total": 36,
+          "bestOfTotal": 36,
+          "bestOfGeneralTotal": 36,
+          "bestOfIndices": [
+            13,
+            5
+          ],
+          "bestOfGeneralIndices": [
+            13,
+            5
+          ],
+          "rank": 15
+        }
+      },
+      "general": {
+        "total": 36,
+        "rank": 23
+      }
+    },
+    {
+      "id": 174,
       "name": "JUVANČIČ Gregor",
       "license": "10017640846",
       "club": "ŠD BAM.BI",
@@ -12428,78 +12498,6 @@
       "general": {
         "total": 134,
         "rank": 7
-      }
-    },
-    {
-      "id": 174,
-      "name": "SKOČIR Primož",
-      "license": "10175342032",
-      "club": "KK SOČA",
-      "category": "Master D",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            11,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            21
-          ],
-          "total": 32,
-          "bestOfTotal": 32,
-          "bestOfGeneralTotal": 32,
-          "bestOfIndices": [
-            15,
-            7
-          ],
-          "bestOfGeneralIndices": [
-            15,
-            7
-          ],
-          "rank": 16
-        },
-        "road": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            18,
-            0,
-            25,
-            25,
-            0
-          ],
-          "total": 68,
-          "bestOfTotal": 68,
-          "bestOfGeneralTotal": 68,
-          "bestOfIndices": [
-            6,
-            7,
-            4
-          ],
-          "bestOfGeneralIndices": [
-            6,
-            7,
-            4
-          ],
-          "rank": 5
-        }
-      },
-      "general": {
-        "total": 100,
-        "rank": 11
       }
     },
     {
@@ -13348,97 +13346,6 @@
     },
     {
       "id": 186,
-      "name": "JELIĆ Borja",
-      "license": "10003788943",
-      "club": "TUŠ T.E.A.M.",
-      "category": "Master E",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            25,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            21,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 46,
-          "bestOfTotal": 46,
-          "bestOfGeneralTotal": 46,
-          "bestOfIndices": [
-            0,
-            7
-          ],
-          "bestOfGeneralIndices": [
-            0,
-            7
-          ],
-          "rank": 11
-        },
-        "road": {
-          "scores": [
-            0,
-            18,
-            0,
-            30,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 48,
-          "bestOfTotal": 48,
-          "bestOfGeneralTotal": 48,
-          "bestOfIndices": [
-            3,
-            1
-          ],
-          "bestOfGeneralIndices": [
-            3,
-            1
-          ],
-          "rank": 7
-        },
-        "tt": {
-          "scores": [
-            0,
-            25,
-            29,
-            0,
-            0
-          ],
-          "total": 54,
-          "bestOfTotal": 54,
-          "bestOfGeneralTotal": 54,
-          "bestOfIndices": [
-            2,
-            1
-          ],
-          "bestOfGeneralIndices": [
-            2,
-            1
-          ],
-          "rank": 5
-        }
-      },
-      "general": {
-        "total": 148,
-        "rank": 6
-      }
-    },
-    {
-      "id": 187,
       "name": "DOLENC Andrej",
       "license": "10118710095",
       "club": "POLYCOM RACING TEAM",
@@ -13536,6 +13443,97 @@
       "general": {
         "total": 254,
         "rank": 2
+      }
+    },
+    {
+      "id": 187,
+      "name": "JELIĆ Borja",
+      "license": "10003788943",
+      "club": "TUŠ T.E.A.M.",
+      "category": "Master E",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            25,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 46,
+          "bestOfTotal": 46,
+          "bestOfGeneralTotal": 46,
+          "bestOfIndices": [
+            0,
+            7
+          ],
+          "bestOfGeneralIndices": [
+            0,
+            7
+          ],
+          "rank": 11
+        },
+        "road": {
+          "scores": [
+            0,
+            18,
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 48,
+          "bestOfTotal": 48,
+          "bestOfGeneralTotal": 48,
+          "bestOfIndices": [
+            3,
+            1
+          ],
+          "bestOfGeneralIndices": [
+            3,
+            1
+          ],
+          "rank": 7
+        },
+        "tt": {
+          "scores": [
+            0,
+            25,
+            29,
+            0,
+            0
+          ],
+          "total": 54,
+          "bestOfTotal": 54,
+          "bestOfGeneralTotal": 54,
+          "bestOfIndices": [
+            2,
+            1
+          ],
+          "bestOfGeneralIndices": [
+            2,
+            1
+          ],
+          "rank": 5
+        }
+      },
+      "general": {
+        "total": 148,
+        "rank": 6
       }
     },
     {
@@ -13962,56 +13960,6 @@
     },
     {
       "id": 196,
-      "name": "JOŠT Mihael",
-      "license": "10173173878",
-      "club": "KK Pocinkovalnica Celje",
-      "category": "Master F",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            13,
-            18,
-            21,
-            21,
-            0,
-            15,
-            0,
-            0,
-            15,
-            15,
-            0,
-            0,
-            0,
-            21,
-            0,
-            0
-          ],
-          "total": 111,
-          "bestOfTotal": 111,
-          "bestOfGeneralTotal": 63,
-          "bestOfIndices": [
-            2,
-            3,
-            13,
-            1,
-            5,
-            8
-          ],
-          "bestOfGeneralIndices": [
-            2,
-            3,
-            13
-          ],
-          "rank": 5
-        }
-      },
-      "general": {
-        "total": 63,
-        "rank": 10
-      }
-    },
-    {
-      "id": 197,
       "name": "LIKAR Robert",
       "license": "10017590932",
       "club": "IZVIR VIPAVA",
@@ -14101,6 +14049,56 @@
       "general": {
         "total": 190,
         "rank": 2
+      }
+    },
+    {
+      "id": 197,
+      "name": "JOŠT Mihael",
+      "license": "10173173878",
+      "club": "KK Pocinkovalnica Celje",
+      "category": "Master F",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            13,
+            18,
+            21,
+            21,
+            0,
+            15,
+            0,
+            0,
+            15,
+            15,
+            0,
+            0,
+            0,
+            21,
+            0,
+            0
+          ],
+          "total": 111,
+          "bestOfTotal": 111,
+          "bestOfGeneralTotal": 63,
+          "bestOfIndices": [
+            2,
+            3,
+            13,
+            1,
+            5,
+            8
+          ],
+          "bestOfGeneralIndices": [
+            2,
+            3,
+            13
+          ],
+          "rank": 5
+        }
+      },
+      "general": {
+        "total": 63,
+        "rank": 10
       }
     },
     {
@@ -14339,49 +14337,6 @@
     },
     {
       "id": 201,
-      "name": "CVET Miran",
-      "license": "",
-      "club": "KD HRASTNIK",
-      "category": "Master F",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            30,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 30,
-          "bestOfTotal": 30,
-          "bestOfGeneralTotal": 30,
-          "bestOfIndices": [
-            4
-          ],
-          "bestOfGeneralIndices": [
-            4
-          ],
-          "rank": 11
-        }
-      },
-      "general": {
-        "total": 30,
-        "rank": 15
-      }
-    },
-    {
-      "id": 202,
       "name": "SODERŽNIK Stojan",
       "license": "10100939800",
       "club": "KD BRANIK MARIBOR",
@@ -14451,50 +14406,7 @@
       }
     },
     {
-      "id": 203,
-      "name": "NOVAK Rajko",
-      "license": "10017625486",
-      "club": "CALCIT BIKE TEAM",
-      "category": "Master F",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            21,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 21,
-          "bestOfTotal": 21,
-          "bestOfGeneralTotal": 21,
-          "bestOfIndices": [
-            6
-          ],
-          "bestOfGeneralIndices": [
-            6
-          ],
-          "rank": 12
-        }
-      },
-      "general": {
-        "total": 21,
-        "rank": 17
-      }
-    },
-    {
-      "id": 204,
+      "id": 202,
       "name": "VOLARIČ Milko",
       "license": "10104017427",
       "club": "KK SOČA",
@@ -14536,6 +14448,92 @@
       "general": {
         "total": 36,
         "rank": 14
+      }
+    },
+    {
+      "id": 203,
+      "name": "CVET Miran",
+      "license": "",
+      "club": "KD HRASTNIK",
+      "category": "Master F",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            30,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 30,
+          "bestOfTotal": 30,
+          "bestOfGeneralTotal": 30,
+          "bestOfIndices": [
+            4
+          ],
+          "bestOfGeneralIndices": [
+            4
+          ],
+          "rank": 11
+        }
+      },
+      "general": {
+        "total": 30,
+        "rank": 15
+      }
+    },
+    {
+      "id": 204,
+      "name": "NOVAK Rajko",
+      "license": "10017625486",
+      "club": "CALCIT BIKE TEAM",
+      "category": "Master F",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            21,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 21,
+          "bestOfTotal": 21,
+          "bestOfGeneralTotal": 21,
+          "bestOfIndices": [
+            6
+          ],
+          "bestOfGeneralIndices": [
+            6
+          ],
+          "rank": 12
+        }
+      },
+      "general": {
+        "total": 21,
+        "rank": 17
       }
     },
     {
@@ -15114,108 +15112,6 @@
     },
     {
       "id": 213,
-      "name": "PRPAR Vlado",
-      "license": "10017577693",
-      "club": "TUŠ T.E.A.M.",
-      "category": "Master G",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            21,
-            0,
-            0,
-            0,
-            30,
-            18,
-            21,
-            21,
-            21,
-            0,
-            0
-          ],
-          "total": 132,
-          "bestOfTotal": 132,
-          "bestOfGeneralTotal": 72,
-          "bestOfIndices": [
-            9,
-            5,
-            11,
-            12,
-            13,
-            10
-          ],
-          "bestOfGeneralIndices": [
-            9,
-            5,
-            11
-          ],
-          "rank": 4
-        },
-        "road": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            29,
-            21,
-            25,
-            30,
-            0
-          ],
-          "total": 105,
-          "bestOfTotal": 105,
-          "bestOfGeneralTotal": 105,
-          "bestOfIndices": [
-            7,
-            4,
-            6,
-            5
-          ],
-          "bestOfGeneralIndices": [
-            7,
-            4,
-            6,
-            5
-          ],
-          "rank": 4
-        },
-        "tt": {
-          "scores": [
-            18,
-            15,
-            34,
-            30,
-            30
-          ],
-          "total": 94,
-          "bestOfTotal": 94,
-          "bestOfGeneralTotal": 94,
-          "bestOfIndices": [
-            2,
-            3,
-            4
-          ],
-          "bestOfGeneralIndices": [
-            2,
-            3,
-            4
-          ],
-          "rank": 2
-        }
-      },
-      "general": {
-        "total": 271,
-        "rank": 2
-      }
-    },
-    {
-      "id": 214,
       "name": "HVALA Oskar",
       "license": "10017552536",
       "club": "KD BRDA DOBROVO",
@@ -15316,6 +15212,108 @@
       "general": {
         "total": 180,
         "rank": 3
+      }
+    },
+    {
+      "id": 214,
+      "name": "PRPAR Vlado",
+      "license": "10017577693",
+      "club": "TUŠ T.E.A.M.",
+      "category": "Master G",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            21,
+            0,
+            0,
+            0,
+            30,
+            18,
+            21,
+            21,
+            21,
+            0,
+            0
+          ],
+          "total": 132,
+          "bestOfTotal": 132,
+          "bestOfGeneralTotal": 72,
+          "bestOfIndices": [
+            9,
+            5,
+            11,
+            12,
+            13,
+            10
+          ],
+          "bestOfGeneralIndices": [
+            9,
+            5,
+            11
+          ],
+          "rank": 4
+        },
+        "road": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            29,
+            21,
+            25,
+            30,
+            0
+          ],
+          "total": 105,
+          "bestOfTotal": 105,
+          "bestOfGeneralTotal": 105,
+          "bestOfIndices": [
+            7,
+            4,
+            6,
+            5
+          ],
+          "bestOfGeneralIndices": [
+            7,
+            4,
+            6,
+            5
+          ],
+          "rank": 4
+        },
+        "tt": {
+          "scores": [
+            18,
+            15,
+            34,
+            30,
+            30
+          ],
+          "total": 94,
+          "bestOfTotal": 94,
+          "bestOfGeneralTotal": 94,
+          "bestOfIndices": [
+            2,
+            3,
+            4
+          ],
+          "bestOfGeneralIndices": [
+            2,
+            3,
+            4
+          ],
+          "rank": 2
+        }
+      },
+      "general": {
+        "total": 271,
+        "rank": 2
       }
     },
     {
@@ -17479,108 +17477,6 @@
     },
     {
       "id": 242,
-      "name": "KIRIČ Avgust",
-      "license": "10017552334",
-      "club": "KD BRDA DOBROVO",
-      "category": "Master I",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            18,
-            0,
-            0,
-            0,
-            0,
-            0,
-            11,
-            15,
-            15,
-            15,
-            18,
-            18,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 99,
-          "bestOfTotal": 99,
-          "bestOfGeneralTotal": 54,
-          "bestOfIndices": [
-            0,
-            10,
-            11,
-            7,
-            8,
-            9
-          ],
-          "bestOfGeneralIndices": [
-            0,
-            10,
-            11
-          ],
-          "rank": 6
-        },
-        "road": {
-          "scores": [
-            13,
-            15,
-            0,
-            0,
-            18,
-            18,
-            18,
-            0,
-            0
-          ],
-          "total": 82,
-          "bestOfTotal": 82,
-          "bestOfGeneralTotal": 82,
-          "bestOfIndices": [
-            4,
-            5,
-            6,
-            1,
-            0
-          ],
-          "bestOfGeneralIndices": [
-            4,
-            5,
-            6,
-            1,
-            0
-          ],
-          "rank": 5
-        },
-        "tt": {
-          "scores": [
-            0,
-            13,
-            0,
-            15,
-            0
-          ],
-          "total": 28,
-          "bestOfTotal": 28,
-          "bestOfGeneralTotal": 28,
-          "bestOfIndices": [
-            3,
-            1
-          ],
-          "bestOfGeneralIndices": [
-            3,
-            1
-          ],
-          "rank": 7
-        }
-      },
-      "general": {
-        "total": 164,
-        "rank": 7
-      }
-    },
-    {
-      "id": 243,
       "name": "HABJAN Andrej",
       "license": "10126390475",
       "club": "ŠD Koloka",
@@ -17682,6 +17578,108 @@
       "general": {
         "total": 226,
         "rank": 4
+      }
+    },
+    {
+      "id": 243,
+      "name": "KIRIČ Avgust",
+      "license": "10017552334",
+      "club": "KD BRDA DOBROVO",
+      "category": "Master I",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            18,
+            0,
+            0,
+            0,
+            0,
+            0,
+            11,
+            15,
+            15,
+            15,
+            18,
+            18,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 99,
+          "bestOfTotal": 99,
+          "bestOfGeneralTotal": 54,
+          "bestOfIndices": [
+            0,
+            10,
+            11,
+            7,
+            8,
+            9
+          ],
+          "bestOfGeneralIndices": [
+            0,
+            10,
+            11
+          ],
+          "rank": 6
+        },
+        "road": {
+          "scores": [
+            13,
+            15,
+            0,
+            0,
+            18,
+            18,
+            18,
+            0,
+            0
+          ],
+          "total": 82,
+          "bestOfTotal": 82,
+          "bestOfGeneralTotal": 82,
+          "bestOfIndices": [
+            4,
+            5,
+            6,
+            1,
+            0
+          ],
+          "bestOfGeneralIndices": [
+            4,
+            5,
+            6,
+            1,
+            0
+          ],
+          "rank": 5
+        },
+        "tt": {
+          "scores": [
+            0,
+            13,
+            0,
+            15,
+            0
+          ],
+          "total": 28,
+          "bestOfTotal": 28,
+          "bestOfGeneralTotal": 28,
+          "bestOfIndices": [
+            3,
+            1
+          ],
+          "bestOfGeneralIndices": [
+            3,
+            1
+          ],
+          "rank": 7
+        }
+      },
+      "general": {
+        "total": 164,
+        "rank": 7
       }
     },
     {
@@ -18504,6 +18502,72 @@
     },
     {
       "id": 253,
+      "name": "SAKSIDA Marko",
+      "license": "10017551627",
+      "club": "KD BRDA DOBROVO",
+      "category": "Master J",
+      "disciplines": {
+        "climbs": {
+          "scores": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            18
+          ],
+          "total": 18,
+          "bestOfTotal": 18,
+          "bestOfGeneralTotal": 18,
+          "bestOfIndices": [
+            15
+          ],
+          "bestOfGeneralIndices": [
+            15
+          ],
+          "rank": 9
+        },
+        "road": {
+          "scores": [
+            15,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "total": 15,
+          "bestOfTotal": 15,
+          "bestOfGeneralTotal": 15,
+          "bestOfIndices": [
+            0
+          ],
+          "bestOfGeneralIndices": [
+            0
+          ],
+          "rank": 8
+        }
+      },
+      "general": {
+        "total": 33,
+        "rank": 9
+      }
+    },
+    {
+      "id": 254,
       "name": "ARKO Jan",
       "license": "10125090675",
       "club": "Team Granfondo Slovenija",
@@ -18567,7 +18631,7 @@
       }
     },
     {
-      "id": 254,
+      "id": 255,
       "name": "GRBEC Gašper",
       "license": "10017569815",
       "club": "KK POSTOJNA",
@@ -18610,7 +18674,7 @@
       }
     },
     {
-      "id": 255,
+      "id": 256,
       "name": "DRAKSLER Andrej",
       "license": "10058635470",
       "club": "Santini Squadra Corse",
@@ -18678,7 +18742,7 @@
       }
     },
     {
-      "id": 256,
+      "id": 257,
       "name": "ZUPANČIČ Rok",
       "license": "10076526213",
       "club": "ENERGIJATEAM.COM",
@@ -18721,7 +18785,7 @@
       }
     },
     {
-      "id": 257,
+      "id": 258,
       "name": "VESEL Peter",
       "license": "10017567791",
       "club": "ProAdventure -Precision Fuel&Hydration",
@@ -18764,7 +18828,7 @@
       }
     },
     {
-      "id": 258,
+      "id": 259,
       "name": "BAJEC Franc",
       "license": "10017569108",
       "club": "KK Postojna",
@@ -18859,7 +18923,7 @@
       }
     },
     {
-      "id": 259,
+      "id": 260,
       "name": "GULIČ Teja",
       "license": "10050032580",
       "club": "KD BRDA DOBROVO",
@@ -18917,72 +18981,6 @@
       },
       "general": {
         "total": 80,
-        "rank": 9
-      }
-    },
-    {
-      "id": 260,
-      "name": "SAKSIDA Marko",
-      "license": "10017551627",
-      "club": "KD BRDA DOBROVO",
-      "category": "Master J",
-      "disciplines": {
-        "climbs": {
-          "scores": [
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            18
-          ],
-          "total": 18,
-          "bestOfTotal": 18,
-          "bestOfGeneralTotal": 18,
-          "bestOfIndices": [
-            15
-          ],
-          "bestOfGeneralIndices": [
-            15
-          ],
-          "rank": 9
-        },
-        "road": {
-          "scores": [
-            15,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "total": 15,
-          "bestOfTotal": 15,
-          "bestOfGeneralTotal": 15,
-          "bestOfIndices": [
-            0
-          ],
-          "bestOfGeneralIndices": [
-            0
-          ],
-          "rank": 8
-        }
-      },
-      "general": {
-        "total": 33,
         "rank": 9
       }
     },
@@ -27779,8 +27777,7 @@
     {
       "date": "03.10.",
       "name": "51. Vzpon za pokal občine Kobarid",
-      "discipline": "Vzponi",
-      "unofficial": true
+      "discipline": "Vzponi"
     },
     {
       "date": "17.10.",
