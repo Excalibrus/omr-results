@@ -331,7 +331,7 @@
     {
       "id": 2,
       "name": "ARH Lucija",
-      "license": "",
+      "license": "10106648652",
       "club": "KD Litijski Tempomat",
       "category": "Ženske A",
       "disciplines": {
@@ -1564,7 +1564,7 @@
     {
       "id": 19,
       "name": "PODGORNIK Barbara",
-      "license": "",
+      "license": "10173744764",
       "club": "ŠD BAM.BI",
       "category": "Ženske B",
       "disciplines": {
@@ -2882,7 +2882,7 @@
     {
       "id": 36,
       "name": "ERZNOŽNIK JANA",
-      "license": "",
+      "license": "10155078025",
       "club": "ŠD Koloka",
       "category": "Ženske D",
       "disciplines": {
@@ -3136,7 +3136,7 @@
     {
       "id": 39,
       "name": "JOŠT Jaka",
-      "license": "",
+      "license": "10154571100",
       "club": "Team BTS Company",
       "category": "Amaterji",
       "disciplines": {
@@ -3895,7 +3895,7 @@
     {
       "id": 50,
       "name": "HOJNIK Črtomir",
-      "license": "2026TZS049",
+      "license": "10173941592",
       "club": "SMART MONEY RIKITEAM",
       "category": "Amaterji",
       "disciplines": {
@@ -6797,7 +6797,7 @@
     {
       "id": 94,
       "name": "MERCINA Matej",
-      "license": "",
+      "license": "10077887142",
       "club": "JB TEAM NOVO MESTO",
       "category": "Master A",
       "disciplines": {
@@ -6868,7 +6868,7 @@
     {
       "id": 95,
       "name": "ARKO Jan",
-      "license": "",
+      "license": "10125090675",
       "club": "Team Granfondo Slovenija",
       "category": "Master A",
       "disciplines": {
@@ -7185,7 +7185,7 @@
     {
       "id": 100,
       "name": "ČETINA Nejc",
-      "license": "",
+      "license": "10088494696",
       "club": "ŠD BAM.BI",
       "category": "Master B",
       "disciplines": {
@@ -8175,7 +8175,7 @@
     {
       "id": 114,
       "name": "TERČON Borut",
-      "license": "",
+      "license": "10124487558",
       "club": "IZVIR VIPAVA",
       "category": "Master B",
       "disciplines": {
@@ -8892,7 +8892,7 @@
     {
       "id": 126,
       "name": "ZRIM Primož",
-      "license": "",
+      "license": "10124369037",
       "club": "KK TROPOVCI",
       "category": "Master B",
       "disciplines": {
@@ -9260,7 +9260,7 @@
     {
       "id": 131,
       "name": "KRAJNC Danijel",
-      "license": "10172772138",
+      "license": "2026TZS239",
       "club": "Team Granfondo Slovenija",
       "category": "Master C",
       "disciplines": {
@@ -9523,7 +9523,7 @@
     {
       "id": 134,
       "name": "MLAKER Boštjan",
-      "license": "",
+      "license": "10124177663",
       "club": "KK Pocinkovalnica Celje",
       "category": "Master C",
       "disciplines": {
@@ -9665,7 +9665,7 @@
     {
       "id": 136,
       "name": "ŽITKO Jernej",
-      "license": "",
+      "license": "10148262561",
       "club": "KD OBALA",
       "category": "Master C",
       "disciplines": {
@@ -9737,7 +9737,7 @@
     {
       "id": 137,
       "name": "ŠVAB Anže",
-      "license": "",
+      "license": "10115523344",
       "club": "ŠD BAM.BI",
       "category": "Master C",
       "disciplines": {
@@ -10144,7 +10144,7 @@
     {
       "id": 143,
       "name": "ŠALKOVIĆ Igor",
-      "license": "",
+      "license": "10130472357",
       "club": "ŠD BAM.BI",
       "category": "Master C",
       "disciplines": {
@@ -11529,7 +11529,7 @@
     {
       "id": 163,
       "name": "NERAD Primož",
-      "license": "10172043022",
+      "license": "2026TZS420",
       "club": "ŠD Metek",
       "category": "Master D",
       "disciplines": {
@@ -11782,7 +11782,7 @@
     {
       "id": 167,
       "name": "GALIČIČ Žiga",
-      "license": "",
+      "license": "10172024632",
       "club": "RIBNO ALPINE RESORT BLED",
       "category": "Master D",
       "disciplines": {
@@ -12100,7 +12100,7 @@
     {
       "id": 172,
       "name": "RIHTARIČ David",
-      "license": "10049223238",
+      "license": "2026TZS357",
       "club": "SMART MONEY RIKITEAM",
       "category": "Master D",
       "disciplines": {
@@ -13667,7 +13667,7 @@
     {
       "id": 194,
       "name": "LINDIČ Andrej",
-      "license": "",
+      "license": "10175335867",
       "club": "KK Postojna",
       "category": "Master E",
       "disciplines": {
@@ -13946,7 +13946,7 @@
     {
       "id": 199,
       "name": "DOVNIK Miran",
-      "license": "",
+      "license": "10073768480",
       "club": "ŠD RIKITEAM",
       "category": "Master F",
       "disciplines": {
@@ -14277,7 +14277,7 @@
     {
       "id": 204,
       "name": "PODGORNIK Bojan",
-      "license": "",
+      "license": "10173744966",
       "club": "ŠD BAM.BI",
       "category": "Master F",
       "disciplines": {
@@ -14480,7 +14480,7 @@
     {
       "id": 207,
       "name": "CVET Miran",
-      "license": "",
+      "license": "10107160025",
       "club": "KD HRASTNIK",
       "category": "Master F",
       "disciplines": {
@@ -14815,7 +14815,7 @@
     {
       "id": 213,
       "name": "KOMPAN ZLATKO",
-      "license": "2026TZS177",
+      "license": "10176415702",
       "club": "KD HRASTNIK",
       "category": "Master G",
       "disciplines": {
@@ -15594,7 +15594,7 @@
     {
       "id": 222,
       "name": "MESOJEDEC Matjaž",
-      "license": "10017633671",
+      "license": "2026TZS029",
       "club": "ŠD TURBO M",
       "category": "Master G",
       "disciplines": {
@@ -16265,7 +16265,7 @@
     {
       "id": 231,
       "name": "ŽAVBI Andrej",
-      "license": "10017577996",
+      "license": "2026TZS435",
       "club": "TUŠ T.E.A.M.",
       "category": "Master H",
       "disciplines": {
@@ -17302,7 +17302,7 @@
     {
       "id": 245,
       "name": "KLEMENC Anton",
-      "license": "",
+      "license": "10017558701",
       "club": "CALCIT BIKE TEAM",
       "category": "Master I",
       "disciplines": {
@@ -18719,7 +18719,7 @@
     {
       "id": 261,
       "name": "STAUBER Laura",
-      "license": "",
+      "license": "10171191644",
       "club": "KD ROG",
       "category": "Ženske A",
       "disciplines": {
@@ -19376,7 +19376,7 @@
     {
       "id": 277,
       "name": "NERAD FURLAN Jaka",
-      "license": "2026TZS421",
+      "license": "10161945423",
       "club": "Pogi Team UAE Generali",
       "category": "Amaterji",
       "disciplines": {
@@ -19839,7 +19839,7 @@
     {
       "id": 288,
       "name": "SEDAR Tadej",
-      "license": "",
+      "license": "10092039543",
       "club": "KK Pocinkovalnica Celje",
       "category": "Master A",
       "disciplines": {
@@ -20141,7 +20141,7 @@
     {
       "id": 295,
       "name": "SENEKOVIČ Niko",
-      "license": "",
+      "license": "10120239766",
       "club": "KD BRANIK MARIBOR",
       "category": "Master B",
       "disciplines": {
@@ -20559,7 +20559,7 @@
     {
       "id": 305,
       "name": "BIRK Simon",
-      "license": "",
+      "license": "10172042820",
       "club": "ŠD Metek",
       "category": "Master C",
       "disciplines": {
@@ -20705,7 +20705,7 @@
     {
       "id": 309,
       "name": "PRESEN Dejan",
-      "license": "101 409 795 78",
+      "license": "10140979578",
       "club": "Virtuslo 4Endurance",
       "category": "Master D",
       "disciplines": {
@@ -21062,7 +21062,7 @@
     {
       "id": 318,
       "name": "MORI Mitja",
-      "license": "10071275176",
+      "license": "2026TZS342",
       "club": "GANESHA TEAM",
       "category": "Master E",
       "disciplines": {
@@ -21153,7 +21153,7 @@
     {
       "id": 320,
       "name": "ROTOVNIK Tomaž",
-      "license": "",
+      "license": "10132268372",
       "club": "KD ROG",
       "category": "Master E",
       "disciplines": {
@@ -22060,7 +22060,7 @@
     {
       "id": 342,
       "name": "PODPEČAN Ana",
-      "license": "",
+      "license": "10059078842",
       "club": "ENERGIJATEAM.COM",
       "category": "Ženske B",
       "disciplines": {
