@@ -1,9 +1,10 @@
 name: Parse current year
 
 on:
-  schedule:
-    # Every 6 hours, on the hour
-    - cron: "0 */6 * * *"
+  # Scheduled refresh paused. Uncomment to resume.
+  # schedule:
+  #   # Every 6 hours, on the hour
+  #   - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
